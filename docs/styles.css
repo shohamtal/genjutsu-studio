@@ -112,6 +112,23 @@ footer { text-align: center; color: var(--muted); font-size: 13px; padding: 30px
 .toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: var(--text); color: #111; padding: 12px 18px;
   border-radius: 12px; font-weight: 600; box-shadow: 0 10px 30px rgba(0,0,0,.4); z-index: 50; max-width: calc(100vw - 32px); }
 
+.preset-bar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; background: rgba(167,139,250,.1); border: 1px solid rgba(167,139,250,.35);
+  border-radius: 14px; padding: 10px 14px; margin-bottom: 14px; font-size: 14px; }
+.trend { background: linear-gradient(135deg, var(--accent), var(--accent2)); color: #fff; font-weight: 700; font-size: 12px; padding: 3px 10px; border-radius: 99px; }
+.thumbs.slots { grid-template-columns: 1fr 1fr; height: 100%; align-self: stretch; }
+.thumb.slot { aspect-ratio: auto; min-height: 150px; border: 2px dashed var(--line); background: transparent; display: grid; place-content: center;
+  text-align: center; gap: 6px; cursor: pointer; color: var(--muted); }
+.thumb.slot:hover { border-color: var(--accent); color: var(--text); }
+.slots .thumb { aspect-ratio: auto; min-height: 150px; }
+.slot-plus { font-size: 30px; line-height: 1; }
+.slot-label { font-size: 13px; font-weight: 600; padding: 0 6px; }
+.slot-tag { position: absolute; left: 6px; bottom: 6px; background: rgba(0,0,0,.7); font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 99px; }
+.linkbtn { background: none; border: 0; color: var(--accent); padding: 8px 0 0; font-weight: 600; font-size: 14px; }
+.breakdown { margin-top: 14px; background: var(--card2); border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; }
+.bd-math { display: flex; flex-wrap: wrap; gap: 8px; align-items: baseline; font-size: 15px; }
+.bd-math span { color: var(--muted); } .bd-math b { font-size: 17px; }
+.bd-note { color: var(--muted); font-size: 13px; margin-top: 6px; line-height: 1.5; } .bd-note b { color: var(--text); }
+
 @media (max-width: 640px) {
   .grid2, .mode-switch { grid-template-columns: 1fr; }
   .drop { min-height: 170px; }

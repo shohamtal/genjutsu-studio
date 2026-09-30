@@ -100,65 +100,114 @@ $("send-link").onclick = async () => {
 };
 
 // ---------------- inputs ----------------
-document.querySelectorAll(".mode").forEach((b) => (b.onclick = () => {
-  document.querySelectorAll(".mode").forEach((x) => x.classList.toggle("active", x === b));
-  state.mode = b.dataset.mode; refresh();
-}));
-document.querySelectorAll("#res-seg button").forEach((b) => (b.onclick = () => {
-  document.querySelectorAll("#res-seg button").forEach((x) => x.classList.toggle("active", x === b));
-  state.res = b.dataset.res; refresh();
-}));
 
-function setVideo(file) {
-  if (!file) return;
-  if (file.type !== "video/mp4") return toast("Please use an MP4 video.");
+// state.video is a File (user upload) or {url} (trend preset).
+// With a preset active, state.images is a fixed array of slots (File | null).
+const P = C.PRESET;
+function showVideo(src, onReady) {
   const v = $("video-preview");
-  v.src = URL.createObjectURL(file);
+  v.src = src;
   v.onloadedmetadata = () => {
     if (v.duration < 4) { toast("The video must be at least 4 seconds."); return clearVideo(); }
     if (v.duration > 30) toast("Only the first 30 seconds will be used.");
-    state.video = file; state.duration = v.duration;
+    state.duration = v.duration; onReady();
     v.hidden = false; v.play().catch(() => {});
     $("video-drop").querySelector(".drop-empty").hidden = true; $("video-clear").hidden = false;
     refresh();
   };
 }
+function setVideo(file) {
+  if (!file) return;
+  if (file.type !== "video/mp4") return toast("Please use an MP4 video.");
+  showVideo(URL.createObjectURL(file), () => { state.video = file; setPreset(false); });
+}
+function loadPreset() {
+  if (!P) return;
+  $("video-preview").poster = P.poster || "";
+  showVideo(P.video_url, () => { state.video = { url: P.video_url }; });
+  setPreset(true);
+  $("prompt").value = P.prompt || "";
+  selectMode(P.mode || "motion-transfer"); selectRes(P.resolution || "720p");
+}
+function setPreset(on) {
+  if (!!state.preset === on) return;
+  state.preset = on;
+  state.images = on ? P.slots.map(() => null) : [];
+  $("preset-bar").hidden = !on; $("preset-restore").hidden = on || !P;
+  if (!on && $("prompt").value === P?.prompt) $("prompt").value = "";
+  renderThumbs(); refresh();
+}
 function clearVideo() {
-  state.video = null; state.duration = 0;
-  const v = $("video-preview"); v.hidden = true; v.removeAttribute("src");
+  state.video = null; state.duration = 0; setPreset(false);
+  const v = $("video-preview"); v.hidden = true; v.removeAttribute("src"); v.removeAttribute("poster");
   $("video-drop").querySelector(".drop-empty").hidden = false; $("video-clear").hidden = true;
   $("video-input").value = ""; refresh();
 }
 $("video-input").onchange = (e) => setVideo(e.target.files[0]);
 $("video-clear").onclick = (e) => { e.preventDefault(); clearVideo(); };
+$("preset-restore").onclick = () => loadPreset();
 
-function addImages(files) {
+function selectMode(mode) {
+  document.querySelectorAll(".mode").forEach((x) => x.classList.toggle("active", x.dataset.mode === mode));
+  state.mode = mode;
+}
+function selectRes(res) {
+  document.querySelectorAll("#res-seg button").forEach((x) => x.classList.toggle("active", x.dataset.res === res));
+  state.res = res;
+}
+
+const photos = () => state.images.filter(Boolean);
+function addImages(files, slot) {
   for (const f of files) {
     if (!/^image\/(jpeg|png|webp)$/.test(f.type)) { toast("Use JPG, PNG or WEBP images."); continue; }
-    if (state.images.length >= 8) { toast("Up to 8 photos."); break; }
-    state.images.push(f);
+    if (state.preset) {
+      const i = slot ?? state.images.findIndex((x) => !x);
+      if (i < 0) break;
+      state.images[i] = f; slot = undefined;
+    } else {
+      if (state.images.length >= 8) { toast("Up to 8 photos."); break; }
+      state.images.push(f);
+    }
   }
   renderThumbs(); refresh();
 }
+let pickSlot;
+function pickImage(slot) { pickSlot = slot; $("image-input").multiple = slot === undefined; $("image-input").click(); }
 function renderThumbs() {
   const box = $("thumbs"); box.innerHTML = "";
-  const has = state.images.length > 0;
-  box.hidden = !has; $("image-empty").hidden = has;
+  box.classList.toggle("slots", !!state.preset);
+  const show = state.preset || state.images.length > 0;
+  box.hidden = !show; $("image-empty").hidden = show;
   state.images.forEach((f, i) => {
-    const d = document.createElement("div"); d.className = "thumb";
-    d.innerHTML = `<img alt="" /><button class="x" aria-label="Remove">×</button>`;
-    d.querySelector("img").src = URL.createObjectURL(f);
-    d.querySelector("button").onclick = (e) => { e.stopPropagation(); state.images.splice(i, 1); renderThumbs(); refresh(); };
+    const d = document.createElement("div");
+    if (!f) {
+      d.className = "thumb slot";
+      d.innerHTML = `<span class="slot-plus">+</span><span class="slot-label"></span>`;
+      d.querySelector(".slot-label").textContent = P.slots[i];
+      d.onclick = (e) => { e.stopPropagation(); pickImage(i); };
+    } else {
+      d.className = "thumb";
+      d.innerHTML = `<img alt="" /><button class="x" aria-label="Remove">×</button>`;
+      d.querySelector("img").src = URL.createObjectURL(f);
+      if (state.preset) {
+        const l = document.createElement("span"); l.className = "slot-tag"; l.textContent = P.slots[i]; d.appendChild(l);
+      }
+      d.querySelector("button").onclick = (e) => {
+        e.stopPropagation();
+        if (state.preset) state.images[i] = null; else state.images.splice(i, 1);
+        renderThumbs(); refresh();
+      };
+    }
     box.appendChild(d);
   });
-  if (has && state.images.length < 8) {
+  if (!state.preset && state.images.length && state.images.length < 8) {
     const a = document.createElement("button"); a.className = "thumb add"; a.textContent = "+";
-    a.onclick = (e) => { e.stopPropagation(); $("image-input").click(); };
+    a.onclick = (e) => { e.stopPropagation(); pickImage(); };
     box.appendChild(a);
   }
 }
-$("image-drop").onclick = (e) => { if (!state.images.length) $("image-input").click(); };
-$("image-input").onchange = (e) => { addImages([...e.target.files]); e.target.value = ""; };
+$("image-drop").onclick = () => { if (!state.preset && !state.images.length) pickImage(); };
+$("image-input").onchange = (e) => { addImages([...e.target.files], pickSlot); pickSlot = undefined; e.target.value = ""; };
 
 for (const [zone, handler] of [["video-drop", (fs) => setVideo(fs[0])], ["image-drop", (fs) => addImages(fs)]]) {
   const z = $(zone);
@@ -166,16 +215,32 @@ for (const [zone, handler] of [["video-drop", (fs) => setVideo(fs[0])], ["image-
   z.addEventListener("dragleave", () => z.classList.remove("over"));
   z.addEventListener("drop", (e) => { e.preventDefault(); z.classList.remove("over"); handler([...e.dataTransfer.files]); });
 }
+document.querySelectorAll(".mode").forEach((b) => (b.onclick = () => { selectMode(b.dataset.mode); refresh(); }));
+document.querySelectorAll("#res-seg button").forEach((b) => (b.onclick = () => { selectRes(b.dataset.res); refresh(); }));
 
 function refresh() {
   const cost = estimate();
-  $("cost").innerHTML = cost
-    ? `≈ <b>${cost.toLocaleString()} credits</b> <span>($${(cost / 100).toFixed(2)}) · ${Math.min(30, Math.ceil(state.duration))}s</span>`
-    : "Add a video to see the price";
-  const ready = state.video && state.images.length;
+  const secs = Math.min(30, Math.max(4, Math.ceil(state.duration)));
+  const rate = C.CREDITS_PER_SEC[state.res];
+  $("cost").innerHTML = cost ? `≈ <b>${cost.toLocaleString()} credits</b> <span>($${(cost / 100).toFixed(2)})</span>` : "Add a video to see the price";
+  const bd = $("breakdown");
+  bd.hidden = !cost;
+  if (cost) {
+    const bal = state.user
+      ? (state.credits >= cost
+        ? `You have <b>${state.credits.toLocaleString()}</b> credits, so <b>${(state.credits - cost).toLocaleString()}</b> will be left after this video.`
+        : `You have <b>${state.credits.toLocaleString()}</b> credits. You need <b>${(cost - state.credits).toLocaleString()}</b> more.`)
+      : "Sign in to see your balance.";
+    bd.innerHTML = `<div class="bd-math"><span>${secs} sec video</span><span>×</span><span>${rate} credits/sec at ${state.res}</span><span>=</span><b>${cost.toLocaleString()} credits</b></div>
+      <div class="bd-note">Output length matches the source video (max 30 s). ${bal} Credits are held when you start and refunded automatically if it fails.</div>`;
+  }
+  const need = state.preset ? state.images.length : 1;
+  const have = photos().length;
+  const ready = state.video && have >= need && have > 0;
   const btn = $("generate-btn");
   btn.disabled = !ready;
-  btn.textContent = !ready ? (state.video ? "Add a reference photo" : "Upload a video to start")
+  btn.textContent = !ready
+    ? (!state.video ? "Upload a video to start" : state.preset ? `Add ${need - have} more photo${need - have > 1 ? "s" : ""}` : "Add a reference photo")
     : !state.user ? "Sign in & generate" : state.credits < cost ? "Buy credits & generate" : `Generate · ${cost.toLocaleString()} credits`;
 }
 
@@ -189,7 +254,7 @@ async function upload(file) {
   return sb.storage.from("inputs").getPublicUrl(path).data.publicUrl;
 }
 async function generate() {
-  if (!state.video || !state.images.length) return;
+  if (!state.video || !photos().length) return;
   if (!state.user) { state.pendingGenerate = true; return openSignin(); }
   const cost = estimate();
   if (state.credits < cost) { state.pendingGenerate = true; return openBuy(`This video costs about ${cost.toLocaleString()} credits. You have ${state.credits.toLocaleString()}.`); }
@@ -204,7 +269,8 @@ async function generate() {
         created_at: new Date().toISOString(), output_url: null, demo_done_at: Date.now() + 15000 };
       d.jobs.unshift(job); demoStore.set(d);
     } else {
-      const [video_url, ...image_urls] = await Promise.all([upload(state.video), ...state.images.map(upload)]);
+      const [video_url, ...image_urls] = await Promise.all([
+        state.video instanceof File ? upload(state.video) : state.video.url, ...photos().map(upload)]);
       btn.textContent = "Starting…";
       ({ job } = await callFn("generate", {
         workflow: state.mode, resolution: state.res, prompt: $("prompt").value.trim(),
@@ -282,6 +348,11 @@ function renderJobs() {
 // ---------------- buy credits ----------------
 $("credits-pill").onclick = () => openBuy();
 function openBuy(reason) {
+  const short = estimate() - state.credits;
+  if (short > 0) {
+    const fit = C.PACKS.find((p) => p.credits >= short) || C.PACKS[C.PACKS.length - 1];
+    state.pack = fit.id;
+  }
   $("buy-reason").textContent = reason || "One-time payment. No subscription.";
   $("buy-err").textContent = "";
   renderPacks(); $("buy-modal").showModal(); renderPayPal();
@@ -339,5 +410,6 @@ async function renderPayPal() {
 }
 
 // ---------------- boot ----------------
+loadPreset();
 refresh();
 initAuth();

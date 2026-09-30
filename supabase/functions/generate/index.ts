@@ -20,7 +20,10 @@ serve(async (req) => {
 
   if (!WORKFLOWS.includes(workflow as never)) return json({ error: "Pick a mode." }, 400);
   if (!RESOLUTIONS.includes(resolution as never)) return json({ error: "Pick a resolution." }, 400);
-  if (!video_url.startsWith(ownPrefix)) return json({ error: "Upload a source video." }, 400);
+  const presetPrefix = `${STORAGE_PREFIX}presets/`;
+  if (!video_url.startsWith(ownPrefix) && !video_url.startsWith(presetPrefix)) {
+    return json({ error: "Upload a source video." }, 400);
+  }
   if (image_urls.length < 1 || image_urls.length > 8 || !image_urls.every((u) => u.startsWith(ownPrefix))) {
     return json({ error: "Add 1–8 reference images." }, 400);
   }

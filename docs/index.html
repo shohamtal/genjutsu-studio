@@ -35,6 +35,10 @@
     </section>
 
     <section class="card studio" id="studio">
+      <div class="preset-bar" id="preset-bar" hidden>
+        <span class="trend">🔥 Trending</span>
+        <span><b>White Chicks car scene</b> is ready. Add a photo of each person, then hit Generate.</span>
+      </div>
       <div class="mode-switch" role="tablist">
         <button class="mode active" data-mode="motion-transfer" role="tab">
           <span class="mode-title">Motion transfer</span>
@@ -74,6 +78,8 @@
         <textarea id="prompt" rows="2" maxlength="2000" placeholder="e.g. keep the background, make the outfit red"></textarea>
       </label>
 
+      <button type="button" class="linkbtn" id="preset-restore" hidden>↺ Use the trending White Chicks scene</button>
+
       <div class="row">
         <div class="seg" id="res-seg">
           <button data-res="480p">480p</button>
@@ -82,6 +88,8 @@
         </div>
         <div class="cost" id="cost">Add a video to see the price</div>
       </div>
+
+      <div class="breakdown" id="breakdown" hidden></div>
 
       <button id="generate-btn" class="btn primary big" disabled>Generate video</button>
       <p class="fine">Failed or moderated generations are refunded automatically. Results stay available for 7 days, so download them.</p>

@@ -10,6 +10,17 @@ window.GENJUTSU_CONFIG = {
     { id: "creator", usd: 15, credits: 1600, label: "Creator", tag: "Popular" },
     { id: "studio", usd: 40, credits: 4500, label: "Studio", tag: "Best value" },
   ],
+  // Trend preset loaded on the home page. Users only add the two photos.
+  PRESET: {
+    title: "White Chicks — car scene",
+    video_url: "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/inputs/presets/white-chicks-car.mp4",
+    poster: "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/inputs/presets/white-chicks-car.jpg",
+    mode: "motion-transfer",
+    resolution: "720p",
+    prompt: "Replace both characters with the uploaded pictures",
+    slots: ["Person on the left", "Person on the right"],
+  },
+
   // Display-only cost preview: credits per second of output (server uses Higgsfield's estimate).
   CREDITS_PER_SEC: { "480p": 24, "720p": 103, "1080p": 245 },
 };
