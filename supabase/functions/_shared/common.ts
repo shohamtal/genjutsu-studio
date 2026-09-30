@@ -1,0 +1,65 @@
+import { createClient, type SupabaseClient } from "npm:@supabase/supabase-js@2";
+
+export const cors = {
+  "Access-Control-Allow-Origin": Deno.env.get("ALLOWED_ORIGIN") ?? "*",
+  "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
+  "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+};
+
+export function json(body: unknown, status = 200): Response {
+  return new Response(JSON.stringify(body), {
+    status,
+    headers: { ...cors, "Content-Type": "application/json" },
+  });
+}
+
+export const admin: SupabaseClient = createClient(
+  Deno.env.get("SUPABASE_URL")!,
+  Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!,
+  { auth: { persistSession: false } },
+);
+
+/** Resolve the calling user from the bearer token, or null. */
+export async function getUser(req: Request) {
+  const token = (req.headers.get("Authorization") ?? "").replace(/^Bearer\s+/i, "");
+  if (!token) return null;
+  const { data, error } = await admin.auth.getUser(token);
+  return error ? null : data.user;
+}
+
+// ---------- Higgsfield ----------
+export const HF_BASE = "https://api.higgsfield.ai";
+export const WORKFLOWS = ["motion-transfer", "object-swap"] as const;
+export const RESOLUTIONS = ["480p", "720p", "1080p"] as const;
+// USD per second of output, used only when the estimate endpoint is unavailable.
+export const FALLBACK_USD_PER_SEC: Record<string, number> = { "480p": 0.159, "720p": 0.681, "1080p": 1.632 };
+export const TERMINAL = new Set(["completed", "failed", "nsfw", "canceled"]);
+
+export function hfHeaders(extra: Record<string, string> = {}) {
+  return {
+    Authorization: `Key ${Deno.env.get("HF_API_KEY_ID")}:${Deno.env.get("HF_API_KEY_SECRET")}`,
+    "Content-Type": "application/json",
+    ...extra,
+  };
+}
+
+/** 1 credit = $0.01 retail. Retail = Higgsfield cost x MARKUP. */
+export function usdToCredits(usd: number): number {
+  const markup = Number(Deno.env.get("MARKUP") ?? "1.5");
+  return Math.max(1, Math.ceil(usd * markup * 100));
+}
+
+/** Fetch status from Higgsfield, persist it on the job, refund on failure. */
+export async function syncJob(job: { id: string; hf_request_id: string | null; status: string }) {
+  if (!job.hf_request_id || TERMINAL.has(job.status)) return job;
+  const r = await fetch(`${HF_BASE}/requests/${job.hf_request_id}/status`, { headers: hfHeaders() });
+  if (!r.ok) return job;
+  const s = await r.json();
+  const patch: Record<string, unknown> = { status: s.status, updated_at: new Date().toISOString() };
+  if (s.video?.url) patch.output_url = s.video.url;
+  if (s.error) patch.error = String(s.error).slice(0, 500);
+  if (s.status === "nsfw") patch.error = "The content was flagged by moderation. Your credits were refunded.";
+  const { data } = await admin.from("jobs").update(patch).eq("id", job.id).select().single();
+  if (["failed", "nsfw", "canceled"].includes(s.status)) await admin.rpc("refund_job", { p_job: job.id });
+  return data ?? job;
+}
