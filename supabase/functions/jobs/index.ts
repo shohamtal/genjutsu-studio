@@ -1,8 +1,7 @@
 // POST {job_id} -> {job}   Refreshes one of the caller's jobs from Higgsfield.
-import { admin, cors, getUser, json, syncJob } from "../_shared/common.ts";
+import { admin, getUser, json, syncJob, serve } from "../_shared/common.ts";
 
-Deno.serve(async (req) => {
-  if (req.method === "OPTIONS") return new Response("ok", { headers: cors });
+serve(async (req) => {
   const user = await getUser(req);
   if (!user) return json({ error: "Please sign in first." }, 401);
 

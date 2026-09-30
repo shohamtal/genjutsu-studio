@@ -1,6 +1,6 @@
 // POST {action:"create", pack_id} -> {order_id}
 // POST {action:"capture", order_id} -> {credits_added, balance}
-import { admin, cors, getUser, json } from "../_shared/common.ts";
+import { admin, getUser, json, serve } from "../_shared/common.ts";
 
 // Keep in sync with PACKS in docs/config.js (server is authoritative).
 const PACKS: Record<string, { usd: string; credits: number }> = {
@@ -24,8 +24,7 @@ async function ppToken(): Promise<string> {
   return (await r.json()).access_token;
 }
 
-Deno.serve(async (req) => {
-  if (req.method === "OPTIONS") return new Response("ok", { headers: cors });
+serve(async (req) => {
   const user = await getUser(req);
   if (!user) return json({ error: "Please sign in first." }, 401);
 

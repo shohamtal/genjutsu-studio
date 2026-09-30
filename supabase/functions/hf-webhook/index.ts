@@ -1,8 +1,8 @@
 // Higgsfield completion webhook. The payload is only a hint: we re-read the
 // authoritative status from Higgsfield before touching the job.
-import { admin, json, syncJob } from "../_shared/common.ts";
+import { admin, json, syncJob, serve } from "../_shared/common.ts";
 
-Deno.serve(async (req) => {
+serve(async (req) => {
   const url = new URL(req.url);
   if (url.searchParams.get("secret") !== Deno.env.get("WEBHOOK_SECRET")) return json({ error: "forbidden" }, 403);
   const body = await req.json().catch(() => null);

@@ -94,13 +94,9 @@ $("send-link").onclick = async () => {
     });
     if (error) throw error;
     $("sent-to").textContent = email;
-    $("signin-step1").hidden = true; $("signin-step2").hidden = false; $("otp").focus();
+    $("signin-step1").hidden = true; $("signin-step2").hidden = false;
   } catch (e) { $("signin-err").textContent = e.message; }
   finally { $("send-link").disabled = false; }
-};
-$("verify-otp").onclick = async () => {
-  const { error } = await sb.auth.verifyOtp({ email: $("sent-to").textContent, token: $("otp").value.trim(), type: "email" });
-  if (error) $("signin-err").textContent = error.message;
 };
 
 // ---------------- inputs ----------------

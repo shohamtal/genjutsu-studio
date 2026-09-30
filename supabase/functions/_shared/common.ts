@@ -1,16 +1,31 @@
 import { createClient, type SupabaseClient } from "npm:@supabase/supabase-js@2";
 
-export const cors = {
-  "Access-Control-Allow-Origin": Deno.env.get("ALLOWED_ORIGIN") ?? "*",
-  "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
-  "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
-};
+const ORIGINS = (Deno.env.get("ALLOWED_ORIGIN") ?? "*").split(",").map((s) => s.trim());
+
+function corsFor(req: Request): Record<string, string> {
+  const origin = req.headers.get("Origin") ?? "";
+  const allow = ORIGINS.includes("*") ? "*" : ORIGINS.includes(origin) ? origin : ORIGINS[0];
+  return {
+    "Access-Control-Allow-Origin": allow,
+    "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS",
+    Vary: "Origin",
+  };
+}
+
+/** Deno.serve with CORS preflight + CORS headers on every response. */
+export function serve(handler: (req: Request) => Promise<Response>) {
+  Deno.serve(async (req) => {
+    const cors = corsFor(req);
+    if (req.method === "OPTIONS") return new Response("ok", { headers: cors });
+    const res = await handler(req);
+    for (const [k, v] of Object.entries(cors)) res.headers.set(k, v);
+    return res;
+  });
+}
 
 export function json(body: unknown, status = 200): Response {
-  return new Response(JSON.stringify(body), {
-    status,
-    headers: { ...cors, "Content-Type": "application/json" },
-  });
+  return new Response(JSON.stringify(body), { status, headers: { "Content-Type": "application/json" } });
 }
 
 export const admin: SupabaseClient = createClient(

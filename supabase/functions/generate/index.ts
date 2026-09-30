@@ -1,13 +1,12 @@
 // POST {workflow, resolution, prompt, video_url, image_urls, duration} -> {job}
 // Prices the request, holds the credits, submits to Higgsfield.
 import {
-  admin, cors, FALLBACK_USD_PER_SEC, getUser, HF_BASE, hfHeaders, json, RESOLUTIONS, usdToCredits, WORKFLOWS,
+  admin, FALLBACK_USD_PER_SEC, getUser, HF_BASE, hfHeaders, json, RESOLUTIONS, serve, usdToCredits, WORKFLOWS,
 } from "../_shared/common.ts";
 
 const STORAGE_PREFIX = `${Deno.env.get("SUPABASE_URL")}/storage/v1/object/public/inputs/`;
 
-Deno.serve(async (req) => {
-  if (req.method === "OPTIONS") return new Response("ok", { headers: cors });
+serve(async (req) => {
   const user = await getUser(req);
   if (!user) return json({ error: "Please sign in first." }, 401);
 
@@ -63,7 +62,11 @@ Deno.serve(async (req) => {
   });
   const sub = await r.json().catch(() => ({}));
   if (!r.ok || !sub.request_id) {
-    const msg = typeof sub.detail === "string" ? sub.detail : "Generation service rejected the request.";
+    console.error("higgsfield submit failed", r.status, JSON.stringify(sub));
+    // 4xx other than auth usually means bad input the user can fix; everything else is on us.
+    const msg = r.status === 422 || r.status === 400
+      ? "The video or photos weren't accepted. Check the video is 4–30s MP4 and try again."
+      : "The generation service is unavailable right now. Please try again later.";
     await admin.from("jobs").update({ status: "failed", error: msg, updated_at: new Date().toISOString() }).eq("id", job.id);
     await admin.rpc("refund_job", { p_job: job.id });
     return json({ error: `${msg} Your credits were refunded.` }, 502);
