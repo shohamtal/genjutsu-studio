@@ -11,6 +11,7 @@ serve(async (req) => {
   if (!user) return json({ error: "Please sign in first." }, 401);
 
   const b = await req.json().catch(() => ({}));
+  const trend = /^[a-z0-9-]{1,40}$/.test(String(b.trend)) ? String(b.trend) : "custom";
   const workflow = String(b.workflow ?? "");
   const resolution = String(b.resolution ?? "720p");
   const prompt = String(b.prompt ?? "").slice(0, 2000);
@@ -50,7 +51,7 @@ serve(async (req) => {
   if (!ok) return json({ error: "Not enough credits.", cost }, 402);
 
   const { data: job, error } = await admin.from("jobs").insert({
-    user_id: user.id, workflow, resolution, prompt, video_url, image_urls, cost,
+    user_id: user.id, trend, workflow, resolution, prompt, video_url, image_urls, cost,
   }).select().single();
   if (error || !job) {
     await admin.rpc("spend_credits", { p_user: user.id, p_amount: -cost }); // give the hold back

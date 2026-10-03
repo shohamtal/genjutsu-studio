@@ -1,0 +1,22 @@
+[
+ [
+  "What is Higgsfield Genjutsu?",
+  "Genjutsu is Higgsfield's video-to-video model, announced on August 31, 2026. It changes a video without reshooting it: it keeps the motion, camera work and timing and swaps the cast, objects or look using reference images."
+ ],
+ [
+  "Can I use Genjutsu without a Higgsfield subscription?",
+  "Yes. Genjutsu Studio calls the official Higgsfield API for you. Buy a one-time credit pack and pay only for the seconds you generate."
+ ],
+ [
+  "What's the difference between Motion Transfer and Object Swap?",
+  "Motion Transfer keeps the movement and rebuilds the scene or characters from your images. Object Swap replaces one element, such as a person, outfit or product, and keeps the rest of the footage intact."
+ ],
+ [
+  "What are Genjutsu's limits?",
+  "The source video must be 4 to 30 seconds long (longer clips are trimmed to 30 seconds). You can add 1 to 8 reference images, and output goes up to 1080p."
+ ],
+ [
+  "How much does Genjutsu cost per second?",
+  "On Genjutsu Studio, 480p is 24 credits per second, 720p is 103 and 1080p is 245 (100 credits = $1). A 10-second 720p clip is about $10.30."
+ ]
+]
