@@ -56,7 +56,7 @@ TODAY = date.today().isoformat()
 CREDITS_PER_SEC_DEFAULT = 47.7  # 480p; keep in sync with docs/config.js
 FEE_CREDITS = 100
 RATES = {"480p": 47.7, "720p": 102.15, "1080p": 244.8}  # credits/sec, keep in sync with docs/config.js
-LIGHT_RATES = {"480p": 15, "720p": 30, "1080p": 60}  # Normal mode (Light), output + source billed; keep in sync
+LIGHT_RATES = {"480p": 15, "720p": 30, "1080p": 60}  # Budget mode (Genjutsu Light), output + source billed; keep in sync
 # Changes whenever app.js / styles.css / config.js change, so browsers never run a stale copy.
 # Every file loaded with ?v=ASSET_VER must be in this list: Cloudflare tells browsers to keep ?v= files for a year.
 ASSET_VER = __import__("hashlib").sha1(b"".join((DOCS / f).read_bytes() for f in ("app.js", "styles.css", "config.js", "watch.js", "goatcounter.js", "vendor-supabase.js"))).hexdigest()[:10]
@@ -281,9 +281,9 @@ def price_section(t):
     rows = []
     if has_light(t):
         ls = billed_secs(t["light_duration"], True)
-        rows.append(("Normal mode (Light)", f"{ls} s", [credits_for(ls, LIGHT_RATES[r]) for r in RATES]))
+        rows.append(("Budget (Genjutsu Light)", f"{ls} s", [credits_for(ls, LIGHT_RATES[r]) for r in RATES]))
     fs = billed_secs(t["duration"], False)
-    rows.append(("Stronger model", f"{fs} s", [credits_for(fs, RATES[r]) for r in RATES]))
+    rows.append(("Premium (full Genjutsu)", f"{fs} s", [credits_for(fs, RATES[r]) for r in RATES]))
     head = "".join(f"<th>{r}</th>" for r in RATES)
     body = "".join(f"<tr><td>{esc(n)} · {d}</td>" + "".join(f"<td><b>${c / 100:.2f}</b><br><span class=\"muted\">{c:,} cr</span></td>" for c in cs) + "</tr>" for n, d, cs in rows)
     low = min(min(cs) for _, _, cs in rows)
@@ -315,8 +315,8 @@ def extra_faq(t):
     q = [("Do I need to download an app?", "No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready."),
          ("How long does it take?", "Usually a few minutes. You can close the tab: the video keeps rendering, it appears under \"My videos\" and we email you when it's ready.")]
     if has_light(t):
-        q.append(("What's the difference between Normal mode (Light) and the stronger model?",
-                  "Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer."))
+        q.append(("What's the difference between Budget mode (Genjutsu Light) and Premium mode?",
+                  "Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer."))
     q += [("Which resolution should I pick?", "480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch."),
           ("What if the video doesn't come out well?", "If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result."),
           ("Can I download and share it?", "Yes. Download the MP4 from \"My videos\" and post it anywhere, or share a link to it.")]
@@ -349,25 +349,25 @@ def model_row(t):
         return ""
     return """      <div class="model-row">
         <div class="seg" id="model-seg" role="group" aria-label="Model">
-          <button data-model="light" class="active">Normal mode (Light)</button>
-          <button data-model="full">Stronger model</button>
+          <button data-model="light" class="active">Budget</button>
+          <button data-model="full">Premium</button>
         </div>
-        <p class="model-note" id="model-note">Normal mode is fast and cheap and uses 15 seconds of the scene.</p>
+        <p class="model-note" id="model-note">Budget mode is fast and cheap and uses 15 seconds of the scene.</p>
       </div>
 """
 
 
 def model_switch(t):
     long = t["duration"] > 15.001  # Light is shorter than the scene only then
-    light_note = "Light · fast and cheap · uses 15 seconds of the scene. For the full scene, choose Stronger." if long else "Light · fast and cheap."
+    light_note = "Budget · fast and cheap · uses 15 seconds of the scene. For the full scene, choose Premium." if long else "Budget · fast and cheap."
     if not has_light(t):
-        return """        <div class="c-row"><b>Model</b><span class="tag-strong">Stronger model</span></div>
-        <p class="c-note">This scene is longer than Light mode's 15-second limit, so it uses the stronger model only.</p>
+        return """        <div class="c-row"><b>Model</b><span class="tag-strong">Premium</span></div>
+        <p class="c-note">This scene is longer than Budget mode's 15-second limit, so it uses Premium mode only.</p>
 """
     return """        <div class="c-row">
           <b>Model</b>
-          <button type="button" class="switch" id="model-switch" role="switch" aria-checked="false" aria-label="Stronger model">
-            <span class="lbl on" data-m="light">Light</span><span class="track"><span class="ball"></span></span><span class="lbl" data-m="full">Stronger</span>
+          <button type="button" class="switch" id="model-switch" role="switch" aria-checked="false" aria-label="Premium">
+            <span class="lbl on" data-m="light">Budget</span><span class="track"><span class="ball"></span></span><span class="lbl" data-m="full">Premium</span>
           </button>
         </div>
         <p class="c-note" id="model-note">{light_note}</p>
@@ -375,7 +375,7 @@ def model_switch(t):
 
 
 def short_chip(t):
-    """Chip on trends longer than Light's 15 s: app.js shows it only while the Light model is selected."""
+    """Chip on trends longer than Light's 15 s: app.js shows it only while the Budget model is selected."""
     if not t.get("light_preview_url"):
         return ""
     return '          <span class="short-chip" id="short-chip" hidden>⏱ Shorter version · 15 s</span>'
@@ -509,11 +509,11 @@ STUDIO_CUSTOM = """    <section class="card studio" id="studio">
       <div class="custom-model">
         <div class="c-row">
           <b>Model</b>
-          <button type="button" class="switch" id="model-switch" role="switch" aria-checked="false" aria-label="Stronger model">
-            <span class="lbl on" data-m="light">Light</span><span class="track"><span class="ball"></span></span><span class="lbl" data-m="full">Stronger</span>
+          <button type="button" class="switch" id="model-switch" role="switch" aria-checked="false" aria-label="Premium">
+            <span class="lbl on" data-m="light">Budget</span><span class="track"><span class="ball"></span></span><span class="lbl" data-m="full">Premium</span>
           </button>
         </div>
-        <p class="c-note" id="model-note">Light · fast and cheap · videos up to 15 seconds.</p>
+        <p class="c-note" id="model-note">Budget · fast and cheap · videos up to 15 seconds.</p>
       </div>
 """ + RES_ROW + STARTED_NOTE + """    </section>
 """
@@ -543,11 +543,11 @@ def trend_credits(t):
 
 
 def price_chip(t):
-    """Cheapest real price first (AI answers quote the first price they see), then the stronger model."""
+    """Cheapest real price first (AI answers quote the first price they see), then Premium mode."""
     if has_light(t):
         lt = dict(t, model="light", duration=t["light_duration"])
-        return f"<b>From ${trend_credits(lt) / 100:.2f}</b> (Normal mode, 480p) · Stronger model: {price_text(dict(t, model='full'))}"
-    return f"<b>From ${trend_credits(t) / 100:.2f}</b> (stronger model, 480p, {trend_credits(t):,} credits)"
+        return f"<b>From ${trend_credits(lt) / 100:.2f}</b> (Budget mode, 480p) · Premium: {price_text(dict(t, model='full'))}"
+    return f"<b>From ${trend_credits(t) / 100:.2f}</b> (Premium, 480p, {trend_credits(t):,} credits)"
 
 
 def price_text(t):
@@ -729,7 +729,7 @@ cards = "\n".join(f"""        <a class="trend-card" href="trends/{t['slug']}/">
 home_faq = [
     ("What is Genjutsu Studio?", "A site that lets you make viral AI video trends with Higgsfield's Genjutsu model. Pick a trend, add your photos and generate. No subscription."),
     ("How does it work?", "Every trend page has its scene already loaded. You only add a photo for each person. On the Custom page you can upload your own video, up to 8 photos and your own prompt."),
-    ("How much does it cost?", "You pay per second of video, with no subscription. At 480p it's 15 credits per second in Normal mode (Light, up to 15 seconds) or about 48 with the stronger model, plus 100 per video (100 credits = $1). Every page shows the exact price before you generate."),
+    ("How much does it cost?", "You pay per second of video, with no subscription. At 480p it's 15 credits per second in Budget mode (Genjutsu Light, up to 15 seconds) or about 48 in Premium mode, plus 100 per video (100 credits = $1). Every page shows the exact price before you generate."),
     ("What if the generation fails?", "Your credits are refunded automatically, including when the content is blocked by moderation."),
     ("Can I close the page while it's generating?", "Yes. Your video keeps rendering. Sign in again and you'll find it under \"My videos\" in the top menu."),
     ("Do credits expire?", "No. Credits stay on your account until you use them."),
@@ -783,8 +783,8 @@ write("index.html", home)
 custom_faq = [
     ("What can I make on the Custom page?", "Upload any MP4 between 4 and 30 seconds, add 1 to 8 reference photos and, optionally, a prompt. Motion transfer recasts the people in the clip; object swap replaces one person or object."),
     ("What prompt should I write?", "Keep it short and concrete, e.g. \"Replace both characters with the uploaded pictures\" or \"Replace the man in the red shirt with the person in the photo\"."),
-    ("How much does it cost?", "You pay per second of the source video. Light mode (motion transfer, videos up to 15 s) costs 15 credits per second at 480p; the stronger model (up to 30 s) costs about 48 credits per second at 480p. Both add 100 credits per video (100 credits = $1). The exact price shows before you generate."),
-    ("What's the difference between Light and Stronger?", "Light is fast and cheap and works with motion transfer on videos up to 15 seconds. The stronger model has more detail, supports object swap and videos up to 30 seconds, and costs more."),
+    ("How much does it cost?", "You pay per second of the source video. Budget mode (motion transfer, videos up to 15 s) costs 15 credits per second at 480p; Premium mode (up to 30 s) costs about 48 credits per second at 480p. Both add 100 credits per video (100 credits = $1). The exact price shows before you generate."),
+    ("What's the difference between Budget and Premium?", "Budget (the Genjutsu Light model) is fast and cheap and works with motion transfer on videos up to 15 seconds. Premium mode has more detail, supports object swap and videos up to 30 seconds, and costs more."),
 ]
 custom = head(path="custom/", title="Custom Genjutsu Video: Upload Any Clip and Photos (No Subscription)",
               description="Make your own AI video trend with Higgsfield Genjutsu: upload a 4–30 second clip, up to 8 photos and your own prompt. Motion transfer or object swap, pay per video.",
@@ -842,7 +842,7 @@ def video_price(secs, res):
 pfaq = [
     ("Is there a subscription?", "No. There is no monthly plan and nothing renews. You pay once for the video you are making."),
     ("Do I have to buy credits I won't use?", "No. At checkout, pick \"Just this video\" and you pay exactly that video's price ($2 minimum). Packs are optional, for people who plan to make several videos."),
-    ("How is the price calculated?", "By the length of the video, the resolution and the mode: Normal mode (Light) uses 15 seconds of the scene and costs much less; the stronger model renders the full scene with more detail. The exact price shows before you click Generate."),
+    ("How is the price calculated?", "By the length of the video, the resolution and the mode: Budget mode (Genjutsu Light) uses 15 seconds of the scene and costs much less; Premium mode renders the full scene with more detail. The exact price shows before you click Generate."),
     ("What if the video fails?", "Failed or moderated generations are refunded automatically to your balance."),
     ("Why do some apps look cheaper?", "Subscription apps advertise \"up to\" numbers based on their cheapest model and shortest clip, and you pay every month whether you use it or not. Here you pay only when you make a video, with Higgsfield Genjutsu, the model that keeps the original scene."),
 ]
@@ -863,11 +863,11 @@ pr += f"""  <main>
 
       <h2>How the price is calculated</h2>
       <p>The price depends on the mode, how long the video is and the resolution you pick. Every trend page has a switch between the two modes.</p>
-      <h3>Normal mode (Light): fast and cheap, 15 seconds of the scene</h3>
+      <h3>Budget mode (Genjutsu Light): fast and cheap, 15 seconds of the scene</h3>
       <table>
         <tr><th>Resolution</th><th>10-second video</th><th>15-second video</th></tr>
 """ + "".join(f"        <tr><td>{r}</td>" + "".join(f"<td>${light_price(x, r):.2f}</td>" for x in (10, 15)) + "</tr>\n" for r in LIGHT_RATES) + f"""      </table>
-      <h3>Stronger model: full scene, more detail</h3>
+      <h3>Premium (full Genjutsu model): full scene, more detail</h3>
       <table>
         <tr><th>Resolution</th><th>10-second video</th><th>20-second video</th><th>30-second video</th></tr>
 """ + "".join(f"        <tr><td>{r}</td>" + "".join(f"<td>${video_price(x, r):.2f}</td>" for x in (10, 20, 30)) + "</tr>\n" for r in RATES) + f"""      </table>
@@ -1052,10 +1052,10 @@ def _facts(t):
     out = [f"{photos_text(t)} ({', '.join(sl['label'] for sl in t['slots'])})", f"{_shape(t)} MP4"]
     if has_light(t):
         ls = billed_secs(t["light_duration"], True)
-        out.append(f"Normal mode (Light): {ls} s from ${_low(t) / 100:.2f}; stronger model: "
+        out.append(f"Budget mode (Genjutsu Light): {ls} s from ${_low(t) / 100:.2f}; Premium: "
                    + (f"same {full} s clip" if ls == full else f"full {full} s scene") + f" from ${trend_credits(dict(t, model='full')) / 100:.2f}")
     else:
-        out.append(f"{full} s scene, stronger model only, from ${_low(t) / 100:.2f}")
+        out.append(f"{full} s scene, Premium only, from ${_low(t) / 100:.2f}")
     return "; ".join(out)
 
 
@@ -1072,10 +1072,10 @@ LLMS_HEAD = [f"# Genjutsu Studio ({BASE})", "",
              "> Make viral AI video trends with your own photos, in the browser. Pick a trend, upload a photo for each part, "
              "and Higgsfield's Genjutsu model puts you in the scene. Pay per video, no subscription, no app.", "",
              f"Last updated: {UPDATED}. Independent site: not affiliated with or endorsed by Higgsfield AI.", "",
-             "## Pricing", f"- From ${FROM_PRICE:.2f} per video (Normal mode / Light, 480p). The stronger model and 720p/1080p cost more.",
+             "## Pricing", f"- From ${FROM_PRICE:.2f} per video (Budget mode / Genjutsu Light, 480p). Premium mode and 720p/1080p cost more.",
              "- 100 credits = $1, credits never expire, failed or blocked renders are refunded automatically.",
              f"- Full price list: {BASE}pricing/", ""]
-LLMS_TAIL = ["", "## Other pages", f"- [Custom trend]({BASE}custom/): upload any 4–30 s MP4 (up to 15 s in Light), 1–8 photos and your own prompt.",
+LLMS_TAIL = ["", "## Other pages", f"- [Custom trend]({BASE}custom/): upload any 4–30 s MP4 (up to 15 s in Budget mode), 1–8 photos and your own prompt.",
              f"- [About Genjutsu]({BASE}genjutsu/): what the model does and how this site uses it.", ""]
 llms = LLMS_HEAD + ["## Trends (one page each, scene preloaded)",
                     f"- Every trend's facts, steps and FAQ: {BASE}llms-full.txt"]

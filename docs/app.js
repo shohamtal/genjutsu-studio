@@ -33,7 +33,7 @@ const state = {
   images: T ? T.slots.map(() => null) : [], // trend: fixed slots (File|null); custom: File[]
   user: null, credits: 0, jobs: [], pendingGenerate: false, pack: C.PACKS[1].id,
   started: false, // this exact set of inputs was already sent (guards against paying twice)
-  // Trends with a Light clip, and the Custom page, offer Light (default) or the stronger model (full Genjutsu).
+  // Trends with a Light clip, and the Custom page, offer Light (default) or Premium mode (full Genjutsu).
   model: T?.light_video_url || !T ? "light" : "full",
 };
 
@@ -52,7 +52,7 @@ const isLight = () => T?.model === "light" || (!!T?.light_video_url && state.mod
 const clampSecs = (d) => Math.min(isLight() ? C.LIGHT_MAX_SECS : 30, Math.max(4, Math.ceil(d - (T ? 0.001 : 0.05))));
 const rateFor = (res) => (isLight() ? C.LIGHT_CREDITS_PER_SEC : C.CREDITS_PER_SEC)[res];
 const sceneUrl = () => (T?.light_video_url && state.model === "light" ? T.light_video_url : T?.video_url);
-// Light uses its own 15 s clip, so price it from that clip's length; the stronger model from the full scene.
+// Light uses its own 15 s clip, so price it from that clip's length; Premium mode from the full scene.
 const priceSecs = () => (T?.light_video_url && state.model === "light" ? T.light_duration : (T?.duration || state.duration));
 // Trends longer than Light's 15 s have a second preview: the switch shows exactly what each mode will render.
 // "Shorter version" chip on the video: shown only while Light is on, so the switch visibly changes the preview.
@@ -270,15 +270,15 @@ function syncModelUI() {
   const n = $("model-note");
   if (!n) return;
   const long = !T || T.duration > C.LIGHT_MAX_SECS + 0.001; // only then is Light shorter than the scene
-  if (!T && state.mode !== "motion-transfer") n.textContent = "Object swap uses the stronger model. Light mode does motion transfer only.";
-  else if (!T && !customLightOk()) n.textContent = "Your video is longer than 15 seconds, so it uses the stronger model. Trim it to 15 seconds to use Light.";
-  else if (!T) n.textContent = model === "light" ? "Light · fast and cheap · videos up to 15 seconds." : "Stronger · more detail · videos up to 30 seconds · costs more, takes a bit longer.";
+  if (!T && state.mode !== "motion-transfer") n.textContent = "Object swap uses Premium mode. Budget mode does motion transfer only.";
+  else if (!T && !customLightOk()) n.textContent = "Your video is longer than 15 seconds, so it uses Premium mode. Trim it to 15 seconds to use Budget mode.";
+  else if (!T) n.textContent = model === "light" ? "Budget · fast and cheap · videos up to 15 seconds." : "Premium · more detail · videos up to 30 seconds · costs more, takes a bit longer.";
   else if (sw) n.textContent = model === "light"
-    ? (long ? "Light · fast and cheap · uses 15 seconds of the scene. For the full scene, choose Stronger." : "Light · fast and cheap.")
-    : (long ? "Stronger · full scene, more detail · costs more, takes a bit longer." : "Stronger · more detail · costs more, takes a bit longer.");
+    ? (long ? "Budget · fast and cheap · uses 15 seconds of the scene. For the full scene, choose Premium." : "Budget · fast and cheap.")
+    : (long ? "Premium · full scene, more detail · costs more, takes a bit longer." : "Premium · more detail · costs more, takes a bit longer.");
   else n.textContent = model === "light"
-    ? (long ? "Normal mode is fast and cheap and uses 15 seconds of the scene." : "Normal mode is fast and cheap.")
-    : (long ? "The stronger model renders the full scene with more detail. It costs more and takes a bit longer." : "The stronger model has more detail. It costs more and takes a bit longer.");
+    ? (long ? "Budget mode is fast and cheap and uses 15 seconds of the scene." : "Budget mode is fast and cheap.")
+    : (long ? "Premium mode renders the full scene with more detail. It costs more and takes a bit longer." : "Premium mode has more detail. It costs more and takes a bit longer.");
 }
 function selectRes(res) {
   state.started = false;

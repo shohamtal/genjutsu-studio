@@ -63,7 +63,7 @@
           ],
           [
             "How much does the Bad Times Duo AI video cost?",
-            "In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 21-second clip for 1,102 credits (about $11.02). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 21-second clip for 1,102 credits (about $11.02). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -145,7 +145,7 @@
           ],
           [
             "How much does the Cheba Man string-lights AI video cost?",
-            "In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 21-second clip for 1,102 credits (about $11.02). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 21-second clip for 1,102 credits (about $11.02). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -225,7 +225,7 @@
           ],
           [
             "How much does the Millionaire Lambo AI video cost?",
-            "In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 29-second clip for 1,484 credits (about $14.84). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 29-second clip for 1,484 credits (about $14.84). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -307,7 +307,7 @@
           ],
           [
             "How much does the Desert Truck Jump AI video cost?",
-            "In Normal mode (Light), the 12-second clip at 480p costs 280 credits (about $2.80). The stronger model renders the same 12-second clip for 673 credits (about $6.73). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 12-second clip at 480p costs 280 credits (about $2.80). Premium mode renders the same 12-second clip for 673 credits (about $6.73). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -389,7 +389,7 @@
           ],
           [
             "How much does the dance battle AI video cost?",
-            "In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 30-second clip for 1,531 credits (about $15.31). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 30-second clip for 1,531 credits (about $15.31). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -475,7 +475,7 @@
           ],
           [
             "How much does the karate dojo fight AI video cost?",
-            "In Normal mode (Light), the 10-second clip at 480p costs 250 credits (about $2.50). The stronger model renders the same 10-second clip for 577 credits (about $5.77). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 10-second clip at 480p costs 250 credits (about $2.50). Premium mode renders the same 10-second clip for 577 credits (about $5.77). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -510,11 +510,11 @@
       "duration": 15.0,
       "mode": "motion-transfer",
       "resolution": "480p",
-      "prompt": "Replace the face of man in the video with the selfie attached, keep the movements, the shadows and the facial expressions of the man in the video, please also keep the original clothing such as the white suit and blue shirt for the main dancer",
+      "prompt": "Replace the face and hair of the main dancer in the white suit with the person in the uploaded photo. Take ONLY the face and hair from the photo and ignore the clothes in the photo. He must keep the original outfit: white suit jacket and trousers, white fedora with a black band, blue shirt, white tie, white socks and shoes. Keep his movements, the lean, the shadows and facial expressions, the background dancers and the club.",
       "slots": [
         {
           "label": "The dancer",
-          "hint": "White suit and hat",
+          "hint": "White suit and hat · a face close-up works best",
           "example": "assets/examples/white-chicks-a.jpg"
         }
       ],
@@ -556,7 +556,7 @@
           ],
           [
             "How much does the Smooth Criminal AI video cost?",
-            "In Normal mode (Light), the 15-second clip at 480p costs 325 credits (about $3.25). The stronger model renders the same 15-second clip for 816 credits (about $8.16). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 15-second clip at 480p costs 325 credits (about $3.25). Premium mode renders the same 15-second clip for 816 credits (about $8.16). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -574,10 +574,6 @@
       },
       "light_video_url": "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/presets/light-smooth-criminal.mp4",
       "light_duration": 15.0,
-      "result_sample": {
-        "video": "trends/smooth-criminal/result-sample.mp4",
-        "poster": "trends/smooth-criminal/result-poster.jpg"
-      },
       "aliases": [
         "Smooth Criminal dance AI",
         "Michael Jackson lean",
@@ -641,7 +637,7 @@
           ],
           [
             "How much does the Thriller red jacket AI video cost?",
-            "In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 19-second clip for 1,007 credits (about $10.07). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 19-second clip for 1,007 credits (about $10.07). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -731,7 +727,7 @@
           ],
           [
             "How much does the Gas Station Dance AI video cost?",
-            "In Normal mode (Light), the 15-second clip at 480p costs 325 credits (about $3.25). The stronger model renders the same 15-second clip for 816 credits (about $8.16). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 15-second clip at 480p costs 325 credits (about $3.25). Premium mode renders the same 15-second clip for 816 credits (about $8.16). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -819,7 +815,7 @@
           ],
           [
             "How much does the White Chicks AI video cost?",
-            "In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 19-second clip for 1,007 credits (about $10.07). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 19-second clip for 1,007 credits (about $10.07). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Is there a White Chicks AI template without CapCut?",
@@ -911,7 +907,7 @@
           ],
           [
             "How much does the Hotel Lobby AI video cost?",
-            "In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 16-second clip for 864 credits (about $8.64). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 16-second clip for 864 credits (about $8.64). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -997,7 +993,7 @@
           ],
           [
             "How much does the Alors on Danse AI video cost?",
-            "In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 15-second clip for 816 credits (about $8.16). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 15-second clip for 816 credits (about $8.16). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -1082,7 +1078,7 @@
           ],
           [
             "How much does the APT. AI video cost?",
-            "In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 20-second clip for 1,054 credits (about $10.54). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 20-second clip for 1,054 credits (about $10.54). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -1196,7 +1192,7 @@
           ],
           [
             "How much does the Industry Baby AI video cost?",
-            "In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 25-second clip for 1,293 credits (about $12.93). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 25-second clip for 1,293 credits (about $12.93). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -1286,7 +1282,7 @@
           ],
           [
             "How much does it cost?",
-            "The 30-second clip at 480p costs 1,531 credits (about $15.31) with the stronger model. This scene doesn't support Normal mode (Light), which is limited to 15 seconds. 720p and 1080p are sharper and cost more. No subscription."
+            "The 30-second clip at 480p costs 1,531 credits (about $15.31) in Premium mode. This scene doesn't support Budget mode (Genjutsu Light), which is limited to 15 seconds. 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Is this the mafia boss's daughter video?",
@@ -1370,7 +1366,7 @@
           ],
           [
             "How much does it cost?",
-            "In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 29-second clip for 1,484 credits (about $14.84). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 29-second clip for 1,484 credits (about $14.84). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -1457,7 +1453,7 @@
           ],
           [
             "How much does the Raindance AI video cost?",
-            "In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 21-second clip for 1,102 credits (about $11.02). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 21-second clip for 1,102 credits (about $11.02). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -1543,7 +1539,7 @@
           ],
           [
             "How much does the Thriller AI video cost?",
-            "In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 21-second clip for 1,102 credits (about $11.02). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 21-second clip for 1,102 credits (about $11.02). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -1624,7 +1620,7 @@
           ],
           [
             "How much does the Turn the Lights Off AI video cost?",
-            "In Normal mode (Light), the 13-second clip at 480p costs 295 credits (about $2.95). The stronger model renders the same 13-second clip for 721 credits (about $7.21). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 13-second clip at 480p costs 295 credits (about $2.95). Premium mode renders the same 13-second clip for 721 credits (about $7.21). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -1705,7 +1701,7 @@
           ],
           [
             "How much does the Cheba Man AI video cost?",
-            "In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 20-second clip for 1,054 credits (about $10.54). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 20-second clip for 1,054 credits (about $10.54). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -1786,7 +1782,7 @@
           ],
           [
             "How much does the Bulin 47 AI video cost?",
-            "In Normal mode (Light), the 15-second clip at 480p costs 325 credits (about $3.25). The stronger model renders the same 15-second clip for 816 credits (about $8.16). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 15-second clip at 480p costs 325 credits (about $3.25). Premium mode renders the same 15-second clip for 816 credits (about $8.16). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -1867,7 +1863,7 @@
           ],
           [
             "How much does the Bad Times AI video cost?",
-            "In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 20-second clip for 1,054 credits (about $10.54). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 20-second clip for 1,054 credits (about $10.54). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -1949,7 +1945,7 @@
           ],
           [
             "How much does the Bad Times Pet AI video cost?",
-            "In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 20-second clip for 1,054 credits (about $10.54). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 20-second clip for 1,054 credits (about $10.54). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -2031,7 +2027,7 @@
           ],
           [
             "How much does the Bad Times Baby AI video cost?",
-            "In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 30-second clip for 1,531 credits (about $15.31). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 30-second clip for 1,531 credits (about $15.31). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -2117,7 +2113,7 @@
           ],
           [
             "How much does the I Feel Like Nicole AI video cost?",
-            "In Normal mode (Light), the 14-second version at 480p costs 310 credits (about $3.10). The stronger model renders the full 14-second clip for 768 credits (about $7.68). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 14-second version at 480p costs 310 credits (about $3.10). Premium mode renders the full 14-second clip for 768 credits (about $7.68). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -2197,7 +2193,7 @@
           ],
           [
             "How much does the Nicole Kidman Dance AI video cost?",
-            "In Normal mode (Light), the 14-second version at 480p costs 310 credits (about $3.10). The stronger model renders the full 14-second clip for 768 credits (about $7.68). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 14-second version at 480p costs 310 credits (about $3.10). Premium mode renders the full 14-second clip for 768 credits (about $7.68). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -2277,7 +2273,7 @@
           ],
           [
             "How much does the The Jawn Dance AI video cost?",
-            "In Normal mode (Light), the 12-second version at 480p costs 280 credits (about $2.80). The stronger model renders the full 12-second clip for 673 credits (about $6.73). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 12-second version at 480p costs 280 credits (about $2.80). Premium mode renders the full 12-second clip for 673 credits (about $6.73). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -2357,7 +2353,7 @@
           ],
           [
             "How much does the Jawn Dance Baby AI video cost?",
-            "In Normal mode (Light), the 12-second clip at 480p costs 280 credits (about $2.80). The stronger model renders the same 12-second clip for 673 credits (about $6.73). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 12-second clip at 480p costs 280 credits (about $2.80). Premium mode renders the same 12-second clip for 673 credits (about $6.73). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -2442,7 +2438,7 @@
           ],
           [
             "How much does the Yeahh Yeahh AI video cost?",
-            "In Normal mode (Light), the 11-second version at 480p costs 265 credits (about $2.65). The stronger model renders the full 11-second clip for 625 credits (about $6.25). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 11-second version at 480p costs 265 credits (about $2.65). Premium mode renders the full 11-second clip for 625 credits (about $6.25). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",

@@ -2,10 +2,10 @@
 
 > Make viral AI video trends with your own photos, in the browser. Pick a trend, upload a photo for each part, and Higgsfield's Genjutsu model puts you in the scene. Pay per video, no subscription, no app.
 
-Last updated: 2026-10-26. Independent site: not affiliated with or endorsed by Higgsfield AI.
+Last updated: 2026-10-27. Independent site: not affiliated with or endorsed by Higgsfield AI.
 
 ## Pricing
-- From $2.50 per video (Normal mode / Light, 480p). The stronger model and 720p/1080p cost more.
+- From $2.50 per video (Budget mode / Genjutsu Light, 480p). Premium mode and 720p/1080p cost more.
 - 100 credits = $1, credits never expire, failed or blocked renders are refunded automatically.
 - Full price list: https://genjutsu-trends.com/pricing/
 
@@ -13,7 +13,7 @@ Last updated: 2026-10-26. Independent site: not affiliated with or endorsed by H
 
 ### White Chicks: A Thousand Miles Car Scene
 URL: https://genjutsu-trends.com/trends/white-chicks/
-Facts: 2 photos (Person on the left, Person on the right); horizontal MP4; Normal mode (Light): 15 s from $3.25; stronger model: full 19 s scene from $10.07. Also called: White Chicks car scene, A Thousand Miles AI trend, Terry Crews car meme.
+Facts: 2 photos (Person on the left, Person on the right); horizontal MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 19 s scene from $10.07. Also called: White Chicks car scene, A Thousand Miles AI trend, Terry Crews car meme.
 
 In the 2004 comedy White Chicks, Terry Crews' character Latrell sings Vanessa Carlton's "A Thousand Miles" in his car, and the scene has been a meme for twenty years. In 2026 AI face swaps made it blow up again, peaking during the World Cup: people swap in themselves, their friends or their favorite players and post it to TikTok, Reels and Shorts. Most face swap apps paste a flat face over the clip. Genjutsu works differently. It keeps the original motion, camera move and timing and rebuilds the characters from your photos, so the car lighting and every head turn match.
 
@@ -30,7 +30,7 @@ Questions:
 - Q: Is the White Chicks AI face swap free?
   A: There's no subscription and no monthly plan. You buy a one-time credit pack and pay only for the videos you make. The exact price shows before you click Generate.
 - Q: How much does the White Chicks AI video cost?
-  A: In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 19-second clip for 1,007 credits (about $10.07). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 19-second clip for 1,007 credits (about $10.07). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Is there a White Chicks AI template without CapCut?
   A: Yes. The scene is preloaded right here in the browser, on phone or desktop.
 - Q: What photos work best?
@@ -41,8 +41,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -52,7 +52,7 @@ Questions:
 
 ### Hotel Lobby: Quavo & Takeoff Mic Scene
 URL: https://genjutsu-trends.com/trends/hotel-lobby/
-Facts: 2 photos (Person on the left, Person on the right); horizontal MP4; Normal mode (Light): 15 s from $3.25; stronger model: full 16 s scene from $8.64. Also called: Hotel Lobby (Unc & Phew) AI, Quavo and Takeoff AI trend, orange wall mic scene.
+Facts: 2 photos (Person on the left, Person on the right); horizontal MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 16 s scene from $8.64. Also called: Hotel Lobby (Unc & Phew) AI, Quavo and Takeoff AI trend, orange wall mic scene.
 
 "Hotel Lobby (Unc & Phew)" is the 2022 single by Quavo and Takeoff, and their performance in front of a bright orange wall and a single studio mic became one of the duo's most replayed clips. The AI trend recreates that shot with new people: two friends trading lines at the mic, with every hand move and head turn kept. Most face swap apps paste a flat face over the clip. Genjutsu keeps the original motion, camera and timing and rebuilds both performers from your photos, so the lighting and the movement match the original.
 
@@ -67,7 +67,7 @@ Questions:
 - Q: How do I make the Hotel Lobby AI video?
   A: Open this page. The Quavo & Takeoff "Hotel Lobby" clip is already loaded. Add one clear photo for the person on the left and one for the person on the right, then click Generate.
 - Q: How much does the Hotel Lobby AI video cost?
-  A: In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 16-second clip for 864 credits (about $8.64). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 16-second clip for 864 credits (about $8.64). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: The left slot replaces Takeoff (striped shirt, white sunglasses) and the right slot replaces Quavo (orange shirt).
 - Q: What photos work best?
@@ -78,8 +78,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -89,7 +89,7 @@ Questions:
 
 ### Industry Baby: Lil Nas X Prison Dance Squad
 URL: https://genjutsu-trends.com/trends/industry-baby/
-Facts: 1–8 photos (The lead, Dancer 2, Dancer 3, Dancer 4, Dancer 5, Dancer 6, Dancer 7, Dancer 8); horizontal MP4; Normal mode (Light): 15 s from $3.25; stronger model: full 25 s scene from $12.93. Also called: Lil Nas X prison dance, Industry Baby group face swap.
+Facts: 1–8 photos (The lead, Dancer 2, Dancer 3, Dancer 4, Dancer 5, Dancer 6, Dancer 7, Dancer 8); horizontal MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 25 s scene from $12.93. Also called: Lil Nas X prison dance, Industry Baby group face swap.
 
 Lil Nas X and Jack Harlow's "Industry Baby" (2021) came with a prison-themed video whose pink-and-teal shower dance became instantly recognizable. The AI trend recasts it: one lead who dances up front and sings into the prison phone, and a whole line of dancers behind. This template takes up to 8 photos, so you can put a full team, a friend group or an office in it. Genjutsu keeps the original choreography, camera cuts and timing and rebuilds each person from the photos.
 
@@ -104,7 +104,7 @@ Questions:
 - Q: How many people can be in the Industry Baby AI video?
   A: Up to 8: one lead and up to 7 dancers. Only the lead photo is required.
 - Q: How much does the Industry Baby AI video cost?
-  A: In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 25-second clip for 1,293 credits (about $12.93). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 25-second clip for 1,293 credits (about $12.93). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: Photo 1 is the lead (front, on the prison phone). Photos 2 to 8 replace the dancers from left to right.
 - Q: What photos work best?
@@ -115,8 +115,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -126,7 +126,7 @@ Questions:
 
 ### Bad Times Couple / Duo: Dispute Dance for Two
 URL: https://genjutsu-trends.com/trends/bad-times-duo/
-Facts: 2 photos (The first dancer, The second dancer); vertical MP4; Normal mode (Light): 15 s from $3.25; stronger model: full 21 s scene from $11.02. Also called: Bad Times couple, Bad Times duo, Bad Times two friends.
+Facts: 2 photos (The first dancer, The second dancer); vertical MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 21 s scene from $11.02. Also called: Bad Times couple, Bad Times duo, Bad Times two friends.
 
 The "Bad Times" trend is all about dramatic arguing gestures: hands on the head, a finger wag, a palm pushed right into the camera. This version does it as a pair, in sharp suits in front of a wooden fence. Genjutsu keeps the original motion, camera moves and timing and rebuilds both people from your photos.
 
@@ -141,7 +141,7 @@ Questions:
 - Q: How do I make the Bad Times Couple / Duo AI video?
   A: Open this page. The Bad Times Duo clip is already loaded. Add two photos, then click Generate.
 - Q: How much does the Bad Times Duo AI video cost?
-  A: In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 21-second clip for 1,102 credits (about $11.02). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 21-second clip for 1,102 credits (about $11.02). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: The first photo becomes the blond dancer in the dark suit, the second the dancer in the blue suit and white T-shirt.
 - Q: What photos work best?
@@ -152,8 +152,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -163,7 +163,7 @@ Questions:
 
 ### Cheba Man: String-Lights Stage
 URL: https://genjutsu-trends.com/trends/cheba-man-lights/
-Facts: 1 photo (The performer); vertical MP4; Normal mode (Light): 15 s from $3.25; stronger model: full 21 s scene from $11.02. Also called: Cheba Man string lights.
+Facts: 1 photo (The performer); vertical MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 21 s scene from $11.02. Also called: Cheba Man string lights.
 
 Another viral Cheba Man moment: the dancer in a bright yellow jacket and purple trousers on an outdoor stage under string lights, while the whole crowd films it. This version puts you on that stage. Genjutsu keeps the original motion, camera moves and timing and rebuilds the performer from your selfie.
 
@@ -178,7 +178,7 @@ Questions:
 - Q: How do I make the Cheba Man AI video?
   A: Open this page. The clip is already loaded. Add one selfie, then click Generate.
 - Q: How much does the Cheba Man string-lights AI video cost?
-  A: In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 21-second clip for 1,102 credits (about $11.02). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 21-second clip for 1,102 credits (about $11.02). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: Your face goes on the Cheba Man on stage. The crowd, the string lights and the moves stay as they are.
 - Q: What photos work best?
@@ -189,8 +189,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -200,7 +200,7 @@ Questions:
 
 ### Billionaire Lambo: Shoes Off, Then the Supercar
 URL: https://genjutsu-trends.com/trends/millionaire-lambo/
-Facts: 1 photo (The millionaire); vertical MP4; Normal mode (Light): 15 s from $3.25; stronger model: full 29 s scene from $14.84. Also called: billionaire shoes off, millionaire Lambo meme, Lambo lifestyle.
+Facts: 1 photo (The millionaire); vertical MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 29 s scene from $14.84. Also called: billionaire shoes off, millionaire Lambo meme, Lambo lifestyle.
 
 The millionaire meme plays the flex completely straight: a man in all black walks out of a hotel, carefully takes off his red shoes before stepping into his orange Lamborghini, while an assistant waits by the door. This version makes you the millionaire. People search for it as the billionaire (or millionaire) meme: same scene, same shoes-off moment. Genjutsu keeps the original motion, camera moves and timing and rebuilds the person from your selfie.
 
@@ -215,7 +215,7 @@ Questions:
 - Q: How do I make the Billionaire Lambo AI video?
   A: Open this page. The Millionaire Lambo clip is already loaded. Add one selfie, then click Generate.
 - Q: How much does the Millionaire Lambo AI video cost?
-  A: In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 29-second clip for 1,484 credits (about $14.84). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 29-second clip for 1,484 credits (about $14.84). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: Your face goes on the man in black who takes off his shoes and gets into the Lamborghini. The assistant, the hotel and the car stay as they are.
 - Q: What photos work best?
@@ -226,8 +226,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -237,7 +237,7 @@ Questions:
 
 ### Car Jump: Sit Calm as a Truck Lands Beside You
 URL: https://genjutsu-trends.com/trends/car-jump/
-Facts: 1 photo (The calm one); vertical MP4; Normal mode (Light): 12 s from $2.80; stronger model: same 12 s clip from $6.73. Also called: car jump AI trend, unbothered car jump, truck jump chair meme, desert truck jump.
+Facts: 1 photo (The calm one); vertical MP4; Budget mode (Genjutsu Light): 12 s from $2.80; Premium: same 12 s clip from $6.73. Also called: car jump AI trend, unbothered car jump, truck jump chair meme, desert truck jump.
 
 The joke is the contrast: a heavy 4x4 launches over a dune in a cloud of golden dust and lands a few meters away, while the man on the chair doesn't move a muscle. This version puts you on that chair. Genjutsu keeps the original motion, camera moves and timing and rebuilds the person from your selfie.
 
@@ -252,7 +252,7 @@ Questions:
 - Q: How do I make the Car Jump AI video?
   A: Open this page. The clip is already loaded. Add one selfie, then click Generate.
 - Q: How much does the Desert Truck Jump AI video cost?
-  A: In Normal mode (Light), the 12-second clip at 480p costs 280 credits (about $2.80). The stronger model renders the same 12-second clip for 673 credits (about $6.73). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 12-second clip at 480p costs 280 credits (about $2.80). Premium mode renders the same 12-second clip for 673 credits (about $6.73). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: Your face goes on the man sitting on the chair. The 4x4, the dust and the desert stay as they are.
 - Q: What photos work best?
@@ -263,8 +263,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -274,7 +274,7 @@ Questions:
 
 ### Dance Battle Solo
 URL: https://genjutsu-trends.com/trends/dance-your-style/
-Facts: 1 photo (The dancer); vertical MP4; Normal mode (Light): 15 s from $3.25; stronger model: full 30 s scene from $15.31. Also called: dance battle AI, battle solo.
+Facts: 1 photo (The dancer); vertical MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 30 s scene from $15.31. Also called: dance battle AI, battle solo.
 
 Dance-battle solos are made for clips: a dancer in a flat cap owns the stage with footwork, spins and floor work while the crowd loses it. This version puts your face on the dancer. Genjutsu keeps the original motion, camera moves and timing and rebuilds the dancer from your selfie.
 
@@ -289,7 +289,7 @@ Questions:
 - Q: How do I make the Dance Battle Solo AI video?
   A: Open this page. The clip is already loaded. Add one selfie, then click Generate.
 - Q: How much does the dance battle AI video cost?
-  A: In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 30-second clip for 1,531 credits (about $15.31). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 30-second clip for 1,531 credits (about $15.31). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: Your face goes on the dancer doing the solo. The crowd, the stage and the moves stay as they are.
 - Q: What photos work best?
@@ -300,8 +300,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -311,7 +311,7 @@ Questions:
 
 ### Karate Dojo Fight: White Gi vs Hooded Monk
 URL: https://genjutsu-trends.com/trends/dojo-fight/
-Facts: 1–2 photos (The karate fighter, The opponent); horizontal MP4; Normal mode (Light): 10 s from $2.50; stronger model: same 10 s clip from $5.77. Also called: karate dojo fight AI, dojo fight meme.
+Facts: 1–2 photos (The karate fighter, The opponent); horizontal MP4; Budget mode (Genjutsu Light): 10 s from $2.50; Premium: same 10 s clip from $5.77. Also called: karate dojo fight AI, dojo fight meme.
 
 A cinematic fight scene in an old dojo: golden light, dust in the air, and a fighter in a white gi taking on a hooded monk with kicks and punches, until the monk lands a final throw. This version puts your face on the karate fighter, and a friend's on the monk if you add a second photo. Genjutsu keeps the original motion, camera moves and timing and rebuilds the fighters from your photos.
 
@@ -326,7 +326,7 @@ Questions:
 - Q: How do I make the Karate Dojo Fight AI video?
   A: Open this page. The clip is already loaded. Add your selfie, and optionally a second photo for the opponent, then click Generate.
 - Q: How much does the karate dojo fight AI video cost?
-  A: In Normal mode (Light), the 10-second clip at 480p costs 250 credits (about $2.50). The stronger model renders the same 10-second clip for 577 credits (about $5.77). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 10-second clip at 480p costs 250 credits (about $2.50). Premium mode renders the same 10-second clip for 577 credits (about $5.77). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: The first photo goes on the fighter in the white gi. Add a second photo to put a friend's face on the hooded monk; leave it empty and the monk keeps his face covered.
 - Q: What photos work best?
@@ -337,119 +337,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
-- Q: Which resolution should I pick?
-  A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
-- Q: What if the video doesn't come out well?
-  A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
-- Q: Can I download and share it?
-  A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
-
-### Smooth Criminal: Michael Jackson's Lean
-URL: https://genjutsu-trends.com/trends/smooth-criminal/
-Facts: 1 photo (The dancer); vertical MP4; Normal mode (Light): 15 s from $3.25; stronger model: same 15 s clip from $8.16. Also called: Smooth Criminal dance AI, Michael Jackson lean, Annie are you OK.
-
-"Annie, are you OK?" The "Smooth Criminal" dance, with its white suit, fedora and gravity-defying lean, is one of the most copied dance scenes ever. This AI version keeps the moves, the shadows and the suit, and puts your face on the dancer. Genjutsu keeps the original motion, camera moves and timing and rebuilds the dancer from your selfie.
-
-How to make it:
-1. Open this page: The Smooth Criminal clip and the prompt are already loaded. You don't need to find the video or a CapCut template.
-2. Add one selfie: A clear, front-facing, well-lit photo of the person who'll take the part.
-3. Keep 480p: 480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video.
-4. Click Generate: You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back.
-5. Download and post: Download the MP4 and post it with "Smooth Criminal" as the sound.
-
-Questions:
-- Q: How do I make the Smooth Criminal AI video?
-  A: Open this page. The Smooth Criminal clip is already loaded. Add one selfie, then click Generate.
-- Q: How much does the Smooth Criminal AI video cost?
-  A: In Normal mode (Light), the 15-second clip at 480p costs 325 credits (about $3.25). The stronger model renders the same 15-second clip for 816 credits (about $8.16). 720p and 1080p are sharper and cost more. No subscription.
-- Q: Who goes where?
-  A: Your face goes on the main dancer in the white suit and hat. His suit, blue shirt, moves and the shadows stay as they are.
-- Q: What photos work best?
-  A: A clear, front-facing, well-lit selfie of one person. Avoid sunglasses and heavy shadows. Only use photos of people who agreed to be in the video.
-- Q: Can I use a different clip?
-  A: Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt.
-- Q: Do I need to download an app?
-  A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
-- Q: How long does it take?
-  A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
-- Q: Which resolution should I pick?
-  A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
-- Q: What if the video doesn't come out well?
-  A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
-- Q: Can I download and share it?
-  A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
-
-### Thriller Red Jacket: Alternate Take
-URL: https://genjutsu-trends.com/trends/thriller-red-jacket/
-Facts: 1 photo (The dancer); vertical MP4; Normal mode (Light): 15 s from $3.25; stronger model: full 19 s scene from $10.07. Also called: Michael Jackson red jacket AI.
-
-The "Thriller" zombie dance is one of the most famous dance scenes ever filmed: the red leather jacket, the claw hands, the head tilts and a street full of zombies moving in sync. This version puts your face on the lead dancer and keeps everything else. Genjutsu keeps the original motion, camera moves and timing and rebuilds the dancer from your selfie.
-
-How to make it:
-1. Open this page: The Thriller clip and the prompt are already loaded. You don't need to find the video or a CapCut template.
-2. Add one selfie: A clear, front-facing, well-lit photo of the person who'll take the part.
-3. Keep 480p: 480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video.
-4. Click Generate: You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back.
-5. Download and post: Download the MP4 and post it with "Thriller" as the sound.
-
-Questions:
-- Q: How do I make the Thriller Red Jacket AI video?
-  A: Open this page. The Thriller clip is already loaded. Add one selfie, then click Generate.
-- Q: How much does the Thriller red jacket AI video cost?
-  A: In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 19-second clip for 1,007 credits (about $10.07). 720p and 1080p are sharper and cost more. No subscription.
-- Q: Who goes where?
-  A: Your face goes on the lead dancer in the red leather jacket. The zombies, the street and the moves stay as they are.
-- Q: What photos work best?
-  A: A clear, front-facing, well-lit selfie of one person. Avoid sunglasses and heavy shadows. Only use photos of people who agreed to be in the video.
-- Q: Can I use a different clip?
-  A: Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt.
-- Q: Do I need to download an app?
-  A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
-- Q: How long does it take?
-  A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
-- Q: Which resolution should I pick?
-  A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
-- Q: What if the video doesn't come out well?
-  A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
-- Q: Can I download and share it?
-  A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
-
-### Gas Station Dance: 3 Friends at Sunset
-URL: https://genjutsu-trends.com/trends/gas-station-dance/
-Facts: 3 photos (The dancer, The selfie, The car entrance); vertical MP4; Normal mode (Light): 15 s from $3.25; stronger model: same 15 s clip from $8.16. Also called: gas station dance trend, 3 friends road trip dance.
-
-The gas station dance trend is three friends goofing around on a road trip at sunset: one dances on the forecourt, one films a selfie, and one makes a cool entrance from a sports car. No choreography needed. This AI version keeps all three parts. Genjutsu keeps the original motion, camera moves and timing and rebuilds all three people from your photos.
-
-How to make it:
-1. Open this page: The Gas Station Dance clip and the prompt are already loaded. You don't need to find the video or a CapCut template.
-2. Add three photos: One clear, front-facing, well-lit photo for each part: the dancer, the selfie and the car entrance.
-3. Keep 480p: 480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video.
-4. Click Generate: You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back.
-5. Download and post: Download the MP4 and post it with the gas station dance sound.
-
-Questions:
-- Q: How do I make the Gas Station Dance AI video?
-  A: Open this page. The Gas Station Dance clip is already loaded. Add three photos, then click Generate.
-- Q: How much does the Gas Station Dance AI video cost?
-  A: In Normal mode (Light), the 15-second clip at 480p costs 325 credits (about $3.25). The stronger model renders the same 15-second clip for 816 credits (about $8.16). 720p and 1080p are sharper and cost more. No subscription.
-- Q: Who goes where?
-  A: The first photo becomes the dancer on the forecourt, the second the friend filming the selfie, and the third the friend stepping out of the sports car.
-- Q: What photos work best?
-  A: Clear, front-facing, well-lit photos of one person each. Avoid group photos and heavy shadows. Only use photos of people who agreed to be in the video.
-- Q: Can I use a different clip?
-  A: Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt.
-- Q: Do I need to download an app?
-  A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
-- Q: How long does it take?
-  A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -459,7 +348,7 @@ Questions:
 
 ### Alors on Danse: Stromae Keyboard Dance
 URL: https://genjutsu-trends.com/trends/alors-on-danse/
-Facts: 2 photos (Person on the left, Person on the right); horizontal MP4; Normal mode (Light): 15 s from $3.25; stronger model: same 15 s clip from $8.16. Also called: Stromae AI trend, Alors on danse office dance.
+Facts: 2 photos (Person on the left, Person on the right); horizontal MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: same 15 s clip from $8.16. Also called: Stromae AI trend, Alors on danse office dance.
 
 The "Alors on danse" trend takes Stromae's 2009 hit and drops it into an office moment: two men in suits at a keyboard and a laptop, playing it straight until the beat hits and they can't help dancing. The AI version swaps in you and a friend, a coworker or your boss. Most face swap apps paste a flat face over the clip. Genjutsu keeps the original motion, camera and timing and rebuilds both people from your photos, so every dance move matches the original.
 
@@ -474,7 +363,7 @@ Questions:
 - Q: How do I make the Alors on Danse AI video?
   A: Open this page. The keyboard dance clip is already loaded. Add one clear photo for the person on the left and one for the person on the right, then click Generate.
 - Q: How much does the Alors on Danse AI video cost?
-  A: In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 15-second clip for 816 credits (about $8.16). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 15-second clip for 816 credits (about $8.16). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: The left slot is the man standing at the keyboard and the right slot is the man at the laptop.
 - Q: What photos work best?
@@ -485,8 +374,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -496,7 +385,7 @@ Questions:
 
 ### APT.: ROSÉ & Bruno Mars Pink Studio
 URL: https://genjutsu-trends.com/trends/apt/
-Facts: 2 photos (ROSÉ's part, Bruno Mars' part); horizontal MP4; Normal mode (Light): 15 s from $3.25; stronger model: full 20 s scene from $10.54. Also called: APT AI video, ROSÉ and Bruno Mars AI, APT pink studio, singer and drummer.
+Facts: 2 photos (ROSÉ's part, Bruno Mars' part); horizontal MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 20 s scene from $10.54. Also called: APT AI video, ROSÉ and Bruno Mars AI, APT pink studio, singer and drummer.
 
 "APT." by ROSÉ and Bruno Mars came out in October 2024 and became one of the biggest songs in the world, with a pink-studio music video full of drum fills, leather jackets and the "apateu, apateu" chant. The AI trend recasts the video: you and a friend take ROSÉ's and Bruno's parts. Most face swap apps paste a flat face over the clip. Genjutsu keeps the original motion, camera cuts and timing and rebuilds both performers from your photos, so every move lands on the beat.
 
@@ -511,7 +400,7 @@ Questions:
 - Q: How do I make the APT. AI video?
   A: Open this page. The ROSÉ & Bruno Mars clip is already loaded. Add one photo for ROSÉ's part and one for Bruno Mars' part, then click Generate.
 - Q: How much does the APT. AI video cost?
-  A: In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 20-second clip for 1,054 credits (about $10.54). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 20-second clip for 1,054 credits (about $10.54). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: The first photo replaces ROSÉ (blonde, at the mic) and the second replaces Bruno Mars (cap and sunglasses, on drums).
 - Q: What photos work best?
@@ -522,8 +411,119 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
+- Q: Which resolution should I pick?
+  A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
+- Q: What if the video doesn't come out well?
+  A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Can I download and share it?
+  A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
+
+### Smooth Criminal: Michael Jackson's Lean
+URL: https://genjutsu-trends.com/trends/smooth-criminal/
+Facts: 1 photo (The dancer); vertical MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: same 15 s clip from $8.16. Also called: Smooth Criminal dance AI, Michael Jackson lean, Annie are you OK.
+
+"Annie, are you OK?" The "Smooth Criminal" dance, with its white suit, fedora and gravity-defying lean, is one of the most copied dance scenes ever. This AI version keeps the moves, the shadows and the suit, and puts your face on the dancer. Genjutsu keeps the original motion, camera moves and timing and rebuilds the dancer from your selfie.
+
+How to make it:
+1. Open this page: The Smooth Criminal clip and the prompt are already loaded. You don't need to find the video or a CapCut template.
+2. Add one selfie: A clear, front-facing, well-lit photo of the person who'll take the part.
+3. Keep 480p: 480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video.
+4. Click Generate: You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back.
+5. Download and post: Download the MP4 and post it with "Smooth Criminal" as the sound.
+
+Questions:
+- Q: How do I make the Smooth Criminal AI video?
+  A: Open this page. The Smooth Criminal clip is already loaded. Add one selfie, then click Generate.
+- Q: How much does the Smooth Criminal AI video cost?
+  A: In Budget mode (Genjutsu Light), the 15-second clip at 480p costs 325 credits (about $3.25). Premium mode renders the same 15-second clip for 816 credits (about $8.16). 720p and 1080p are sharper and cost more. No subscription.
+- Q: Who goes where?
+  A: Your face goes on the main dancer in the white suit and hat. His suit, blue shirt, moves and the shadows stay as they are.
+- Q: What photos work best?
+  A: A clear, front-facing, well-lit selfie of one person. Avoid sunglasses and heavy shadows. Only use photos of people who agreed to be in the video.
+- Q: Can I use a different clip?
+  A: Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt.
+- Q: Do I need to download an app?
+  A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
+- Q: How long does it take?
+  A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
+- Q: Which resolution should I pick?
+  A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
+- Q: What if the video doesn't come out well?
+  A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Can I download and share it?
+  A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
+
+### Thriller Red Jacket: Alternate Take
+URL: https://genjutsu-trends.com/trends/thriller-red-jacket/
+Facts: 1 photo (The dancer); vertical MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 19 s scene from $10.07. Also called: Michael Jackson red jacket AI.
+
+The "Thriller" zombie dance is one of the most famous dance scenes ever filmed: the red leather jacket, the claw hands, the head tilts and a street full of zombies moving in sync. This version puts your face on the lead dancer and keeps everything else. Genjutsu keeps the original motion, camera moves and timing and rebuilds the dancer from your selfie.
+
+How to make it:
+1. Open this page: The Thriller clip and the prompt are already loaded. You don't need to find the video or a CapCut template.
+2. Add one selfie: A clear, front-facing, well-lit photo of the person who'll take the part.
+3. Keep 480p: 480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video.
+4. Click Generate: You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back.
+5. Download and post: Download the MP4 and post it with "Thriller" as the sound.
+
+Questions:
+- Q: How do I make the Thriller Red Jacket AI video?
+  A: Open this page. The Thriller clip is already loaded. Add one selfie, then click Generate.
+- Q: How much does the Thriller red jacket AI video cost?
+  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 19-second clip for 1,007 credits (about $10.07). 720p and 1080p are sharper and cost more. No subscription.
+- Q: Who goes where?
+  A: Your face goes on the lead dancer in the red leather jacket. The zombies, the street and the moves stay as they are.
+- Q: What photos work best?
+  A: A clear, front-facing, well-lit selfie of one person. Avoid sunglasses and heavy shadows. Only use photos of people who agreed to be in the video.
+- Q: Can I use a different clip?
+  A: Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt.
+- Q: Do I need to download an app?
+  A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
+- Q: How long does it take?
+  A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
+- Q: Which resolution should I pick?
+  A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
+- Q: What if the video doesn't come out well?
+  A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Can I download and share it?
+  A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
+
+### Gas Station Dance: 3 Friends at Sunset
+URL: https://genjutsu-trends.com/trends/gas-station-dance/
+Facts: 3 photos (The dancer, The selfie, The car entrance); vertical MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: same 15 s clip from $8.16. Also called: gas station dance trend, 3 friends road trip dance.
+
+The gas station dance trend is three friends goofing around on a road trip at sunset: one dances on the forecourt, one films a selfie, and one makes a cool entrance from a sports car. No choreography needed. This AI version keeps all three parts. Genjutsu keeps the original motion, camera moves and timing and rebuilds all three people from your photos.
+
+How to make it:
+1. Open this page: The Gas Station Dance clip and the prompt are already loaded. You don't need to find the video or a CapCut template.
+2. Add three photos: One clear, front-facing, well-lit photo for each part: the dancer, the selfie and the car entrance.
+3. Keep 480p: 480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video.
+4. Click Generate: You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back.
+5. Download and post: Download the MP4 and post it with the gas station dance sound.
+
+Questions:
+- Q: How do I make the Gas Station Dance AI video?
+  A: Open this page. The Gas Station Dance clip is already loaded. Add three photos, then click Generate.
+- Q: How much does the Gas Station Dance AI video cost?
+  A: In Budget mode (Genjutsu Light), the 15-second clip at 480p costs 325 credits (about $3.25). Premium mode renders the same 15-second clip for 816 credits (about $8.16). 720p and 1080p are sharper and cost more. No subscription.
+- Q: Who goes where?
+  A: The first photo becomes the dancer on the forecourt, the second the friend filming the selfie, and the third the friend stepping out of the sports car.
+- Q: What photos work best?
+  A: Clear, front-facing, well-lit photos of one person each. Avoid group photos and heavy shadows. Only use photos of people who agreed to be in the video.
+- Q: Can I use a different clip?
+  A: Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt.
+- Q: Do I need to download an app?
+  A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
+- Q: How long does it take?
+  A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -533,7 +533,7 @@ Questions:
 
 ### Bad Times Toddler: You as a Baby
 URL: https://genjutsu-trends.com/trends/bad-times-baby/
-Facts: 1 photo (Your photo); vertical MP4; Normal mode (Light): 15 s from $3.25; stronger model: full 30 s scene from $15.31. Also called: Bad Times toddler, Bad Times baby version.
+Facts: 1 photo (Your photo); vertical MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 30 s scene from $15.31. Also called: Bad Times toddler, Bad Times baby version.
 
 The baby version of the "Bad Times" trend turns you into a toddler throwing the same dramatic arguing moves: the finger wag, the hand in the camera, the shocked face. This one is set on a sunny poolside terrace. Genjutsu keeps the original motion, camera moves and timing and rebuilds the toddler from your photo: your face, your features, baby-sized.
 
@@ -548,7 +548,7 @@ Questions:
 - Q: How do I make the Bad Times Toddler AI video?
   A: Open this page. The Bad Times Baby clip is already loaded. Add one photo of yourself, then click Generate.
 - Q: How much does the Bad Times Baby AI video cost?
-  A: In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 30-second clip for 1,531 credits (about $15.31). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 30-second clip for 1,531 credits (about $15.31). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: The person in your photo becomes the toddler. The terrace, the outfit and the moves stay as they are.
 - Q: What photos work best?
@@ -559,8 +559,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -570,7 +570,7 @@ Questions:
 
 ### Jawn Dance Baby: You as a Toddler
 URL: https://genjutsu-trends.com/trends/jawn-baby/
-Facts: 1 photo (Your photo); vertical MP4; Normal mode (Light): 12 s from $2.80; stronger model: same 12 s clip from $6.73. Also called: Jawn baby, baby Jawn dance.
+Facts: 1 photo (Your photo); vertical MP4; Budget mode (Genjutsu Light): 12 s from $2.80; Premium: same 12 s clip from $6.73. Also called: Jawn baby, baby Jawn dance.
 
 The baby version of the Jawn dance trend turns you into a toddler in a red polo who waits, deadpan, for the beat to drop and then breaks into a grin and a bounce. Genjutsu keeps the original motion, camera moves and timing and rebuilds the toddler from your photo: your face, your features, baby-sized.
 
@@ -585,7 +585,7 @@ Questions:
 - Q: How do I make the Jawn Dance Baby AI video?
   A: Open this page. The Jawn Dance Baby clip is already loaded. Add one photo of yourself, then click Generate.
 - Q: How much does the Jawn Dance Baby AI video cost?
-  A: In Normal mode (Light), the 12-second clip at 480p costs 280 credits (about $2.80). The stronger model renders the same 12-second clip for 673 credits (about $6.73). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 12-second clip at 480p costs 280 credits (about $2.80). Premium mode renders the same 12-second clip for 673 credits (about $6.73). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: The person in your photo becomes the toddler. The garden, the outfit and the moves stay as they are.
 - Q: What photos work best?
@@ -596,8 +596,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -607,7 +607,7 @@ Questions:
 
 ### Raindance: Dave & Tems Pier Scene (Original)
 URL: https://genjutsu-trends.com/trends/raindance/
-Facts: 2 photos (Dave's part, Tems' part); horizontal MP4; Normal mode (Light): 15 s from $3.25; stronger model: full 21 s scene from $11.02. Also called: Dave and Tems Raindance AI, Raindance pier.
+Facts: 2 photos (Dave's part, Tems' part); horizontal MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 21 s scene from $11.02. Also called: Dave and Tems Raindance AI, Raindance pier.
 
 "Raindance" by Dave featuring Tems became one of the year's biggest songs, and its music video's golden-hour pier moment became a duet trend of its own: one person waits on the pier, the other walks in singing by the water, and they end up side by side. This is the original music-video version; for the meme mashup, see the Shrek Raindance trend. Most face swap apps paste a flat face over the clip. Genjutsu keeps the original motion, camera cuts and timing and rebuilds both people from your photos.
 
@@ -622,7 +622,7 @@ Questions:
 - Q: How do I make the Raindance AI video?
   A: Open this page. The Dave & Tems pier clip is already loaded. Add one photo for Dave's part and one for Tems' part, then click Generate.
 - Q: How much does the Raindance AI video cost?
-  A: In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 21-second clip for 1,102 credits (about $11.02). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 21-second clip for 1,102 credits (about $11.02). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: The first photo replaces Dave (the man waiting on the pier) and the second replaces Tems (the woman in the mint green dress singing by the water).
 - Q: Is this the Shrek version?
@@ -635,8 +635,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -646,7 +646,7 @@ Questions:
 
 ### Thriller: Michael Jackson Zombie Street Dance
 URL: https://genjutsu-trends.com/trends/thriller/
-Facts: 1 photo (The lead dancer); horizontal MP4; Normal mode (Light): 15 s from $3.25; stronger model: full 21 s scene from $11.02. Also called: Michael Jackson Thriller AI, zombie dance AI.
+Facts: 1 photo (The lead dancer); horizontal MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 21 s scene from $11.02. Also called: Michael Jackson Thriller AI, zombie dance AI.
 
 The "Thriller" zombie dance is one of the most copied routines ever: a zombie stare in close-up, then a whole street of ghouls behind the lead doing the shuffle, shoulder rolls and claw arms. The AI trend puts you in the red jacket at the front. Genjutsu keeps the original motion, camera cuts and timing and rebuilds the lead dancer from your photo, so every move lands on the beat.
 
@@ -661,7 +661,7 @@ Questions:
 - Q: How do I make the Thriller AI video?
   A: Open this page. The Thriller dance clip is already loaded. Add one photo for the lead dancer, then click Generate.
 - Q: How much does the Thriller AI video cost?
-  A: In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 21-second clip for 1,102 credits (about $11.02). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 21-second clip for 1,102 credits (about $11.02). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: Your photo replaces the lead dancer in the red jacket. The zombie dancers behind stay as they are.
 - Q: What photos work best?
@@ -672,8 +672,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -683,7 +683,7 @@ Questions:
 
 ### Turn the Lights Off: Jon Hamm Club Dance
 URL: https://genjutsu-trends.com/trends/turn-the-lights-off/
-Facts: 1 photo (The dancer); vertical MP4; Normal mode (Light): 13 s from $2.95; stronger model: same 13 s clip from $7.21. Also called: Jon Hamm dancing, Jon Hamm club meme, me when the song comes on.
+Facts: 1 photo (The dancer); vertical MP4; Budget mode (Genjutsu Light): 13 s from $2.95; Premium: same 13 s clip from $7.21. Also called: Jon Hamm dancing, Jon Hamm club meme, me when the song comes on.
 
 The "Turn the Lights Off" meme comes from a TV club scene where Jon Hamm, eyes closed, sways alone in the middle of a crowded dark dance floor. The clip became a go-to reaction for "me when the song comes on", and the AI trend puts you in his place. Genjutsu keeps the original motion, camera moves and timing and rebuilds the person from your photo.
 
@@ -698,7 +698,7 @@ Questions:
 - Q: How do I make the Turn the Lights Off AI video?
   A: Open this page. The Turn the Lights Off clip is already loaded. Add one photo, then click Generate.
 - Q: How much does the Turn the Lights Off AI video cost?
-  A: In Normal mode (Light), the 13-second clip at 480p costs 295 credits (about $2.95). The stronger model renders the same 13-second clip for 721 credits (about $7.21). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 13-second clip at 480p costs 295 credits (about $2.95). Premium mode renders the same 13-second clip for 721 credits (about $7.21). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: Your photo replaces the man with his eyes closed in the middle of the dance floor. The crowd stays as it is.
 - Q: What photos work best?
@@ -709,8 +709,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -720,7 +720,7 @@ Questions:
 
 ### Cheba Man: Tecktonik Stage Dance
 URL: https://genjutsu-trends.com/trends/cheba-man/
-Facts: 1 photo (The dancer); vertical MP4; Normal mode (Light): 15 s from $3.25; stronger model: full 20 s scene from $10.54. Also called: Cheba Man dance, Cheba Man Tecktonik.
+Facts: 1 photo (The dancer); vertical MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 20 s scene from $10.54. Also called: Cheba Man dance, Cheba Man Tecktonik.
 
 The Cheba Man clip shows a dancer on a festival stage above a packed night crowd, throwing Tecktonik arm waves on every beat while everyone below holds up their phones. It spread as a "main character" moment, and the AI trend puts you on that stage. Genjutsu keeps the original motion, camera moves and timing and rebuilds the person from your photo.
 
@@ -735,7 +735,7 @@ Questions:
 - Q: How do I make the Cheba Man AI video?
   A: Open this page. The Cheba Man clip is already loaded. Add one photo, then click Generate.
 - Q: How much does the Cheba Man AI video cost?
-  A: In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 20-second clip for 1,054 credits (about $10.54). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 20-second clip for 1,054 credits (about $10.54). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: Your photo replaces the dancer on the stage. The crowd below stays as it is.
 - Q: What photos work best?
@@ -746,8 +746,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -757,7 +757,7 @@ Questions:
 
 ### Bulin 47: Street Freestyle
 URL: https://genjutsu-trends.com/trends/bulin-47/
-Facts: 1 photo (The rapper); vertical MP4; Normal mode (Light): 15 s from $3.25; stronger model: same 15 s clip from $8.16. Also called: Bulin 47 AI trend, Bulin 47 freestyle, speaker freestyle.
+Facts: 1 photo (The rapper); vertical MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: same 15 s clip from $8.16. Also called: Bulin 47 AI trend, Bulin 47 freestyle, speaker freestyle.
 
 The Bulin 47 freestyle was filmed outside a red-lit venue entrance: a fan walks up with a portable speaker playing a dembow beat, and the Dominican artist Bulin 47 answers with an improvised freestyle, hands flying. The clip went viral and became an AI trend where you take the rapper's place. Genjutsu keeps the original motion, camera moves and timing and rebuilds the person from your photo.
 
@@ -772,7 +772,7 @@ Questions:
 - Q: How do I make the Bulin 47 AI video?
   A: Open this page. The Bulin 47 clip is already loaded. Add one photo, then click Generate.
 - Q: How much does the Bulin 47 AI video cost?
-  A: In Normal mode (Light), the 15-second clip at 480p costs 325 credits (about $3.25). The stronger model renders the same 15-second clip for 816 credits (about $8.16). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 15-second clip at 480p costs 325 credits (about $3.25). Premium mode renders the same 15-second clip for 816 credits (about $8.16). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: Your photo replaces the rapper in the pink shirt. The fan with the speaker and the crowd stay as they are.
 - Q: What photos work best?
@@ -783,8 +783,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -794,7 +794,7 @@ Questions:
 
 ### Bad Times: Imael Angel Dispute Dance
 URL: https://genjutsu-trends.com/trends/bad-times/
-Facts: 1 photo (The dancer); vertical MP4; Normal mode (Light): 15 s from $3.25; stronger model: full 20 s scene from $10.54. Also called: Bad Times trend, Bad Times argument dance, Imael Angel Bad Times.
+Facts: 1 photo (The dancer); vertical MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 20 s scene from $10.54. Also called: Bad Times trend, Bad Times argument dance, Imael Angel Bad Times.
 
 The "Bad Times" trend is set to Imael Angel's song: a dancer in a kitchen acts out a heated argument, with pointing, eye rolls and dramatic close-ups on every line. It became a widely copied dance, and the AI trend puts you in the argument. Genjutsu keeps the original motion, camera moves and timing and rebuilds the person from your photo.
 
@@ -809,7 +809,7 @@ Questions:
 - Q: How do I make the Bad Times AI video?
   A: Open this page. The Bad Times clip is already loaded. Add one photo, then click Generate.
 - Q: How much does the Bad Times AI video cost?
-  A: In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 20-second clip for 1,054 credits (about $10.54). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 20-second clip for 1,054 credits (about $10.54). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: Your photo replaces the dancer in the grey top. The kitchen and the moves stay as they are.
 - Q: What photos work best?
@@ -820,8 +820,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -831,7 +831,7 @@ Questions:
 
 ### Bad Times Dog & Cat: Your Pet in the Trend
 URL: https://genjutsu-trends.com/trends/bad-times-pet/
-Facts: 1 photo (Your pet); vertical MP4; Normal mode (Light): 15 s from $3.25; stronger model: full 20 s scene from $10.54. Also called: Bad Times dog, Bad Times cat, Bad Times pet.
+Facts: 1 photo (Your pet); vertical MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 20 s scene from $10.54. Also called: Bad Times dog, Bad Times cat, Bad Times pet.
 
 The pet version of the "Bad Times" trend swaps the dancer for a cat that stands upright and throws the same dramatic arguing moves. Cats, dogs and other pets all get the full routine. Genjutsu keeps the original motion, camera moves and timing and rebuilds your pet from your photo.
 
@@ -846,7 +846,7 @@ Questions:
 - Q: How do I make the Bad Times Dog & Cat AI video?
   A: Open this page. The Bad Times Pet clip is already loaded. Add one photo of your pet, then click Generate.
 - Q: How much does the Bad Times Pet AI video cost?
-  A: In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 20-second clip for 1,054 credits (about $10.54). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 20-second clip for 1,054 credits (about $10.54). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: The animal in your photo replaces the dancing cat. The kitchen and the moves stay as they are.
 - Q: What photos work best?
@@ -857,8 +857,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -868,7 +868,7 @@ Questions:
 
 ### I Feel Like Nicole: ADÉLA Duo Dance
 URL: https://genjutsu-trends.com/trends/i-feel-like-nicole/
-Facts: 2 photos (Left dancer, Right dancer); vertical MP4; Normal mode (Light): 14 s from $3.10; stronger model: same 14 s clip from $7.68. Also called: I feel like Nicole duo, ADÉLA street duo.
+Facts: 2 photos (Left dancer, Right dancer); vertical MP4; Budget mode (Genjutsu Light): 14 s from $3.10; Premium: same 14 s clip from $7.68. Also called: I feel like Nicole duo, ADÉLA street duo.
 
 "I feel like Nicole" is the hook of ADÉLA's song "Nicole Kidman", and its routine took over TikTok. This version is the side-by-side street duo, and the AI trend puts you and a friend in it. Genjutsu keeps the original motion, camera moves and timing and rebuilds both people from your photos.
 
@@ -883,7 +883,7 @@ Questions:
 - Q: How do I make the I Feel Like Nicole AI video?
   A: Open this page. The I Feel Like Nicole clip is already loaded. Add 2 photos, then click Generate.
 - Q: How much does the I Feel Like Nicole AI video cost?
-  A: In Normal mode (Light), the 14-second version at 480p costs 310 credits (about $3.10). The stronger model renders the full 14-second clip for 768 credits (about $7.68). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 14-second version at 480p costs 310 credits (about $3.10). Premium mode renders the full 14-second clip for 768 credits (about $7.68). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: The first photo replaces the blonde dancer on the left and the second replaces the dancer in the cap on the right.
 - Q: What photos work best?
@@ -894,8 +894,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -905,7 +905,7 @@ Questions:
 
 ### Nicole Kidman Dance: ADÉLA Solo
 URL: https://genjutsu-trends.com/trends/nicole-kidman-dance/
-Facts: 1 photo (The dancer); vertical MP4; Normal mode (Light): 14 s from $3.10; stronger model: same 14 s clip from $7.68. Also called: ADÉLA Nicole Kidman dance, Nicole Kidman TikTok dance (solo).
+Facts: 1 photo (The dancer); vertical MP4; Budget mode (Genjutsu Light): 14 s from $3.10; Premium: same 14 s clip from $7.68. Also called: ADÉLA Nicole Kidman dance, Nicole Kidman TikTok dance (solo).
 
 ADÉLA's "Nicole Kidman" turned into a huge TikTok dance trend. This is the classic solo version filmed at home, and the AI trend puts you in it. Genjutsu keeps the original motion, camera moves and timing and rebuilds the person from your photo.
 
@@ -920,7 +920,7 @@ Questions:
 - Q: How do I make the Nicole Kidman Dance AI video?
   A: Open this page. The Nicole Kidman Dance clip is already loaded. Add one photo, then click Generate.
 - Q: How much does the Nicole Kidman Dance AI video cost?
-  A: In Normal mode (Light), the 14-second version at 480p costs 310 credits (about $3.10). The stronger model renders the full 14-second clip for 768 credits (about $7.68). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 14-second version at 480p costs 310 credits (about $3.10). Premium mode renders the full 14-second clip for 768 credits (about $7.68). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: Your photo replaces the dancer. The room and the routine stay as they are.
 - Q: What photos work best?
@@ -931,8 +931,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -942,7 +942,7 @@ Questions:
 
 ### The Jawn Dance: Wait for the Drop
 URL: https://genjutsu-trends.com/trends/jawn-dance/
-Facts: 1 photo (The dancer); vertical MP4; Normal mode (Light): 12 s from $2.80; stronger model: same 12 s clip from $6.73. Also called: The Jawn AI trend, Jawn dance.
+Facts: 1 photo (The dancer); vertical MP4; Budget mode (Genjutsu Light): 12 s from $2.80; Premium: same 12 s clip from $6.73. Also called: The Jawn AI trend, Jawn dance.
 
 The Jawn dance trend is all about the wait: you stand still and straight-faced while the song builds, then grin and bounce side to side when the beat drops. This garden version stars a tweed-jacket, teddy-bear character, and the AI trend puts you in his place. Genjutsu keeps the original motion, camera moves and timing and rebuilds the person from your photo.
 
@@ -957,7 +957,7 @@ Questions:
 - Q: How do I make the The Jawn Dance AI video?
   A: Open this page. The The Jawn Dance clip is already loaded. Add one photo, then click Generate.
 - Q: How much does the The Jawn Dance AI video cost?
-  A: In Normal mode (Light), the 12-second version at 480p costs 280 credits (about $2.80). The stronger model renders the full 12-second clip for 673 credits (about $6.73). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 12-second version at 480p costs 280 credits (about $2.80). Premium mode renders the full 12-second clip for 673 credits (about $6.73). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: Your photo replaces the man in the tweed jacket. The garden and the teddy bear stay.
 - Q: What photos work best?
@@ -968,8 +968,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -979,7 +979,7 @@ Questions:
 
 ### Yeahh Yeahh: Car Seat Dance Duo
 URL: https://genjutsu-trends.com/trends/yeahh-yeahh/
-Facts: 2 photos (Left seat, Right seat); horizontal MP4; Normal mode (Light): 11 s from $2.65; stronger model: same 11 s clip from $6.25. Also called: red sunglasses car dance, Yeahh Yeahh car trend.
+Facts: 2 photos (Left seat, Right seat); horizontal MP4; Budget mode (Genjutsu Light): 11 s from $2.65; Premium: same 11 s clip from $6.25. Also called: red sunglasses car dance, Yeahh Yeahh car trend.
 
 The "Yeahh Yeahh" car clip shows two friends in matching red sunglasses throwing synchronized seat-dance moves in the front of a car. The AI trend puts you and a friend in those seats. Genjutsu keeps the original motion, camera moves and timing and rebuilds both people from your photos.
 
@@ -994,7 +994,7 @@ Questions:
 - Q: How do I make the Yeahh Yeahh AI video?
   A: Open this page. The Yeahh Yeahh clip is already loaded. Add 2 photos, then click Generate.
 - Q: How much does the Yeahh Yeahh AI video cost?
-  A: In Normal mode (Light), the 11-second version at 480p costs 265 credits (about $2.65). The stronger model renders the full 11-second clip for 625 credits (about $6.25). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 11-second version at 480p costs 265 credits (about $2.65). Premium mode renders the full 11-second clip for 625 credits (about $6.25). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: The first photo replaces the woman in the blue sweater on the left and the second replaces the woman in the striped top on the right.
 - Q: What photos work best?
@@ -1005,8 +1005,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -1016,7 +1016,7 @@ Questions:
 
 ### STORM: The Suit Crowd Drop
 URL: https://genjutsu-trends.com/trends/storm/
-Facts: 1–2 photos (The lead, The crowd); horizontal MP4; 30 s scene, stronger model only, from $15.31. Also called: Yung Lean STORM AI, GENER8ION STORM, Genjutsu STORM, suit crowd trend, mafia boss's daughter video.
+Facts: 1–2 photos (The lead, The crowd); horizontal MP4; 30 s scene, Premium only, from $15.31. Also called: Yung Lean STORM AI, GENER8ION STORM, Genjutsu STORM, suit crowd trend, mafia boss's daughter video.
 
 STORM is the best-known Genjutsu trend: one calm figure in white stands still in the middle of a huge crowd in black suits, and on the beat drop everyone around them erupts. Creators recast the lead with themselves, and versions like the Thai "mafia boss's daughter" edit spread across TikTok, Reels and X. The trend is set to "Storm" by GENER8ION featuring Yung Lean (April 2026), whose Romain Gavras-directed video ends in a huge crowd dance. Genjutsu keeps the original crowd, choreography and camera moves and rebuilds the lead from your photo. Add a second photo to put one face on the whole crowd.
 
@@ -1033,7 +1033,7 @@ Questions:
 - Q: How do I make the STORM video?
   A: Open this page, add one photo for the lead and click Generate. Add a second photo if you want the crowd to have one face too.
 - Q: How much does it cost?
-  A: The 30-second clip at 480p costs 1,531 credits (about $15.31) with the stronger model. This scene doesn't support Normal mode (Light), which is limited to 15 seconds. 720p and 1080p are sharper and cost more. No subscription.
+  A: The 30-second clip at 480p costs 1,531 credits (about $15.31) in Premium mode. This scene doesn't support Budget mode (Genjutsu Light), which is limited to 15 seconds. 720p and 1080p are sharper and cost more. No subscription.
 - Q: Is this the mafia boss's daughter video?
   A: Yes. The "mafia boss's daughter" TikTok is a STORM remake with a woman in white as the lead. This template uses that version.
 - Q: What photos work best?
@@ -1053,7 +1053,7 @@ Questions:
 
 ### Shrek Raindance: Shrek & Lord Farquaad
 URL: https://genjutsu-trends.com/trends/shrek-raindance/
-Facts: 2 photos (Shrek, Lord Farquaad); horizontal MP4; Normal mode (Light): 15 s from $3.25; stronger model: full 29 s scene from $14.84. Also called: Shrek and Lord Farquaad AI, Shrek dock Raindance meme.
+Facts: 2 photos (Shrek, Lord Farquaad); horizontal MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 29 s scene from $14.84. Also called: Shrek and Lord Farquaad AI, Shrek dock Raindance meme.
 
 A realistic AI take on Shrek and Lord Farquaad, staring out at the sea on a dock and a beach to Dave and Tems' "Raindance", went viral on TikTok and Instagram. The trend: you and a friend become the two of them. Genjutsu keeps the original poses, close-ups and timing and rebuilds both characters from your photos, outfits included.
 
@@ -1067,7 +1067,7 @@ Questions:
 - Q: How do I make the Shrek Raindance AI video?
   A: Open this page, add one photo for Shrek and one for Lord Farquaad, then click Generate.
 - Q: How much does it cost?
-  A: In Normal mode (Light), the 15-second version at 480p costs 325 credits (about $3.25). The stronger model renders the full 29-second clip for 1,484 credits (about $14.84). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 29-second clip for 1,484 credits (about $14.84). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: Photo 1 is Shrek (green ogre) and photo 2 is Lord Farquaad (red hat).
 - Q: What photos work best?
@@ -1078,8 +1078,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Normal mode (Light) and the stronger model?
-  A: Light is fast and much cheaper and renders up to 15 seconds of the scene. The stronger model renders the full scene with more detail, and takes a bit longer.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -1088,5 +1088,5 @@ Questions:
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
 ## Other pages
-- [Custom trend](https://genjutsu-trends.com/custom/): upload any 4–30 s MP4 (up to 15 s in Light), 1–8 photos and your own prompt.
+- [Custom trend](https://genjutsu-trends.com/custom/): upload any 4–30 s MP4 (up to 15 s in Budget mode), 1–8 photos and your own prompt.
 - [About Genjutsu](https://genjutsu-trends.com/genjutsu/): what the model does and how this site uses it.
