@@ -272,6 +272,14 @@ export async function submitToHiggsfield(job: Job): Promise<Submit> {
   }
 }
 
+// Moderation messages users see (on My videos and in the email). We map Higgsfield's reason to our own text
+// instead of showing it raw, so a provider message can never carry anything odd to the user.
+export const REAL_PERSON_ERROR =
+  "Higgsfield blocks photos of famous people and public figures. Use your own photos (one person each, facing the camera). Your credits were refunded.";
+const MODERATION_ERROR = "Higgsfield's content check blocked this video. Your credits were refunded.";
+export const moderationError = (reason: unknown) =>
+  /real person|public figure|celebrit|famous/i.test(String(reason ?? "")) ? REAL_PERSON_ERROR : MODERATION_ERROR;
+
 /** Fetch status from Higgsfield, persist it on the job, refund on failure. */
 export async function syncJob(job: Job) {
   if (TERMINAL.has(job.status)) return job;
@@ -286,7 +294,7 @@ export async function syncJob(job: Job) {
     console.error("higgsfield job failed", job.id, String(s.error).slice(0, 500));
     patch.error = "The render failed. Your credits were refunded.";
   }
-  if (s.status === "nsfw") patch.error = "The content was flagged by moderation. Your credits were refunded.";
+  if (s.status === "nsfw") patch.error = moderationError(s.error);
   if (["failed", "nsfw", "canceled"].includes(s.status)) await saveDebug(job.id, { final_body: JSON.stringify(s).slice(0, 4000) });
   const { data } = await admin.from("jobs").update(patch).eq("id", job.id).select().single();
   if (["failed", "nsfw", "canceled"].includes(s.status)) await admin.rpc("refund_job", { p_job: job.id });

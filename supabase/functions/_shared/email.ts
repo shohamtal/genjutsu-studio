@@ -1,12 +1,12 @@
 // "Your video is ready" / "didn't come out" emails, sent once per job through Resend.
 // Service emails about the user's own order (no marketing, so no opt-in needed).
-import { admin } from "./common.ts";
+import { admin, REAL_PERSON_ERROR } from "./common.ts";
 
 const SITE = "https://genjutsu-trends.com/";
 const FROM = "Genjutsu <login@genjutsu-trends.com>";
 const REPLY_TO = "support@genjutsu-trends.com";
 
-type MailJob = { id: string; user_id?: string; trend?: string; status: string; cost?: number };
+type MailJob = { id: string; user_id?: string; trend?: string; status: string; cost?: number; error?: string | null };
 
 const esc = (s: string) =>
   s.replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]!);
@@ -57,10 +57,12 @@ function readyMail(name: string, slug: string) {
   };
 }
 
-function failedMail(name: string, slug: string, status: string, credits: number) {
+function failedMail(name: string, slug: string, status: string, credits: number, error?: string | null) {
   const n = esc(name);
   const c = credits.toLocaleString("en-US");
-  const why = status === "nsfw"
+  const why = status === "nsfw" && error === REAL_PERSON_ERROR
+    ? "Our provider blocks photos of famous people and public figures (for example pictures of celebrities found online), so we didn't make it."
+    : status === "nsfw"
     ? "The video was blocked by the automatic content check, so we didn't make it."
     : "The render failed on our provider's side, so we didn't make it.";
   const retry = slug === "custom" ? `${SITE}custom/` : `${SITE}trends/${encodeURIComponent(slug)}/`;
@@ -72,6 +74,7 @@ function failedMail(name: string, slug: string, status: string, credits: number)
 <p style="margin:0 0 16px;font-size:16px;line-height:1.5;color:#4a4658;">${why} <b>Your ${c} credits are back in your account</b>, so you can try again for free.</p>
 <p style="margin:0 0 8px;font-size:15px;font-weight:600;">What usually works:</p>
 <ul style="margin:0 0 20px;padding-left:20px;font-size:15px;line-height:1.6;color:#4a4658;">
+<li>Your own photos, not pictures of celebrities from the internet</li>
 <li>One person per photo, facing the camera, in good light</li>
 <li>No sunglasses, masks or heavy filters</li>
 <li>Only use photos of people who agreed to be in the video</li>
@@ -100,7 +103,7 @@ export async function notifyJobDone(job: MailJob) {
     if (!to) return;
     const slug = /^[a-z0-9-]{1,40}$/.test(job.trend ?? "") ? job.trend! : "custom";
     const name = await trendName(slug);
-    const mail = ok ? readyMail(name, slug) : failedMail(name, slug, job.status, job.cost ?? 0);
+    const mail = ok ? readyMail(name, slug) : failedMail(name, slug, job.status, job.cost ?? 0, job.error);
     const r = await fetch("https://api.resend.com/emails", {
       method: "POST",
       headers: { Authorization: `Bearer ${key}`, "Content-Type": "application/json", "Idempotency-Key": `job-${job.id}` },
