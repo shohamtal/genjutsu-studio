@@ -333,6 +333,94 @@
       ]
     },
     {
+      "slug": "car-jump-your-car",
+      "name": "Car Jump With Your Own Car: It Lands Behind You",
+      "short": "Car jump (your car)",
+      "card_blurb": "Your own car flies over the bank and lands right behind you while you sit calm on a chair. Your face and your car in.",
+      "video_url": "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/presets/car-jump-your-car.mp4",
+      "poster": "trends/car-jump-your-car/poster.jpg",
+      "preview_url": "trends/car-jump-your-car/preview.mp4",
+      "duration": 12.0,
+      "mode": "motion-transfer",
+      "resolution": "480p",
+      "prompt": "Replace the man in the white outfit sitting on the folding chair with the person in the first uploaded picture, as a realistic person. Replace the red pickup truck with the car in the second uploaded picture: the same make, model and color, jumping over the bank and landing right behind him in the dust. Keep his calm pose and outfit, the chair, the dust cloud, the desert, the golden-hour light, the camera and timing.",
+      "slots": [
+        {
+          "label": "The calm one",
+          "hint": "Sits on the chair",
+          "example": "assets/examples/white-chicks-a.jpg"
+        },
+        {
+          "label": "Your car",
+          "hint": "A clear photo of the car, front or side",
+          "example": "assets/examples/car-jump-car.jpg"
+        }
+      ],
+      "published": "2026-10-28",
+      "seo": {
+        "title": "Car Jump AI Trend With Your Own Car Landing Behind You",
+        "description": "Sit calm on a chair while your own car jumps over the bank and lands behind you. 1 selfie + 1 car photo. No subscription.",
+        "h1": "Car Jump AI Video Generator With Your Own Car",
+        "lead": "Sit dead calm on a chair while <b>your own car flies over the bank</b> and lands right behind you in a cloud of dust. The 12-second clip is locked in: add one selfie and one photo of your car, then click Generate.",
+        "og_title": "Car Jump AI Trend With Your Own Car",
+        "og_tagline": "Car Jump with your car · Genjutsu · Pay per video",
+        "about_html": "<p>The viral car jump: a pickup launches over a bank in golden-hour dust and lands a few meters behind a man who doesn't even look back. This version swaps in two things: you on the chair, and your own car in the air.</p><p><a href=\"../../genjutsu/\">Genjutsu</a> keeps the original motion, camera moves and timing, rebuilds the person from your selfie and the car from your photo.</p>",
+        "steps": [
+          [
+            "Open this page",
+            "The Car Jump clip and the prompt are already loaded. You don't need to find the video or a CapCut template."
+          ],
+          [
+            "Add a selfie and a car photo",
+            "A clear, front-facing, well-lit selfie for the man on the chair, and a clear photo of the car (front or side, the whole car in the shot)."
+          ],
+          [
+            "Keep 480p",
+            "480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video."
+          ],
+          [
+            "Click Generate",
+            "You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back."
+          ],
+          [
+            "Download and post",
+            "Download the MP4 and post it with the trend's sound."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I make the Car Jump AI video with my own car?",
+            "Open this page. The clip is already loaded. Add one selfie and one photo of your car, then click Generate."
+          ],
+          [
+            "How much does it cost?",
+            "In Budget mode (Genjutsu Light), the 12-second clip at 480p costs 280 credits (about $2.80). Premium mode renders the same 12-second clip for 673 credits (about $6.73). 720p and 1080p are sharper and cost more. No subscription."
+          ],
+          [
+            "Who goes where?",
+            "Your selfie becomes the man sitting calm on the chair. Your car photo replaces the red pickup that jumps and lands behind him."
+          ],
+          [
+            "What photos work best?",
+            "A clear, front-facing, well-lit selfie of one person, and a sharp photo of the whole car from the front or side in daylight. Only use photos of people who agreed to be in the video."
+          ],
+          [
+            "Can I use a different clip?",
+            "Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt."
+          ]
+        ]
+      },
+      "light_video_url": "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/presets/light-car-jump-your-car.mp4",
+      "light_duration": 12.0,
+      "aliases": [
+        "car jump with my car",
+        "car jump trend own car",
+        "pickup truck jump AI",
+        "carjump trend"
+      ],
+      "photo_tip": "For the car: one sharp daylight photo of the whole car, from the front or the side, with nothing in front of it"
+    },
+    {
       "slug": "dance-your-style",
       "name": "Dance Battle Solo",
       "short": "Dance battle solo",

@@ -307,6 +307,8 @@ def photo_tips(t):
             tips.append(f"One photo per part ({n} parts), in the order shown on the page" if m >= n
                         else f"Only the first photo is required; add up to {n - 1} more for the other parts, in the order shown" if m == 1
                         else f"The first {m} photos are required; add up to {n - m} more, in the order shown")
+        if t.get("photo_tip"):
+            tips.append(t["photo_tip"])
         tips.append("Only use photos of people who agreed to be in the video")
     return "      <h2>Photo tips</h2>\n      <ul>\n" + "\n".join(f"        <li>{esc(x)}.</li>" for x in tips) + "\n      </ul>\n"
 
