@@ -21,7 +21,7 @@ async function trendName(slug: string): Promise<string> {
   return names?.[slug] ?? slug.replace(/-/g, " ");
 }
 
-function shell(preheader: string, body: string) {
+function shell(ref: "email-ready" | "email-failed", preheader: string, body: string) {
   return `<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><meta name="color-scheme" content="light dark"></head>
 <body style="margin:0;padding:0;background:#f3f1f8;">
 <span style="display:none;max-height:0;overflow:hidden;opacity:0">${preheader}</span>
@@ -30,7 +30,7 @@ function shell(preheader: string, body: string) {
 <tr><td style="background:#0b0b10;padding:16px 24px;font-size:18px;font-weight:700;color:#ffffff;">🌀 Genjutsu <span style="color:#a78bfa;font-weight:600">Studio</span></td></tr>
 ${body}
 <tr><td style="padding:18px 24px 24px;border-top:1px solid #eee;font-size:12px;line-height:1.5;color:#8a8696;">
-You're getting this because you made a video on <a href="${SITE}" style="color:#8a8696;">genjutsu-trends.com</a>. Questions? Reply to <a href="mailto:${REPLY_TO}" style="color:#8a8696;">${REPLY_TO}</a>.<br>
+You're getting this because you made a video on <a href="${SITE}?ref=${ref}" style="color:#8a8696;">genjutsu-trends.com</a>. Questions? Reply to <a href="mailto:${REPLY_TO}" style="color:#8a8696;">${REPLY_TO}</a>.<br>
 Independent service, not affiliated with Higgsfield AI.</td></tr>
 </table></td></tr></table></body></html>`;
 }
@@ -42,17 +42,17 @@ function readyMail(name: string, slug: string) {
   const img = slug === "custom" ? `${SITE}og.jpg` : `${SITE}trends/${encodeURIComponent(slug)}/og.jpg`;
   return {
     subject: `Your ${name} video is ready 🎬`,
-    html: shell("Watch it, download it, and post it.", `
-<tr><td style="padding:0;"><a href="${SITE}my-videos/"><img src="${img}" width="560" alt="Your ${n} video" style="display:block;width:100%;height:auto;border:0;"></a></td></tr>
+    html: shell("email-ready", "Watch it, download it, and post it.", `
+<tr><td style="padding:0;"><a href="${SITE}my-videos/?ref=email-ready"><img src="${img}" width="560" alt="Your ${n} video" style="display:block;width:100%;height:auto;border:0;"></a></td></tr>
 <tr><td style="padding:24px 24px 8px;">
 <h1 style="margin:0 0 10px;font-size:24px;line-height:1.25;">Your ${n} video is ready 🎬</h1>
 <p style="margin:0 0 20px;font-size:16px;line-height:1.5;color:#4a4658;">It took a few minutes, and it's waiting for you. Watch it, download the MP4 and post it.</p>
-<p style="margin:0 0 22px;">${btn(`${SITE}my-videos/`, "▶ Watch &amp; download")}</p>
+<p style="margin:0 0 22px;">${btn(`${SITE}my-videos/?ref=email-ready`, "▶ Watch &amp; download")}</p>
 <p style="margin:0 0 6px;font-size:14px;line-height:1.5;color:#4a4658;">Tip: download it to keep a copy. Videos may not stay online forever.</p>
 </td></tr>
 <tr><td style="padding:8px 24px 22px;">
 <table role="presentation" width="100%" style="background:#f7f5fc;border-radius:12px;"><tr><td style="padding:14px 16px;font-size:15px;line-height:1.5;">
-<b>Make another one?</b> More trends are waiting. <a href="${SITE}" style="color:#7c3aed;font-weight:600;">Browse trends →</a>
+<b>Make another one?</b> More trends are waiting. <a href="${SITE}?ref=email-ready" style="color:#7c3aed;font-weight:600;">Browse trends →</a>
 </td></tr></table></td></tr>`),
   };
 }
@@ -65,10 +65,10 @@ function failedMail(name: string, slug: string, status: string, credits: number,
     : status === "nsfw"
     ? "The video was blocked by the automatic content check, so we didn't make it."
     : "The render failed on our provider's side, so we didn't make it.";
-  const retry = slug === "custom" ? `${SITE}custom/` : `${SITE}trends/${encodeURIComponent(slug)}/`;
+  const retry = slug === "custom" ? `${SITE}custom/?ref=email-failed` : `${SITE}trends/${encodeURIComponent(slug)}/?ref=email-failed`;
   return {
     subject: `Your ${name} video didn't come out`,
-    html: shell(`Your ${c} credits are back in your account.`, `
+    html: shell("email-failed", `Your ${c} credits are back in your account.`, `
 <tr><td style="padding:24px 24px 8px;">
 <h1 style="margin:0 0 10px;font-size:24px;line-height:1.25;">Your ${n} video didn't come out</h1>
 <p style="margin:0 0 16px;font-size:16px;line-height:1.5;color:#4a4658;">${why} <b>Your ${c} credits are back in your account</b>, so you can try again for free.</p>
