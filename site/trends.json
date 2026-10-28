@@ -252,9 +252,9 @@
     },
     {
       "slug": "car-jump",
-      "name": "Car Jump: Sit Calm as a Truck Lands Beside You",
+      "name": "Car Jump: Sit Calm as a Truck Lands Behind You",
       "short": "Car jump",
-      "card_blurb": "A 4x4 flies over a dune and lands right in front of you, sitting calm on a chair. One face in.",
+      "card_blurb": "A 4x4 flies over a dune and lands right behind you, sitting calm on a chair. One face in.",
       "video_url": "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/presets/desert-truck-jump.mp4",
       "poster": "trends/car-jump/poster.jpg",
       "preview_url": "trends/car-jump/preview.mp4",
@@ -271,11 +271,11 @@
       ],
       "published": "2026-10-25",
       "seo": {
-        "title": "Car Jump AI Trend: Sit Calm as a Truck Lands Beside You",
-        "description": "Sit dead calm on a chair while a 4x4 launches over a dune and lands a few meters in front of you. 1 photo. No subscription.",
+        "title": "Car Jump AI Trend: Sit Calm as a Truck Lands Behind You",
+        "description": "Sit dead calm on a chair while a 4x4 launches over a dune and lands a few meters behind you. 1 photo. No subscription.",
         "h1": "Car Jump AI Video Generator (Desert Truck Jump)",
         "lead": "Sit perfectly still on a chair in the desert while a <b>4x4 flies over the dune</b> and lands right behind you in a wall of dust. The 12-second clip is locked in: add one selfie and click Generate.",
-        "og_title": "Car Jump AI Trend: Sit Calm as a Truck Lands Beside You",
+        "og_title": "Car Jump AI Trend: Sit Calm as a Truck Lands Behind You",
         "og_tagline": "Desert Truck Jump AI face swap · Genjutsu · Pay per video",
         "about_html": "<p>The joke is the contrast: a heavy 4x4 launches over a dune in a cloud of golden dust and lands a few meters away, while the man on the chair doesn't move a muscle. This version puts you on that chair.</p><p><a href=\"../../genjutsu/\">Genjutsu</a> keeps the original motion, camera moves and timing and rebuilds the person from your selfie.</p>",
         "steps": [
@@ -358,9 +358,9 @@
       ],
       "published": "2026-10-28",
       "seo": {
-        "title": "Car Jump AI Trend With Your Own Car Landing Behind You",
+        "title": "Your Own Car Jump AI Trend: Your Car Lands Behind You",
         "description": "Sit calm on a chair while your own car jumps over the bank and lands behind you. 1 selfie + 1 car photo. No subscription.",
-        "h1": "Car Jump AI Video Generator With Your Own Car",
+        "h1": "Car Jump AI With Your Own Car",
         "lead": "Sit dead calm on a chair while <b>your own car flies over the bank</b> and lands right behind you in a cloud of dust. The 12-second clip is locked in: add one selfie and one photo of your car, then click Generate.",
         "og_title": "Car Jump AI Trend With Your Own Car",
         "og_tagline": "Car Jump with your car · Genjutsu · Pay per video",
@@ -415,7 +415,6 @@
       "aliases": [
         "car jump with my car",
         "car jump trend own car",
-        "pickup truck jump AI",
         "carjump trend"
       ],
       "photo_tip": "For the car: one sharp daylight photo of the whole car, from the front or the side, with nothing in front of it"
@@ -458,7 +457,7 @@
         "lead": "Become <b>Homelander</b> on the mound: the cape, the stare, the pitch. Add a friend as the batter in the maroon jacket and one as Butcher if you like. The clip is locked in: add your photo and click Generate.",
         "og_title": "The Boys AI Trend: Pitch as Homelander",
         "og_tagline": "The Boys baseball AI face swap · Genjutsu · Pay per video",
-        "about_html": "<p>The Boys baseball trend drops you into a tense game on an empty field: Homelander winds up and pitches, the batter in the maroon jacket swings, and Butcher charges in before it all ends in a tackle. This version puts your face on Homelander, and up to two friends on the batter and Butcher.</p><p><a href=\"../../genjutsu/\">Genjutsu</a> keeps the original motion, camera moves and timing and rebuilds each person from your photos.</p>",
+        "about_html": "<p>The Boys baseball trend drops you into a tense game on an empty field: Homelander winds up and pitches, the batter in the maroon jacket swings, and Butcher charges in before it all ends in a tackle. This Genjutsu take on The Boys trend puts your face on Homelander, and up to two friends on the batter and Butcher.</p><p><a href=\"../../genjutsu/\">Genjutsu</a> keeps the original motion, camera moves and timing and rebuilds each person from your photos.</p>",
         "steps": [
           [
             "Open this page",
@@ -511,7 +510,8 @@
         "The Boys AI trend",
         "Homelander AI video",
         "The Boys baseball scene",
-        "Homelander pitch trend"
+        "Homelander pitch trend",
+        "The Boys Genjutsu trend"
       ]
     },
     {
