@@ -421,6 +421,100 @@
       "photo_tip": "For the car: one sharp daylight photo of the whole car, from the front or the side, with nothing in front of it"
     },
     {
+      "slug": "the-boys-baseball",
+      "name": "The Boys Baseball: Pitch as Homelander",
+      "short": "The Boys baseball",
+      "card_blurb": "Homelander pitches, Mother's Milk swings and Butcher charges in. Play Homelander, add up to two friends.",
+      "video_url": "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/presets/the-boys-baseball.mp4",
+      "poster": "trends/the-boys-baseball/poster.jpg",
+      "preview_url": "trends/the-boys-baseball/preview.mp4",
+      "duration": 27.0,
+      "mode": "motion-transfer",
+      "resolution": "480p",
+      "prompt": "Replace Homelander (the blond man in the blue suit with the red and white cape who pitches the baseball) with the first uploaded picture, as a realistic person. If a second picture is uploaded, replace the batter in the maroon leather jacket with that person. If a third picture is uploaded, replace the bearded man in the dark coat (Butcher) with that person. Anyone without a picture stays as they are. Keep the costumes, the baseball field, the pitch, the swing, the flying and the tackle, the camera cuts and timing.",
+      "slots": [
+        {
+          "label": "Homelander",
+          "hint": "The pitcher in the cape",
+          "example": "assets/examples/white-chicks-a.jpg"
+        },
+        {
+          "label": "The batter",
+          "hint": "Optional · maroon jacket",
+          "example": "assets/examples/white-chicks-b.jpg"
+        },
+        {
+          "label": "Butcher",
+          "hint": "Optional · bearded, dark coat",
+          "example": "assets/examples/white-chicks-a.jpg"
+        }
+      ],
+      "min_photos": 1,
+      "published": "2026-10-28",
+      "seo": {
+        "title": "The Boys AI Trend: Pitch as Homelander in the Baseball Scene",
+        "description": "Put your face on Homelander as he pitches in The Boys baseball scene. Add up to 2 friends as the batter and Butcher. No subscription.",
+        "h1": "The Boys AI Video Generator (Homelander Baseball Scene)",
+        "lead": "Become <b>Homelander</b> on the mound: the cape, the stare, the pitch. Add a friend as the batter in the maroon jacket and one as Butcher if you like. The clip is locked in: add your photo and click Generate.",
+        "og_title": "The Boys AI Trend: Pitch as Homelander",
+        "og_tagline": "The Boys baseball AI face swap · Genjutsu · Pay per video",
+        "about_html": "<p>The Boys baseball trend drops you into a tense game on an empty field: Homelander winds up and pitches, the batter in the maroon jacket swings, and Butcher charges in before it all ends in a tackle. This version puts your face on Homelander, and up to two friends on the batter and Butcher.</p><p><a href=\"../../genjutsu/\">Genjutsu</a> keeps the original motion, camera moves and timing and rebuilds each person from your photos.</p>",
+        "steps": [
+          [
+            "Open this page",
+            "The Boys baseball clip and the prompt are already loaded. You don't need to find the video or a CapCut template."
+          ],
+          [
+            "Add your photo",
+            "A clear, front-facing, well-lit photo for Homelander. Add a second and third photo for the batter and Butcher if you want friends in it."
+          ],
+          [
+            "Keep 480p",
+            "480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video."
+          ],
+          [
+            "Click Generate",
+            "You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back."
+          ],
+          [
+            "Download and post",
+            "Download the MP4 and post it with the trend's sound."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I make The Boys AI video?",
+            "Open this page. The baseball clip is already loaded. Add your photo for Homelander, then click Generate."
+          ],
+          [
+            "How much does The Boys AI video cost?",
+            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 27-second clip for 1,388 credits (about $13.88). 720p and 1080p are sharper and cost more. No subscription."
+          ],
+          [
+            "Who goes where?",
+            "The first photo becomes Homelander, the pitcher in the cape. The second (optional) becomes the batter in the maroon jacket, and the third (optional) becomes Butcher. Anyone without a photo stays as in the original."
+          ],
+          [
+            "What photos work best?",
+            "Clear, front-facing, well-lit photos of one person each. Use your own photos, not pictures of the actors or other famous people: those get blocked. Only use photos of people who agreed to be in the video."
+          ],
+          [
+            "Can I use a different clip?",
+            "Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt."
+          ]
+        ]
+      },
+      "light_video_url": "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/presets/light-the-boys-baseball.mp4",
+      "light_duration": 15.0,
+      "light_preview_url": "trends/the-boys-baseball/preview-light.mp4",
+      "aliases": [
+        "The Boys AI trend",
+        "Homelander AI video",
+        "The Boys baseball scene",
+        "Homelander pitch trend"
+      ]
+    },
+    {
       "slug": "dance-your-style",
       "name": "Dance Battle Solo",
       "short": "Dance battle solo",

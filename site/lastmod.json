@@ -1,7 +1,7 @@
 {
  "": {
   "day": "2026-10-28",
-  "hash": "5ec0aa4bfd418f70557ee2615b0a3856c4d82a60"
+  "hash": "d223e735ec540f60aa7e416fc5131f2b9cc2dff9"
  },
  "accessibility/": {
   "day": "2026-10-26",
@@ -9,7 +9,7 @@
  },
  "custom/": {
   "day": "2026-10-28",
-  "hash": "28e1b5e4a8bba780f5d21f804816ad8eb2f8116b"
+  "hash": "2f532ef1cf1e93902dee19aa9bb246eb48d6521b"
  },
  "genjutsu/": {
   "day": "2026-10-26",
@@ -29,122 +29,126 @@
  },
  "trends/alors-on-danse/": {
   "day": "2026-10-28",
-  "hash": "d10678403b1fa649adf0954165456d4eff1e4308"
+  "hash": "e64cd2866b60c274227eec9e588b695e9e77384b"
  },
  "trends/apt/": {
   "day": "2026-10-28",
-  "hash": "462f8c8e932ffb0416a4e17aa358b975ef1375b0"
+  "hash": "f3db21b0a5d3e570c2d6d3b9d4a0a9c6d9302d4f"
  },
  "trends/bad-times-baby/": {
   "day": "2026-10-28",
-  "hash": "2f1ae21e7176c17c4093e873c94aca1e81252bca"
+  "hash": "765d108e74b03792e10fa468e17a872c89490b6c"
  },
  "trends/bad-times-duo/": {
   "day": "2026-10-28",
-  "hash": "927612cc2bb38ec1732478a699f832842dc1e3d2"
+  "hash": "371bf7fae918270a295ae4520a2fff0db25ae137"
  },
  "trends/bad-times-pet/": {
   "day": "2026-10-28",
-  "hash": "da9567157d5c424a09ea74c7b7bd2cfbd8d197d0"
+  "hash": "7be3b42ab226dff0636f4c75b986a37e56b4c5f7"
  },
  "trends/bad-times/": {
   "day": "2026-10-28",
-  "hash": "3bff2d008f2fd080073e1cb6a72411746083f5a1"
+  "hash": "53dd08b790de97cba490068b5be031081f3fe8fc"
  },
  "trends/bulin-47/": {
   "day": "2026-10-28",
-  "hash": "4b3bff68c199181d43f819a3aaa1e6c527727f4d"
+  "hash": "05527eb7e19a873a4fb48e183acbcf57d7611d5a"
  },
  "trends/car-jump-your-car/": {
   "day": "2026-10-28",
-  "hash": "8982e758422c03357ddecf0ed9de56dc6f794387"
+  "hash": "cc7fab4efe10688b6aa43693242735fb6100fcc4"
  },
  "trends/car-jump/": {
   "day": "2026-10-28",
-  "hash": "833201053a52d7d31e30b11b8ebfba0a983db38d"
+  "hash": "000e5ff750d5f2de345469dd3e54c2986fd9ae7c"
  },
  "trends/cheba-man-lights/": {
   "day": "2026-10-28",
-  "hash": "b38845c5145117e4c967024ff3f06f1426810fc7"
+  "hash": "ad7e32474b116fb30344603e6c462e4266542ce1"
  },
  "trends/cheba-man/": {
   "day": "2026-10-28",
-  "hash": "ee5be2d079666b21770327b3d61c00d494a3d465"
+  "hash": "22f3dbf31172cd6e105d814f6f2d0121938eb044"
  },
  "trends/dance-your-style/": {
   "day": "2026-10-28",
-  "hash": "7e12988466adab130e3bf048089733e1669b0695"
+  "hash": "00002d56c92513ebc77f27c79f4c3eaccb7dd1e2"
  },
  "trends/dojo-fight/": {
   "day": "2026-10-28",
-  "hash": "f081f83df9f394e54e3949ec26d58a6a0e612fb1"
+  "hash": "858a39e88c02f45961b474fde64370c224b4164f"
  },
  "trends/gas-station-dance/": {
   "day": "2026-10-28",
-  "hash": "d51af8f468ba610411ba4852b926c49f2eb9203e"
+  "hash": "41115cd4f452c03acffe74a9f304d5d9404094f2"
  },
  "trends/hotel-lobby/": {
   "day": "2026-10-28",
-  "hash": "464684562976fd7b6354aff5248045d9cf24220f"
+  "hash": "ac6d590a355eefc34c646b9e6a2f601ecccf0c60"
  },
  "trends/i-feel-like-nicole/": {
   "day": "2026-10-28",
-  "hash": "c8e55f53c60e7f65c43916ff1e6404fee57836e0"
+  "hash": "3f566ec1f87f047d70e6a7d50c110ea2fd8e6161"
  },
  "trends/industry-baby/": {
   "day": "2026-10-28",
-  "hash": "0e16157e9cfe0dfe154edbeda73a897d65d00c16"
+  "hash": "5416dd41e726b381d53dea835587d80b93d9dd90"
  },
  "trends/jawn-baby/": {
   "day": "2026-10-28",
-  "hash": "601dc2a6feeea176f4efd7b6ca5ceb57c1d4052d"
+  "hash": "85f5fa6a2431a81fde0c15b3f78dfdab088e6fd2"
  },
  "trends/jawn-dance/": {
   "day": "2026-10-28",
-  "hash": "3cce575e651cfcbfcfbad79366e8270a662eb40c"
+  "hash": "03ca9923c6e8916dd0ba84232dc13a7448fff1fc"
  },
  "trends/millionaire-lambo/": {
   "day": "2026-10-28",
-  "hash": "e6e5c9be66ae01d1d0e75d30111bca1457a94bb5"
+  "hash": "64224f026c487a9079aec14e1d82874792fae048"
  },
  "trends/nicole-kidman-dance/": {
   "day": "2026-10-28",
-  "hash": "555f3d399f18872ad7e99e0294ef333967ac7a76"
+  "hash": "5dec6bb4d5be35920969e8b5e8f69c18b73c7a05"
  },
  "trends/raindance/": {
   "day": "2026-10-28",
-  "hash": "1a855d1d42f60dc07f509db0c91e622c07088d08"
+  "hash": "8f0af6f9fa8615f2429f856f5b1badae33257d31"
  },
  "trends/shrek-raindance/": {
   "day": "2026-10-28",
-  "hash": "5728f667d529baadbc5fac7747115f37b99b8c46"
+  "hash": "e751a5921e99088619aa8fa88cb5bce1d0f1cae7"
  },
  "trends/smooth-criminal/": {
   "day": "2026-10-28",
-  "hash": "cc04b28d16654ce18b5e86efe12ae304e7a2c02a"
+  "hash": "e5d9b2421aedfc1d614281bba2984b1fe88dac11"
  },
  "trends/storm/": {
   "day": "2026-10-28",
-  "hash": "83ae5f3d3b37a121d37c9e3519bb7d15441c61b4"
+  "hash": "b575acbd621b0250c6a8900e2bcea25fa2b7d9b7"
+ },
+ "trends/the-boys-baseball/": {
+  "day": "2026-10-28",
+  "hash": "88af4193828b1d69074042ccbb2d4663077ff153"
  },
  "trends/thriller-red-jacket/": {
   "day": "2026-10-28",
-  "hash": "6ad226f7a60e980cef9d7b11adfcace0219fee6f"
+  "hash": "e5975cfdb8b2d4c5253184740eb2057478f6f666"
  },
  "trends/thriller/": {
   "day": "2026-10-28",
-  "hash": "8caa6a64e07376c617290edab0ca29e43d4cb1d8"
+  "hash": "22300320f42f7d36eb2a4de47e287c7c72960c03"
  },
  "trends/turn-the-lights-off/": {
   "day": "2026-10-28",
-  "hash": "b8be63b09edde1f0f7f907dcb0ebf4e6dbd5a9b9"
+  "hash": "d8905473123357d22d8de2fbb4b3bacc9213ec14"
  },
  "trends/white-chicks/": {
   "day": "2026-10-28",
-  "hash": "bd143da7a83e7123f06900e67f70b156ba7b8fbb"
+  "hash": "c3dd9c9f452b759ce1316e843cb81cc6190fd95e"
  },
  "trends/yeahh-yeahh/": {
   "day": "2026-10-28",
-  "hash": "048239048c0810d7b7a96387a71105c38a4fa646"
+  "hash": "bbb13c4c20971dd389e94964edac513f2a907bdc"
  }
 }
