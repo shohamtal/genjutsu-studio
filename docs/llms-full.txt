@@ -2,7 +2,7 @@
 
 > Make viral AI video trends with your own photos, in the browser. Pick a trend, upload a photo for each part, and Higgsfield's Genjutsu model puts you in the scene. Pay per video, no subscription, no app.
 
-Last updated: 2026-10-28. Independent site: not affiliated with or endorsed by Higgsfield AI.
+Last updated: 2026-10-29. Independent site: not affiliated with or endorsed by Higgsfield AI.
 
 ## Pricing
 - From $2.50 per video (Budget mode / Genjutsu Light, 480p). Premium mode and 720p/1080p cost more.
@@ -47,6 +47,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -84,6 +86,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -121,6 +125,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -158,6 +164,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -195,6 +203,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -232,6 +242,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -269,6 +281,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -306,6 +320,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -343,6 +359,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -380,6 +398,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -417,6 +437,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -454,6 +476,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -491,6 +515,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -528,6 +554,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -565,6 +593,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -602,6 +632,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -639,6 +671,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -676,6 +710,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -715,6 +751,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -752,6 +790,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -789,6 +829,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -826,6 +868,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -863,6 +907,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -900,6 +946,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -937,6 +985,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -974,6 +1024,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -1011,6 +1063,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -1048,6 +1102,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -1085,6 +1141,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -1122,6 +1180,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
@@ -1158,6 +1218,8 @@ Questions:
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
   A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 

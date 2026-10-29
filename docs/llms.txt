@@ -2,7 +2,7 @@
 
 > Make viral AI video trends with your own photos, in the browser. Pick a trend, upload a photo for each part, and Higgsfield's Genjutsu model puts you in the scene. Pay per video, no subscription, no app.
 
-Last updated: 2026-10-28. Independent site: not affiliated with or endorsed by Higgsfield AI.
+Last updated: 2026-10-29. Independent site: not affiliated with or endorsed by Higgsfield AI.
 
 ## Pricing
 - From $2.50 per video (Budget mode / Genjutsu Light, 480p). Premium mode and 720p/1080p cost more.

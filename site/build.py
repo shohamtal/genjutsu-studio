@@ -212,6 +212,7 @@ def footer(root, app=True, page=None):
     <div class="packs" id="packs"></div>
     <div id="paypal-buttons"></div>
     <p class="err" id="buy-err"></p>
+    <p class="fine">By buying you agree to the <a href="{root}terms/">Terms</a>. AI results vary, and credits spent on a finished video can't be refunded.</p>
   </dialog>
 
   <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
@@ -321,6 +322,7 @@ def extra_faq(t):
                   "Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer."))
     q += [("Which resolution should I pick?", "480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch."),
           ("What if the video doesn't come out well?", "If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result."),
+          ("Will the video follow my prompt exactly?", "Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks."),
           ("Can I download and share it?", "Yes. Download the MP4 from \"My videos\" and post it anywhere, or share a link to it.")]
     return q
 
