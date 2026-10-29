@@ -671,12 +671,18 @@ on("credits-pill", "click", () => openBuy());
 // "Just this video" pays exactly the missing credits, so nothing is left over. Packs are optional.
 const MIN_EXACT = 200; // $2: below that PayPal's fixed fee eats the payment
 
+function bonusPacks() {
+  const B = C.BONUS;
+  if (!B || !(Date.now() < Date.parse(B.until))) return C.PACKS;
+  return C.PACKS.map((p) => ({ ...p, base: p.credits, credits: Math.round(p.credits * (100 + B.pct) / 100), bonus: B.pct }));
+}
 function packList() {
+  const packs = bonusPacks();
   const short = estimate() - state.credits;
-  if (short <= 0) return C.PACKS;
+  if (short <= 0) return packs;
   const credits = Math.max(short, MIN_EXACT);
   const tag = short >= MIN_EXACT ? "No leftovers" : "Minimum $2";
-  return [{ id: "exact", label: "Just this video", tag, credits, usd: (credits / 100).toFixed(2) }, ...C.PACKS];
+  return [{ id: "exact", label: "Just this video", tag, credits, usd: (credits / 100).toFixed(2) }, ...packs];
 }
 // Funnel counts in GoatCounter (buy-open -> purchase/<pack> -> generate/<trend>): event names only, no
 // amounts or user data. Demo and ?mock= test runs are not counted.
@@ -698,7 +704,7 @@ function renderPacks() {
     const b = document.createElement("button");
     b.className = "pack" + (p.id === state.pack ? " active" : "");
     b.innerHTML = `<span><span class="p-name">${p.label}</span>${p.tag ? `<span class="tag">${p.tag}</span>` : ""}
-      <div class="p-cred">${p.credits.toLocaleString()} credits</div></span><span class="p-price">$${p.usd}</span>`;
+      <div class="p-cred">${p.base ? `<s>${p.base.toLocaleString()}</s> ` : ""}${p.credits.toLocaleString()} credits${p.bonus ? ` <b class="p-bonus">+${p.bonus}%</b>` : ""}</div></span><span class="p-price">$${p.usd}</span>`;
     b.onclick = () => { state.pack = p.id; renderPacks(); renderPayPal(); };
     box.appendChild(b);
   }
@@ -722,7 +728,7 @@ function loadPayPal() {
 }
 async function renderPayPal() {
   const box = $("paypal-buttons"); box.innerHTML = "";
-  const pack = packList().find((p) => p.id === state.pack) || C.PACKS[0];
+  const pack = packList().find((p) => p.id === state.pack) || packList()[0];
   if (DEMO || !C.PAYPAL_CLIENT_ID) {
     const b = document.createElement("button"); b.className = "btn primary wide";
     b.textContent = `Pay $${pack.usd} (demo)`;

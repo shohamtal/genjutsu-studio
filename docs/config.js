@@ -11,6 +11,8 @@ window.GENJUTSU_CONFIG = {
     { id: "creator", usd: 15, credits: 1600, label: "Creator", tag: "Popular" },
     { id: "studio", usd: 40, credits: 4500, label: "Studio", tag: "Best value" },
   ],
+  // Display only: +pct% credits on the packs above for orders before `until` (server is authoritative).
+  BONUS: { pct: 20, until: "2026-11-05T00:00:00Z" },
   // Display-only cost preview: credits per second + flat fee per video. Keep in sync with
   // the HF_DISCOUNT / MARKUP / FEE_USD secrets (server is authoritative).
   CREDITS_PER_SEC: { "480p": 47.7, "720p": 102.15, "1080p": 244.8 }, // Higgsfield list price x 1.5

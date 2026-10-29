@@ -111,6 +111,7 @@ footer { text-align: center; color: var(--muted); font-size: 13px; padding: 30px
 .pack.active { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
 .pack .p-name { font-weight: 700; } .pack .p-cred { color: var(--muted); font-size: 14px; }
 .pack .p-price { font-weight: 800; font-size: 18px; }
+.pack .p-cred s { opacity: .6; } .pack .p-bonus { color: var(--accent); font-weight: 700; }
 .tag { font-size: 11px; background: var(--accent); color: #111; padding: 2px 8px; border-radius: 99px; margin-left: 6px; font-weight: 700; }
 #paypal-buttons { min-height: 50px; }
 

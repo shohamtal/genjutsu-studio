@@ -9,6 +9,11 @@ const PACKS: Record<string, { usd: string; credits: number }> = {
   creator: { usd: "15.00", credits: 1600 },
   studio: { usd: "40.00", credits: 4500 },
 };
+// Launch bonus (nov-bonus email): +20% credits on the three packs (not "exact") for orders created before
+// the end date. Same price; ends by itself. Keep in sync with BONUS in docs/config.js (display only).
+const BONUS = { pct: 20, until: Date.parse("2026-11-05T00:00:00Z") };
+const withBonus = (p: { usd: string; credits: number }) =>
+  Date.now() < BONUS.until ? { ...p, credits: Math.round(p.credits * (100 + BONUS.pct) / 100) } : p;
 
 
 serve(async (req) => {
@@ -27,7 +32,7 @@ serve(async (req) => {
       const n = Math.floor(Number(body.credits));
       const pack = body.pack_id === "exact"
         ? (n >= 200 && n <= 10000 ? { usd: (n / 100).toFixed(2), credits: n } : null)
-        : PACKS[body.pack_id];
+        : Object.hasOwn(PACKS, body.pack_id) ? withBonus(PACKS[body.pack_id]) : null;
       if (!pack) return json({ error: "Unknown pack" }, 400);
       const r = await fetch(`${PP_BASE}/v2/checkout/orders`, {
         method: "POST",
