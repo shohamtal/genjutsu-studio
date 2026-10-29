@@ -249,6 +249,8 @@ RES_ROW = """      <div class="row">
 
       <div class="breakdown" id="breakdown" hidden></div>
 
+      <label class="consent"><input type="checkbox" id="consent">
+        <span>I understand that the video is made by AI and may not match my prompt or photos exactly, and that a video can't be cancelled or refunded once it has been generated. I have read and agree to the <a href="/terms/" target="_blank" rel="noopener">Terms of Use</a>.</span></label>
       <button id="generate-btn" class="btn primary big" disabled>Generate video</button>
       <p class="fine">Failed or moderated generations are refunded automatically. Download your video to keep a copy.</p>
 """
@@ -261,6 +263,10 @@ def photos_text(t):
 
 def has_light(t):
     return bool(t.get("light_video_url"))
+
+
+def light_only(t):  # Premium removed for this trend: Budget gave clearly better results
+    return has_light(t) and bool(t.get("light_only"))
 
 
 # ---- shared trend-page sections (one template for every trend) ----
@@ -284,7 +290,8 @@ def price_section(t):
         ls = billed_secs(t["light_duration"], True)
         rows.append(("Budget (Genjutsu Light)", f"{ls} s", [credits_for(ls, LIGHT_RATES[r]) for r in RATES]))
     fs = billed_secs(t["duration"], False)
-    rows.append(("Premium (full Genjutsu)", f"{fs} s", [credits_for(fs, RATES[r]) for r in RATES]))
+    if not light_only(t):
+        rows.append(("Premium (full Genjutsu)", f"{fs} s", [credits_for(fs, RATES[r]) for r in RATES]))
     head = "".join(f"<th>{r}</th>" for r in RATES)
     body = "".join(f"<tr><td>{esc(n)} · {d}</td>" + "".join(f"<td><b>${c / 100:.2f}</b><br><span class=\"muted\">{c:,} cr</span></td>" for c in cs) + "</tr>" for n, d, cs in rows)
     low = min(min(cs) for _, _, cs in rows)
@@ -317,7 +324,10 @@ def photo_tips(t):
 def extra_faq(t):
     q = [("Do I need to download an app?", "No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready."),
          ("How long does it take?", "Usually a few minutes. You can close the tab: the video keeps rendering, it appears under \"My videos\" and we email you when it's ready.")]
-    if has_light(t):
+    if light_only(t):
+        q.append(("Why is there only Budget mode for this trend?",
+                  "Budget mode uses the Genjutsu Light model, and for this scene it gave clearly better results than Premium in our tests. It's also the cheaper one" + (" and renders 15 seconds of the scene." if t["duration"] > 15.001 else ".")))
+    elif has_light(t):
         q.append(("What's the difference between Budget mode (Genjutsu Light) and Premium mode?",
                   "Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer."))
     q += [("Which resolution should I pick?", "480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch."),
@@ -333,12 +343,13 @@ def prompt_block(t):
         <div class="prompt-head"><label for="prompt">Prompt</label>
           <button type="button" class="link-btn" id="prompt-edit">✏️ Edit prompt</button>
           <button type="button" class="link-btn" id="prompt-reset" hidden>Reset to default</button></div>
+        <p class="prompt-hint">Read the prompt carefully and adjust it to your photos before you generate.</p>
         <textarea id="prompt" rows="3" maxlength="2000" readonly>{esc(t['prompt'])}</textarea>
       </div>
 """
     return f"""      <div class="field prompt-field prominent">
         <div class="prompt-head"><label for="prompt">✍️ Prompt: what Genjutsu will do</label></div>
-        <p class="prompt-hint">This is the instruction sent with your photos. Edit it to change clothes, style or details.</p>
+        <p class="prompt-hint">This is the instruction sent with your photos. <b>Read it carefully and adjust it to your photos before you generate</b>: change clothes, style or details here.</p>
         <textarea id="prompt" rows="4" maxlength="2000" readonly>{esc(t['prompt'])}</textarea>
         <div class="prompt-actions">
           <button type="button" class="btn" id="prompt-edit">✏️ Edit prompt</button>
@@ -349,7 +360,7 @@ def prompt_block(t):
 
 
 def model_row(t):
-    if not has_light(t):
+    if not has_light(t) or light_only(t):
         return ""
     return """      <div class="model-row">
         <div class="seg" id="model-seg" role="group" aria-label="Model">
@@ -364,6 +375,11 @@ def model_row(t):
 def model_switch(t):
     long = t["duration"] > 15.001  # Light is shorter than the scene only then
     light_note = "Budget · fast and cheap · uses 15 seconds of the scene. For the full scene, choose Premium." if long else "Budget · fast and cheap."
+    if light_only(t):
+        note = "This trend uses Budget mode only: it gives the best results for this scene" + (", using 15 seconds of it." if long else ".")
+        return f"""        <div class="c-row"><b>Model</b><span class="tag-strong">Budget</span></div>
+        <p class="c-note">{note}</p>
+"""
     if not has_light(t):
         return """        <div class="c-row"><b>Model</b><span class="tag-strong">Premium</span></div>
         <p class="c-note">This scene is longer than Budget mode's 15-second limit, so it uses Premium mode only.</p>
@@ -406,6 +422,7 @@ def studio_trend_c(t, root):
         <p class="c-note">One person per photo, facing the camera, good light, no sunglasses.</p>
         <div class="c-head"><h2 class="c-h"><label for="prompt">Prompt</label></h2>
           <button type="button" class="link-btn" id="prompt-reset" hidden>↺ Reset to default</button></div>
+        <p class="c-note prompt-review">✍️ <b>Read the prompt carefully and adjust it to your photos before you generate.</b> It tells the AI what to keep and what to change, for example clothes, colors or details.</p>
         <textarea id="prompt" rows="4" maxlength="2000">{esc(t['prompt'])}</textarea>
         <h2 class="c-h">Resolution</h2>
 {RES_ROW}{STARTED_NOTE}      </aside>
@@ -550,6 +567,8 @@ def price_chip(t):
     """Cheapest real price first (AI answers quote the first price they see), then Premium mode."""
     if has_light(t):
         lt = dict(t, model="light", duration=t["light_duration"])
+        if light_only(t):
+            return f"<b>From ${trend_credits(lt) / 100:.2f}</b> (Budget mode, 480p, {trend_credits(lt):,} credits)"
         return f"<b>From ${trend_credits(lt) / 100:.2f}</b> (Budget mode, 480p) · Premium: {price_text(dict(t, model='full'))}"
     return f"<b>From ${trend_credits(t) / 100:.2f}</b> (Premium, 480p, {trend_credits(t):,} credits)"
 
@@ -633,7 +652,7 @@ for t in ALL_TRENDS:
     s = t["seo"]
     page = {"kind": "trend", "trend": {
         **{k: t[k] for k in ("slug", "short", "video_url", "mode", "resolution", "prompt")}, "model": t.get("model", "full"), "duration": t["duration"],
-        "light_video_url": t.get("light_video_url"), "light_duration": t.get("light_duration"),
+        "light_video_url": t.get("light_video_url"), "light_duration": t.get("light_duration"), "light_only": light_only(t),
         "light_preview_url": rel(root, t["light_preview_url"]) if t.get("light_preview_url") else None,
         "poster": rel(root, t["poster"]),
         "preview_url": rel(root, t.get("preview_url", t["video_url"])),
@@ -1054,7 +1073,9 @@ def _shape(t):
 def _facts(t):
     full = billed_secs(t["duration"], False)
     out = [f"{photos_text(t)} ({', '.join(sl['label'] for sl in t['slots'])})", f"{_shape(t)} MP4"]
-    if has_light(t):
+    if light_only(t):
+        out.append(f"Budget mode (Genjutsu Light) only: {billed_secs(t['light_duration'], True)} s from ${_low(t) / 100:.2f}")
+    elif has_light(t):
         ls = billed_secs(t["light_duration"], True)
         out.append(f"Budget mode (Genjutsu Light): {ls} s from ${_low(t) / 100:.2f}; Premium: "
                    + (f"same {full} s clip" if ls == full else f"full {full} s scene") + f" from ${trend_credits(dict(t, model='full')) / 100:.2f}")

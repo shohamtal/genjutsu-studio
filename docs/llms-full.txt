@@ -132,7 +132,7 @@ Questions:
 
 ### Car Jump With Your Own Car: It Lands Behind You
 URL: https://genjutsu-trends.com/trends/car-jump-your-car/
-Facts: 2 photos (The calm one, Your car); vertical MP4; Budget mode (Genjutsu Light): 12 s from $2.80; Premium: same 12 s clip from $6.73. Also called: car jump with my car, car jump trend own car, carjump trend.
+Facts: 2 photos (The calm one, Your car); vertical MP4; Budget mode (Genjutsu Light) only: 12 s from $2.80. Also called: car jump with my car, car jump trend own car, carjump trend.
 
 The viral car jump: a pickup launches over a bank in golden-hour dust and lands a few meters behind a man who doesn't even look back. This version swaps in two things: you on the chair, and your own car in the air. Genjutsu keeps the original motion, camera moves and timing, rebuilds the person from your selfie and the car from your photo.
 
@@ -147,11 +147,9 @@ Questions:
 - Q: How do I make the Car Jump AI video with my own car?
   A: Open this page. The clip is already loaded. Add one selfie and one photo of your car, then click Generate.
 - Q: How much does it cost?
-  A: In Budget mode (Genjutsu Light), the 12-second clip at 480p costs 280 credits (about $2.80). Premium mode renders the same 12-second clip for 673 credits (about $6.73). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 12-second clip at 480p costs 280 credits (about $2.80). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: Your selfie becomes the man sitting calm on the chair. Your car photo replaces the red pickup that jumps and lands behind him.
-- Q: Budget or Premium for this trend?
-  A: Budget. In our tests, Budget mode swapped in the customer's own car, including its shape and number plate, while Premium tends to keep the original pickup's shape and only changes its color and badges. Budget is also the cheaper one.
 - Q: What photos work best?
   A: A clear, front-facing, well-lit selfie of one person, and a sharp daylight photo of the whole car from the front, with the number plate readable. Only use photos of people who agreed to be in the video.
 - Q: Can I use a different clip?
@@ -160,8 +158,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
-  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
+- Q: Why is there only Budget mode for this trend?
+  A: Budget mode uses the Genjutsu Light model, and for this scene it gave clearly better results than Premium in our tests. It's also the cheaper one.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -563,7 +561,7 @@ Questions:
 
 ### Thriller Red Jacket: Alternate Take
 URL: https://genjutsu-trends.com/trends/thriller-red-jacket/
-Facts: 1 photo (The dancer); vertical MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 19 s scene from $10.07. Also called: Michael Jackson red jacket AI.
+Facts: 1 photo (The dancer); vertical MP4; Budget mode (Genjutsu Light) only: 15 s from $3.25. Also called: Michael Jackson red jacket AI.
 
 The "Thriller" zombie dance is one of the most famous dance scenes ever filmed: the red leather jacket, the claw hands, the head tilts and a street full of zombies moving in sync. This version puts your face on the lead dancer and keeps everything else. Genjutsu keeps the original motion, camera moves and timing and rebuilds the dancer from your selfie.
 
@@ -578,7 +576,7 @@ Questions:
 - Q: How do I make the Thriller Red Jacket AI video?
   A: Open this page. The Thriller clip is already loaded. Add one selfie, then click Generate.
 - Q: How much does the Thriller red jacket AI video cost?
-  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 19-second clip for 1,007 credits (about $10.07). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: Your face goes on the lead dancer in the red leather jacket. The zombies, the street and the moves stay as they are.
 - Q: What photos work best?
@@ -589,8 +587,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
-  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
+- Q: Why is there only Budget mode for this trend?
+  A: Budget mode uses the Genjutsu Light model, and for this scene it gave clearly better results than Premium in our tests. It's also the cheaper one and renders 15 seconds of the scene.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -760,7 +758,7 @@ Questions:
 
 ### Thriller: Michael Jackson Zombie Street Dance
 URL: https://genjutsu-trends.com/trends/thriller/
-Facts: 1 photo (The lead dancer); horizontal MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 21 s scene from $11.02. Also called: Michael Jackson Thriller AI, zombie dance AI.
+Facts: 1 photo (The lead dancer); horizontal MP4; Budget mode (Genjutsu Light) only: 15 s from $3.25. Also called: Michael Jackson Thriller AI, zombie dance AI.
 
 The "Thriller" zombie dance is one of the most copied routines ever: a zombie stare in close-up, then a whole street of ghouls behind the lead doing the shuffle, shoulder rolls and claw arms. The AI trend puts you in the red jacket at the front. Genjutsu keeps the original motion, camera cuts and timing and rebuilds the lead dancer from your photo, so every move lands on the beat.
 
@@ -775,7 +773,7 @@ Questions:
 - Q: How do I make the Thriller AI video?
   A: Open this page. The Thriller dance clip is already loaded. Add one photo for the lead dancer, then click Generate.
 - Q: How much does the Thriller AI video cost?
-  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 21-second clip for 1,102 credits (about $11.02). 720p and 1080p are sharper and cost more. No subscription.
+  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: Your photo replaces the lead dancer in the red jacket. The zombie dancers behind stay as they are.
 - Q: What photos work best?
@@ -786,8 +784,8 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
-  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
+- Q: Why is there only Budget mode for this trend?
+  A: Budget mode uses the Genjutsu Light model, and for this scene it gave clearly better results than Premium in our tests. It's also the cheaper one and renders 15 seconds of the scene.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?

@@ -99,6 +99,13 @@ serve(async (req) => {
     return json({ error: "Could not create job. Your credits were refunded." }, 500);
   }
 
+  // The visitor ticked "I understand… / I agree to the Terms" before Generate (sent by app.js since 2026-10-29;
+  // older pages don't send it, so it's recorded, never required). Evidence for payment disputes.
+  if (b.terms_ok === true) {
+    const { error: tErr } = await admin.from("jobs").update({ terms_accepted_at: new Date().toISOString() }).eq("id", job.id);
+    if (tErr) console.error("terms_accepted_at not saved", job.id, tErr.message);
+  }
+
   if (mock) {
     const { data: saved } = await admin.from("jobs")
       .update({ hf_request_id: `mock:${mock}:${job.id}`, status: "queued", updated_at: new Date().toISOString() })

@@ -394,15 +394,11 @@
           ],
           [
             "How much does it cost?",
-            "In Budget mode (Genjutsu Light), the 12-second clip at 480p costs 280 credits (about $2.80). Premium mode renders the same 12-second clip for 673 credits (about $6.73). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 12-second clip at 480p costs 280 credits (about $2.80). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
             "Your selfie becomes the man sitting calm on the chair. Your car photo replaces the red pickup that jumps and lands behind him."
-          ],
-          [
-            "Budget or Premium for this trend?",
-            "Budget. In our tests, Budget mode swapped in the customer's own car, including its shape and number plate, while Premium tends to keep the original pickup's shape and only changes its color and badges. Budget is also the cheaper one."
           ],
           [
             "What photos work best?",
@@ -421,7 +417,8 @@
         "car jump trend own car",
         "carjump trend"
       ],
-      "photo_tip": "For the car: one sharp daylight photo of the whole car, from the front, with the number plate readable. Keep Budget mode: it swaps the car best"
+      "photo_tip": "For the car: one sharp daylight photo of the whole car, from the front, with the number plate readable",
+      "light_only": true
     },
     {
       "slug": "the-boys-baseball",
@@ -790,7 +787,7 @@
         "title": "Thriller Red Jacket AI: Lead MJ's Zombie Line, 1 Selfie",
         "description": "Lead the zombies in the red-leather Thriller take—an alternate page to the street-dance Thriller. 1 selfie. No subscription.",
         "h1": "Thriller Red Jacket AI Video Generator (Alternate Take)",
-        "lead": "Wear the red leather jacket and lead the zombies in Michael Jackson's <b>\"Thriller\"</b> dance. The 19-second clip is locked in: add one selfie and click Generate.",
+        "lead": "Wear the red leather jacket and lead the zombies in Michael Jackson's <b>\"Thriller\"</b> dance. The clip is locked in (a 15-second version): add one selfie and click Generate.",
         "og_title": "Thriller Red Jacket AI: Lead MJ's Zombie Line, 1 Selfie",
         "og_tagline": "Thriller AI face swap · Genjutsu · Pay per video",
         "about_html": "<p>The \"Thriller\" zombie dance is one of the most famous dance scenes ever filmed: the red leather jacket, the claw hands, the head tilts and a street full of zombies moving in sync. This version puts your face on the lead dancer and keeps everything else.</p><p><a href=\"../../genjutsu/\">Genjutsu</a> keeps the original motion, camera moves and timing and rebuilds the dancer from your selfie.</p>",
@@ -823,7 +820,7 @@
           ],
           [
             "How much does the Thriller red jacket AI video cost?",
-            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 19-second clip for 1,007 credits (about $10.07). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -844,7 +841,8 @@
       "light_preview_url": "trends/thriller-red-jacket/preview-light.mp4",
       "aliases": [
         "Michael Jackson red jacket AI"
-      ]
+      ],
+      "light_only": true
     },
     {
       "slug": "gas-station-dance",
@@ -1692,7 +1690,7 @@
         "title": "Thriller AI Trend: Michael Jackson Zombie Street Dance",
         "description": "Lead the zombies through Michael Jackson's Thriller street dance with your face in. 1 photo. No subscription, no app. Works in the browser.",
         "h1": "Thriller AI Video Generator: Michael Jackson Zombie Dance",
-        "lead": "Lead the zombies in Michael Jackson's <b>\"Thriller\"</b> street dance. The 21-second clip is locked in: add one photo and click Generate.",
+        "lead": "Lead the zombies in Michael Jackson's <b>\"Thriller\"</b> street dance. The clip is locked in (a 15-second version): add one photo and click Generate.",
         "og_title": "Thriller AI Trend: Michael Jackson Zombie Street Dance",
         "og_tagline": "Thriller AI face swap · Genjutsu · Pay per video",
         "about_html": "<p>The \"Thriller\" zombie dance is one of the most copied routines ever: a zombie stare in close-up, then a whole street of ghouls behind the lead doing the shuffle, shoulder rolls and claw arms. The AI trend puts you in the red jacket at the front.</p><p><a href=\"../../genjutsu/\">Genjutsu</a> keeps the original motion, camera cuts and timing and rebuilds the lead dancer from your photo, so every move lands on the beat.</p>",
@@ -1725,7 +1723,7 @@
           ],
           [
             "How much does the Thriller AI video cost?",
-            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 21-second clip for 1,102 credits (about $11.02). 720p and 1080p are sharper and cost more. No subscription."
+            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). 720p and 1080p are sharper and cost more. No subscription."
           ],
           [
             "Who goes where?",
@@ -1747,7 +1745,8 @@
       "aliases": [
         "Michael Jackson Thriller AI",
         "zombie dance AI"
-      ]
+      ],
+      "light_only": true
     },
     {
       "slug": "turn-the-lights-off",

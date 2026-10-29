@@ -400,8 +400,9 @@ function refresh() {
   const have = photos().length;
   const ready = state.video && have >= need;
   const btn = $("generate-btn");
-  btn.disabled = !ready;
-  btn.textContent = !ready
+  const agreed = consentOk();
+  btn.disabled = !ready || !agreed;
+  btn.textContent = ready && !agreed ? "Tick the box above to generate" : !ready
     ? (!state.video ? (T ? "Loading scene…" : "Upload a video to start") : T ? `Add ${need - have} more photo${need - have > 1 ? "s" : ""}` : "Add a reference photo")
     : !state.user ? "Sign in & generate" : state.credits < cost ? "Buy credits & generate"
     : state.started ? `Started ✓ · Generate again (${cost.toLocaleString()} credits)` : `Generate · ${cost.toLocaleString()} credits`;
@@ -409,6 +410,9 @@ function refresh() {
 
 // ---------------- generate ----------------
 on("generate-btn", "click", () => generate());
+// Required before every generation: AI results vary, no cancel or refund once generated, Terms agreed.
+const consentOk = () => !$("consent") || $("consent").checked;
+on("consent", "change", () => refresh());
 async function upload(file) {
   const EXT = { "video/mp4": "mp4", "video/quicktime": "mov", "image/jpeg": "jpg", "image/png": "png", "image/webp": "webp" };
   const ext = EXT[file.type] || (file.name.split(".").pop() || "bin").toLowerCase();
@@ -419,7 +423,7 @@ async function upload(file) {
 }
 let busy = false;
 async function generate() {
-  if (!HAS_STUDIO || !state.video || !photos().length || busy) return;
+  if (!HAS_STUDIO || !state.video || !photos().length || busy || !consentOk()) return;
   if (!state.user) { state.pendingGenerate = true; saveDraft(); return openSignin(); }
   let cost = estimate();
   if (state.credits < cost) { state.pendingGenerate = true; return openBuy(`This video costs about ${cost.toLocaleString()} credits. You have ${state.credits.toLocaleString()}.`); }
@@ -445,6 +449,7 @@ async function generate() {
         trend, workflow: state.mode, resolution: state.res,
         prompt: T ? ($("prompt").value.trim() || T.prompt) : $("prompt").value.trim(),
         video_url, image_urls, duration: state.duration, expected_cost: cost, ...(MOCK ? { mock: MOCK } : {}),
+        ...($("consent")?.checked ? { terms_ok: true } : {}),
         ...(T ? {} : { model: isLight() ? "light" : "full" }),
       };
       try { ({ job } = await callFn("generate", body)); } catch (e) {
