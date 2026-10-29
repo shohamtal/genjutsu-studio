@@ -761,8 +761,8 @@ item_list = {
     "@context": "https://schema.org", "@type": "ItemList", "name": "Genjutsu AI video trends",
     "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": f"{BASE}trends/{t['slug']}/", "name": t["name"]} for i, t in enumerate(TRENDS)],
 }
-site_ld = {"@context": "https://schema.org", "@type": "WebSite", "name": "Genjutsu Trends", "url": BASE}
-org_ld = {"@context": "https://schema.org", "@type": "Organization", "name": "Genjutsu Trends", "url": BASE,
+site_ld = {"@context": "https://schema.org", "@type": "WebSite", "name": "Genjutsu Trends", "alternateName": "Genjutsu Studio", "url": BASE}  # old name until ~2027-01 (genjutsu-seo#7)
+org_ld = {"@context": "https://schema.org", "@type": "Organization", "name": "Genjutsu Trends", "alternateName": "Genjutsu Studio", "url": BASE,
           "logo": f"{BASE}icon-512.png", "email": "support@genjutsu-trends.com"}
 home = head(path="", title="Genjutsu AI Video Trends: Put Your Faces in Viral Scenes (No Subscription)",
             description="Make the viral AI video trends with Higgsfield Genjutsu: White Chicks \"A Thousand Miles\" and more. The scene is preloaded, add your photos and generate. No subscription.",
