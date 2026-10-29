@@ -127,7 +127,7 @@ def head(*, path, title, description, og_title=None, og_type="website", image, e
   <link rel="canonical" href="{BASE}{path}" />
 {'' if noindex else '  <meta name="robots" content="index,follow,max-image-preview:large" />'}
   <meta property="og:type" content="{og_type}" />
-  <meta property="og:site_name" content="Genjutsu Studio" />
+  <meta property="og:site_name" content="Genjutsu Trends" />
   <meta property="og:title" content="{esc(og_title or title)}" />
   <meta property="og:description" content="{esc(description)}" />
   <meta property="og:url" content="{BASE}{path}" />
@@ -161,7 +161,7 @@ def header(root, app=True, active=""):
     )
     cls = lambda k: ' class="active"' if k == active else ""
     return f"""  <header class="top">
-    <a class="brand" href="{root}"><span class="logo">🌀</span> Genjutsu<span class="dim">Studio</span></a>
+    <a class="brand" href="{root}"><span class="logo">🌀</span> Genjutsu<span class="dim">Trends</span></a>
     <nav class="nav"><a href="{root}"{cls('trends')}>Trends</a><a href="{root}custom/"{cls('custom')}>Custom</a><a href="{root}pricing/"{cls('pricing')}>Pricing</a><a href="{root}my-videos/"{cls('videos')}>My videos</a></nav>
     <div class="top-actions">
 {actions}
@@ -658,7 +658,7 @@ for t in ALL_TRENDS:
     product_ld = None if t.get("hidden") else {
         "@context": "https://schema.org", "@type": "Product", "name": f"{t['name']} AI video",
         "description": s["description"], "image": og_image(path, t), "url": BASE + path,
-        "brand": {"@type": "Brand", "name": "Genjutsu Studio"}, "category": "AI video generation",
+        "brand": {"@type": "Brand", "name": "Genjutsu Trends"}, "category": "AI video generation",
         "offers": {"@type": "Offer", "url": BASE + path, "priceCurrency": "USD", "price": f"{low / 100:.2f}",
                    "availability": "https://schema.org/InStock",
                    # Digital product delivered online: free and instant. Matches the Terms: finished videos
@@ -672,7 +672,7 @@ for t in ALL_TRENDS:
                    "hasMerchantReturnPolicy": {"@type": "MerchantReturnPolicy", "applicableCountry": "US",
                                                "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted",
                                                "merchantReturnLink": f"{BASE}terms/"},
-                   "seller": {"@type": "Organization", "name": "Genjutsu Studio", "url": BASE}},
+                   "seller": {"@type": "Organization", "name": "Genjutsu Trends", "url": BASE}},
     }
     rs = t.get("result_sample")
     video_ld = None if t.get("hidden") or not rs else {
@@ -731,7 +731,7 @@ cards = "\n".join(f"""        <a class="trend-card" href="trends/{t['slug']}/">
           <div class="tc-body"><b>{esc(card_title(t))}</b></div>
         </a>""" for i, t in enumerate(TRENDS))
 home_faq = [
-    ("What is Genjutsu Studio?", "A site that lets you make viral AI video trends with Higgsfield's Genjutsu model. Pick a trend, add your photos and generate. No subscription."),
+    ("What is Genjutsu Trends?", "A site that lets you make viral AI video trends with Higgsfield's Genjutsu model. Pick a trend, add your photos and generate. No subscription."),
     ("How does it work?", "Every trend page has its scene already loaded. You only add a photo for each person. On the Custom page you can upload your own video, up to 8 photos and your own prompt."),
     ("How much does it cost?", "You pay per second of video, with no subscription. At 480p it's 15 credits per second in Budget mode (Genjutsu Light, up to 15 seconds) or about 48 in Premium mode, plus 100 per video (100 credits = $1). Every page shows the exact price before you generate."),
     ("What if the generation fails?", "Your credits are refunded automatically, including when the content is blocked by moderation."),
@@ -742,8 +742,8 @@ item_list = {
     "@context": "https://schema.org", "@type": "ItemList", "name": "Genjutsu AI video trends",
     "itemListElement": [{"@type": "ListItem", "position": i + 1, "url": f"{BASE}trends/{t['slug']}/", "name": t["name"]} for i, t in enumerate(TRENDS)],
 }
-site_ld = {"@context": "https://schema.org", "@type": "WebSite", "name": "Genjutsu Studio", "url": BASE}
-org_ld = {"@context": "https://schema.org", "@type": "Organization", "name": "Genjutsu Studio", "url": BASE,
+site_ld = {"@context": "https://schema.org", "@type": "WebSite", "name": "Genjutsu Trends", "url": BASE}
+org_ld = {"@context": "https://schema.org", "@type": "Organization", "name": "Genjutsu Trends", "url": BASE,
           "logo": f"{BASE}icon-512.png", "email": "support@genjutsu-trends.com"}
 home = head(path="", title="Genjutsu AI Video Trends: Put Your Faces in Viral Scenes (No Subscription)",
             description="Make the viral AI video trends with Higgsfield Genjutsu: White Chicks \"A Thousand Miles\" and more. The scene is preloaded, add your photos and generate. No subscription.",
@@ -850,8 +850,8 @@ pfaq = [
     ("What if the video fails?", "Failed or moderated generations are refunded automatically to your balance."),
     ("Why do some apps look cheaper?", "Subscription apps advertise \"up to\" numbers based on their cheapest model and shortest clip, and you pay every month whether you use it or not. Here you pay only when you make a video, with Higgsfield Genjutsu, the model that keeps the original scene."),
 ]
-pr = head(path="pricing/", title="Pricing: Pay Per Video, No Subscription | Genjutsu Studio",
-          description=f"Genjutsu Studio pricing: pay once for the video you make. No subscription, no unused credits. Trend videos from about ${FROM_PRICE:.2f} at 480p.",
+pr = head(path="pricing/", title="Pricing: Pay Per Video, No Subscription | Genjutsu Trends",
+          description=f"Genjutsu Trends pricing: pay once for the video you make. No subscription, no unused credits. Trend videos from about ${FROM_PRICE:.2f} at 480p.",
           image=f"{BASE}og.jpg", extra_ld=ld(faq_ld(pfaq), breadcrumbs(("Trends", ""), ("Pricing", "pricing/"))))
 pr += header("../", app=False, active="pricing")
 pr += f"""  <main>
@@ -895,7 +895,7 @@ write("pricing/index.html", pr)
 # One page per trend (watch/<slug>/), so link previews (WhatsApp, X, iMessage) show that trend's image and
 # name: crawlers don't run JS. watch/ itself is the generic page (custom videos, old links).
 def watch_page(path, root, title, image):
-    w = head(path=path, title=f"{title} | Genjutsu Studio",
+    w = head(path=path, title=f"{title} | Genjutsu Trends",
              description="An AI trend video made with Genjutsu. Make your own in minutes.", image=image, noindex=True)
     w += header(root, app=False)
     w += f"""  <main>
@@ -928,7 +928,7 @@ for slug, name in trend_names().items():  # every slug a job can carry, incl. hi
     watch_page(f"watch/{slug}/", "../../", f"Watch this {name} AI video", og_image(f"trends/{t['slug']}/", t) if t else f"{BASE}og.jpg")
 
 # ---------------- my videos (private, per user) ----------------
-mv = head(path="my-videos/", title="My videos | Genjutsu Studio", description="Your Genjutsu videos: follow, watch and download them.",
+mv = head(path="my-videos/", title="My videos | Genjutsu Trends", description="Your Genjutsu videos: follow, watch and download them.",
           image=f"{BASE}og.jpg", noindex=True)
 mv += header("../", active="videos")
 mv += f"""  <main>
@@ -959,11 +959,11 @@ mv += footer("../", page={"kind": "videos"})
 write("my-videos/index.html", mv)
 
 # ---------------- legal pages ----------------
-LEGAL = [("terms", "Terms of Use", "Terms of use for Genjutsu Studio: credits, refunds, what you may upload, and your videos."),
-         ("privacy", "Privacy", "What Genjutsu Studio collects, who processes it, and how long uploads are kept (7 days)."),
-         ("accessibility", "Accessibility", "Accessibility statement for Genjutsu Studio (IS 5568 / WCAG 2.1 AA): what we've done, known limitations, and how to contact us.")]
+LEGAL = [("terms", "Terms of Use", "Terms of use for Genjutsu Trends: credits, refunds, what you may upload, and your videos."),
+         ("privacy", "Privacy", "What Genjutsu Trends collects, who processes it, and how long uploads are kept (7 days)."),
+         ("accessibility", "Accessibility", "Accessibility statement for Genjutsu Trends (IS 5568 / WCAG 2.1 AA): what we've done, known limitations, and how to contact us.")]
 for slug, title, desc in LEGAL:
-    page = head(path=f"{slug}/", title=f"{title} | Genjutsu Studio", description=desc, image=f"{BASE}og.jpg",
+    page = head(path=f"{slug}/", title=f"{title} | Genjutsu Trends", description=desc, image=f"{BASE}og.jpg",
                 extra_ld=ld(breadcrumbs(("Trends", ""), (title, f"{slug}/"))))
     page += header("../", app=False)
     page += f"""  <main>
@@ -977,7 +977,7 @@ for slug, title, desc in LEGAL:
     write(f"{slug}/index.html", page)
 
 # ---------------- unsubscribe (link in marketing emails; not indexed) ----------------
-unsub = head(path="unsubscribe/", title="Unsubscribe | Genjutsu Studio", description="Stop marketing emails from Genjutsu Studio.",
+unsub = head(path="unsubscribe/", title="Unsubscribe | Genjutsu Trends", description="Stop marketing emails from Genjutsu Trends.",
              image=f"{BASE}og.jpg", noindex=True)
 unsub = unsub.replace("<head>", '<head>\n  <meta name="referrer" content="no-referrer" />', 1)  # the URL carries a token
 unsub += header("../", app=False)
@@ -1072,7 +1072,7 @@ def _text(h):
     return html.unescape(re.sub(r"\s+([,.;:!?)])", r"\1", t)).strip()
 
 
-LLMS_HEAD = [f"# Genjutsu Studio ({BASE})", "",
+LLMS_HEAD = [f"# Genjutsu Trends ({BASE})", "",
              "> Make viral AI video trends with your own photos, in the browser. Pick a trend, upload a photo for each part, "
              "and Higgsfield's Genjutsu model puts you in the scene. Pay per video, no subscription, no app.", "",
              f"Last updated: {UPDATED}. Independent site: not affiliated with or endorsed by Higgsfield AI.", "",

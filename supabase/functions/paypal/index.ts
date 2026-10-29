@@ -41,10 +41,10 @@ serve(async (req) => {
           intent: "CAPTURE",
           purchase_units: [{
             amount: { currency_code: "USD", value: pack.usd },
-            description: `Genjutsu Studio — ${pack.credits} credits`,
+            description: `Genjutsu Trends — ${pack.credits} credits`,
             custom_id: user.id,
           }],
-          application_context: { shipping_preference: "NO_SHIPPING", brand_name: "Genjutsu Studio" },
+          application_context: { shipping_preference: "NO_SHIPPING", brand_name: "Genjutsu Trends" },
         }),
       });
       const order = await r.json();

@@ -1,4 +1,4 @@
-# Genjutsu Studio
+# Genjutsu Trends
 
 Viral AI video trends made with Higgsfield's **Genjutsu**. Each trend gets its own page (`/trends/<slug>/`) with the
 scene locked in, so users only add the photos. `/custom/` lets users bring their own video, up to 8 photos and a prompt.

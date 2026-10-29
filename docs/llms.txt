@@ -1,4 +1,4 @@
-# Genjutsu Studio (https://genjutsu-trends.com/)
+# Genjutsu Trends (https://genjutsu-trends.com/)
 
 > Make viral AI video trends with your own photos, in the browser. Pick a trend, upload a photo for each part, and Higgsfield's Genjutsu model puts you in the scene. Pay per video, no subscription, no app.
 

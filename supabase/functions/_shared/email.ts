@@ -27,7 +27,7 @@ function shell(ref: "email-ready" | "email-failed", preheader: string, body: str
 <span style="display:none;max-height:0;overflow:hidden;opacity:0">${preheader}</span>
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#f3f1f8;padding:24px 12px;"><tr><td align="center">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:560px;background:#ffffff;border-radius:16px;overflow:hidden;font-family:-apple-system,Segoe UI,Arial,sans-serif;color:#15121f;">
-<tr><td style="background:#0b0b10;padding:16px 24px;font-size:18px;font-weight:700;color:#ffffff;">🌀 Genjutsu <span style="color:#a78bfa;font-weight:600">Studio</span></td></tr>
+<tr><td style="background:#0b0b10;padding:16px 24px;font-size:18px;font-weight:700;color:#ffffff;">🌀 Genjutsu <span style="color:#a78bfa;font-weight:600">Trends</span></td></tr>
 ${body}
 <tr><td style="padding:18px 24px 24px;border-top:1px solid #eee;font-size:12px;line-height:1.5;color:#8a8696;">
 You're getting this because you made a video on <a href="${SITE}?ref=${ref}" style="color:#8a8696;">genjutsu-trends.com</a>. Questions? Reply to <a href="mailto:${REPLY_TO}" style="color:#8a8696;">${REPLY_TO}</a>.<br>
