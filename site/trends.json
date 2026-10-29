@@ -343,7 +343,7 @@
       "duration": 12.0,
       "mode": "motion-transfer",
       "resolution": "480p",
-      "prompt": "Replace the man in the white outfit sitting on the folding chair with the person in the first uploaded picture, as a realistic person. Replace the red pickup truck with the car in the second uploaded picture: the same make, model and color, jumping over the bank and landing right behind him in the dust. Keep his calm pose and outfit, the chair, the dust cloud, the desert, the golden-hour light, the camera and timing.",
+      "prompt": "A cinematic, ultra-realistic desert scene at golden hour. The person in the first uploaded picture is seated calmly in the chair facing the camera. In the distance behind them, the car in the second uploaded picture (the same make, model, color and number plate) accelerates toward them at full speed, kicking up an enormous cloud of desert dust. The car launches completely over a large sand dune, suspended dramatically in midair, then comes crashing down right behind the seated person and rapidly brakes to a full stop, creating a huge wave of sand and dust around them. The person remains unharmed and motionless, creating an intense near-collision moment. Dynamic low-angle camera, realistic vehicle suspension and tire movement, flying sand particles, dramatic sunlight, cinematic motion blur, high contrast, epic action-movie atmosphere, photorealistic, highly detailed, wide-angle composition.",
       "slots": [
         {
           "label": "The calm one",
@@ -352,7 +352,7 @@
         },
         {
           "label": "Your car",
-          "hint": "A clear photo of the car, front or side",
+          "hint": "A clear front photo, plate readable",
           "example": "assets/examples/car-jump-car.jpg"
         }
       ],
@@ -372,7 +372,7 @@
           ],
           [
             "Add a selfie and a car photo",
-            "A clear, front-facing, well-lit selfie for the man on the chair, and a clear photo of the car (front or side, the whole car in the shot)."
+            "A clear, front-facing, well-lit selfie for the man on the chair, and a clear front photo of the car (the whole car in the shot, number plate readable)."
           ],
           [
             "Keep 480p",
@@ -401,8 +401,12 @@
             "Your selfie becomes the man sitting calm on the chair. Your car photo replaces the red pickup that jumps and lands behind him."
           ],
           [
+            "Budget or Premium for this trend?",
+            "Budget. In our tests, Budget mode swapped in the customer's own car, including its shape and number plate, while Premium tends to keep the original pickup's shape and only changes its color and badges. Budget is also the cheaper one."
+          ],
+          [
             "What photos work best?",
-            "A clear, front-facing, well-lit selfie of one person, and a sharp photo of the whole car from the front or side in daylight. Only use photos of people who agreed to be in the video."
+            "A clear, front-facing, well-lit selfie of one person, and a sharp daylight photo of the whole car from the front, with the number plate readable. Only use photos of people who agreed to be in the video."
           ],
           [
             "Can I use a different clip?",
@@ -417,7 +421,7 @@
         "car jump trend own car",
         "carjump trend"
       ],
-      "photo_tip": "For the car: one sharp daylight photo of the whole car, from the front or the side, with nothing in front of it"
+      "photo_tip": "For the car: one sharp daylight photo of the whole car, from the front, with the number plate readable. Keep Budget mode: it swaps the car best"
     },
     {
       "slug": "the-boys-baseball",
