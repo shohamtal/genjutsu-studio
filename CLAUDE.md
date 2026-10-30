@@ -70,6 +70,12 @@ started real (paid) Higgsfield renders.
   trend = upload `presets/<slug>.mp4` to the public Supabase `presets` bucket, add `docs/trends/<slug>/`
   `poster.jpg` / `preview.mp4` / `og.jpg`, add the `trends.json` entry, rebuild, push. Hidden trends (`qa-4s`) get a
   page but stay out of the gallery and sitemap.
+- Trend prompts (every new trend and every rewrite): say what you replace (the character, by outfit and position),
+  what it becomes (the person in the first / second … uploaded picture, in `image_urls` order) and what stays
+  (lighting, setting, outfits, facial expressions, moves, camera, timing, or "Keep everything else as filmed").
+  The source video controls motion, camera and framing. Slot hints ask for clean, neutral photos (a photo's lighting
+  and background leak into the result). Genjutsu Light (API) trims the source to 15 s and drifts on anything the
+  prompt doesn't list.
 - Sign-in is a 6-digit email code (`EMAIL_CODE: true`), sent by Supabase Auth through Resend SMTP from
   `login@genjutsu-trends.com`. Photos added before sign-in survive via an IndexedDB draft.
 
