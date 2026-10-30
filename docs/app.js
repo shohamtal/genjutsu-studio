@@ -615,13 +615,19 @@ async function shareJob(j, btn) {
     if (!/^https:\/\/genjutsu-trends\.com\/watch\/([a-z0-9-]{1,40}\/)?\?v=[A-Za-z0-9_-]{22}$/.test(url)) throw new Error("Couldn't create the link.");
     const name = window.TREND_NAMES?.[j.trend] || "AI";
     const text = `I made this ${name} video with Genjutsu Trends 🎬`;
-    $("share-url").value = url;
-    $("share-wa").href = `https://wa.me/?text=${encodeURIComponent(`${text} ${url}`)}`;
-    $("share-x").href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(url)}`;
-    $("share-fb").href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+    // Attribution for visits from shared links (GoatCounter keeps utm_*; the watch page reads only v=).
+    const campaign = /^[a-z0-9-]{1,40}$/.test(j.trend || "") ? j.trend : "custom";
+    const tag = (medium) => `${url}&utm_source=share&utm_medium=${medium}&utm_campaign=${campaign}`;
+    $("share-url").value = tag("copy");
+    $("share-wa").href = `https://wa.me/?text=${encodeURIComponent(`${text} ${tag("whatsapp")}`)}`;
+    $("share-x").href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(tag("x"))}`;
+    $("share-fb").href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(tag("facebook"))}`;
+    $("share-wa").onclick = () => track("share-open/whatsapp");
+    $("share-x").onclick = () => track("share-open/x");
+    $("share-fb").onclick = () => track("share-open/facebook");
     const more = $("share-more");
     more.hidden = !navigator.share;
-    more.onclick = () => navigator.share({ title: "My Genjutsu video", text, url }).catch(() => {});
+    more.onclick = () => { track("share-open/native"); navigator.share({ title: "My Genjutsu video", text, url: tag("native") }).catch(() => {}); };
     $("share-copy").textContent = "Copy link";
     $("share-modal").showModal();
     $("share-url").select();
@@ -632,6 +638,7 @@ on("share-copy", "click", async () => {
   const inp = $("share-url");
   try { await navigator.clipboard.writeText(inp.value); } catch { inp.select(); document.execCommand("copy"); }
   $("share-copy").textContent = "Copied ✓";
+  track("share-open/copy");
 });
 async function deleteJob(j, btn) {
   if (!confirm("Delete this video from My videos? Its share link will stop working. Download it first if you want to keep it.")) return;

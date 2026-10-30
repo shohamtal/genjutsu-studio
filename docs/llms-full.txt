@@ -2,7 +2,7 @@
 
 > Make viral AI video trends with your own photos, in the browser. Pick a trend, upload a photo for each part, and Higgsfield's Genjutsu model puts you in the scene. Pay per video, no subscription, no app.
 
-Last updated: 2026-10-29. Independent site: not affiliated with or endorsed by Higgsfield AI.
+Last updated: 2026-10-30. Independent site: not affiliated with or endorsed by Higgsfield AI.
 
 ## Pricing
 - From $2.50 per video (Budget mode / Genjutsu Light, 480p). Premium mode and 720p/1080p cost more.
@@ -191,6 +191,84 @@ Questions:
   A: The first photo becomes Homelander, the pitcher in the cape. The second (optional) becomes the batter in the maroon jacket, and the third (optional) becomes Butcher. Anyone without a photo stays as in the original.
 - Q: What photos work best?
   A: Clear, front-facing, well-lit photos of one person each. Use your own photos, not pictures of the actors or other famous people: those get blocked. Only use photos of people who agreed to be in the video.
+- Q: Can I use a different clip?
+  A: Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt.
+- Q: Do I need to download an app?
+  A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
+- Q: How long does it take?
+  A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
+- Q: Which resolution should I pick?
+  A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
+- Q: What if the video doesn't come out well?
+  A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
+- Q: Can I download and share it?
+  A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
+
+### Alors on Danse: Stromae Keyboard Dance
+URL: https://genjutsu-trends.com/trends/alors-on-danse/
+Facts: 2 photos (Person on the left, Person on the right); horizontal MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: same 15 s clip from $8.16. Also called: Stromae AI trend, Alors on danse office dance.
+
+The "Alors on danse" trend takes Stromae's 2009 hit and drops it into an office moment: two men in suits at a keyboard and a laptop, playing it straight until the beat hits and they can't help dancing. The AI version swaps in you and a friend, a coworker or your boss. Most face swap apps paste a flat face over the clip. Genjutsu keeps the original motion, camera and timing and rebuilds both people from your photos, so every dance move matches the original.
+
+How to make it:
+1. Open this page: The "Alors on danse" clip and the prompt are already loaded. You don't need to find the video or a CapCut template.
+2. Add two photos: Add one photo for the person on the left (standing at the keyboard) and one for the person on the right (at the laptop). Use clear, front-facing, well-lit photos with one face each.
+3. Keep 480p: 480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video.
+4. Click Generate: You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back.
+5. Download and post: Download the MP4 and post it with "Alors on danse" as the sound.
+
+Questions:
+- Q: How do I make the Alors on Danse AI video?
+  A: Open this page. The keyboard dance clip is already loaded. Add one clear photo for the person on the left and one for the person on the right, then click Generate.
+- Q: How much does the Alors on Danse AI video cost?
+  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 15-second clip for 816 credits (about $8.16). 720p and 1080p are sharper and cost more. No subscription.
+- Q: Who goes where?
+  A: The left slot is the man standing at the keyboard and the right slot is the man at the laptop.
+- Q: What photos work best?
+  A: Clear, front-facing, well-lit photos of one person each. Avoid group photos and heavy shadows. Only use photos of people who agreed to be in the video.
+- Q: Can I use a different clip?
+  A: Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt.
+- Q: Do I need to download an app?
+  A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
+- Q: How long does it take?
+  A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
+- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
+  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
+- Q: Which resolution should I pick?
+  A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
+- Q: What if the video doesn't come out well?
+  A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
+- Q: Will the video follow my prompt exactly?
+  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
+- Q: Can I download and share it?
+  A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
+
+### APT.: ROSÉ & Bruno Mars Pink Studio
+URL: https://genjutsu-trends.com/trends/apt/
+Facts: 2 photos (ROSÉ's part, Bruno Mars' part); horizontal MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 20 s scene from $10.54. Also called: APT AI video, ROSÉ and Bruno Mars AI, APT pink studio, singer and drummer.
+
+"APT." by ROSÉ and Bruno Mars came out in October 2024 and became one of the biggest songs in the world, with a pink-studio music video full of drum fills, leather jackets and the "apateu, apateu" chant. The AI trend recasts the video: you and a friend take ROSÉ's and Bruno's parts. Most face swap apps paste a flat face over the clip. Genjutsu keeps the original motion, camera cuts and timing and rebuilds both performers from your photos, so every move lands on the beat.
+
+How to make it:
+1. Open this page: The APT. clip and the prompt are already loaded. You don't need to find the video or a CapCut template.
+2. Add two photos: Add one photo for ROSÉ's part and one for Bruno Mars' part. Use clear, front-facing, well-lit photos with one face each.
+3. Keep 480p: 480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video.
+4. Click Generate: You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back.
+5. Download and post: Download the MP4 and post it with "APT." as the sound.
+
+Questions:
+- Q: How do I make the APT. AI video?
+  A: Open this page. The ROSÉ & Bruno Mars clip is already loaded. Add one photo for ROSÉ's part and one for Bruno Mars' part, then click Generate.
+- Q: How much does the APT. AI video cost?
+  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 20-second clip for 1,054 credits (about $10.54). 720p and 1080p are sharper and cost more. No subscription.
+- Q: Who goes where?
+  A: The first photo replaces ROSÉ (blonde, at the mic) and the second replaces Bruno Mars (cap and sunglasses, on drums).
+- Q: What photos work best?
+  A: Clear, front-facing, well-lit photos of one person each. Avoid group photos and heavy shadows. Only use photos of people who agreed to be in the video.
 - Q: Can I use a different clip?
   A: Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt.
 - Q: Do I need to download an app?
@@ -425,84 +503,6 @@ Questions:
   A: The first photo goes on the fighter in the white gi. Add a second photo to put a friend's face on the hooded monk; leave it empty and the monk keeps his face covered.
 - Q: What photos work best?
   A: A clear, front-facing, well-lit selfie of one person. Avoid sunglasses and heavy shadows. Only use photos of people who agreed to be in the video.
-- Q: Can I use a different clip?
-  A: Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt.
-- Q: Do I need to download an app?
-  A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
-- Q: How long does it take?
-  A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
-  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
-- Q: Which resolution should I pick?
-  A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
-- Q: What if the video doesn't come out well?
-  A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
-- Q: Will the video follow my prompt exactly?
-  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
-- Q: Can I download and share it?
-  A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
-
-### Alors on Danse: Stromae Keyboard Dance
-URL: https://genjutsu-trends.com/trends/alors-on-danse/
-Facts: 2 photos (Person on the left, Person on the right); horizontal MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: same 15 s clip from $8.16. Also called: Stromae AI trend, Alors on danse office dance.
-
-The "Alors on danse" trend takes Stromae's 2009 hit and drops it into an office moment: two men in suits at a keyboard and a laptop, playing it straight until the beat hits and they can't help dancing. The AI version swaps in you and a friend, a coworker or your boss. Most face swap apps paste a flat face over the clip. Genjutsu keeps the original motion, camera and timing and rebuilds both people from your photos, so every dance move matches the original.
-
-How to make it:
-1. Open this page: The "Alors on danse" clip and the prompt are already loaded. You don't need to find the video or a CapCut template.
-2. Add two photos: Add one photo for the person on the left (standing at the keyboard) and one for the person on the right (at the laptop). Use clear, front-facing, well-lit photos with one face each.
-3. Keep 480p: 480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video.
-4. Click Generate: You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back.
-5. Download and post: Download the MP4 and post it with "Alors on danse" as the sound.
-
-Questions:
-- Q: How do I make the Alors on Danse AI video?
-  A: Open this page. The keyboard dance clip is already loaded. Add one clear photo for the person on the left and one for the person on the right, then click Generate.
-- Q: How much does the Alors on Danse AI video cost?
-  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 15-second clip for 816 credits (about $8.16). 720p and 1080p are sharper and cost more. No subscription.
-- Q: Who goes where?
-  A: The left slot is the man standing at the keyboard and the right slot is the man at the laptop.
-- Q: What photos work best?
-  A: Clear, front-facing, well-lit photos of one person each. Avoid group photos and heavy shadows. Only use photos of people who agreed to be in the video.
-- Q: Can I use a different clip?
-  A: Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt.
-- Q: Do I need to download an app?
-  A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
-- Q: How long does it take?
-  A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
-  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
-- Q: Which resolution should I pick?
-  A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
-- Q: What if the video doesn't come out well?
-  A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
-- Q: Will the video follow my prompt exactly?
-  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
-- Q: Can I download and share it?
-  A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
-
-### APT.: ROSÉ & Bruno Mars Pink Studio
-URL: https://genjutsu-trends.com/trends/apt/
-Facts: 2 photos (ROSÉ's part, Bruno Mars' part); horizontal MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 20 s scene from $10.54. Also called: APT AI video, ROSÉ and Bruno Mars AI, APT pink studio, singer and drummer.
-
-"APT." by ROSÉ and Bruno Mars came out in October 2024 and became one of the biggest songs in the world, with a pink-studio music video full of drum fills, leather jackets and the "apateu, apateu" chant. The AI trend recasts the video: you and a friend take ROSÉ's and Bruno's parts. Most face swap apps paste a flat face over the clip. Genjutsu keeps the original motion, camera cuts and timing and rebuilds both performers from your photos, so every move lands on the beat.
-
-How to make it:
-1. Open this page: The APT. clip and the prompt are already loaded. You don't need to find the video or a CapCut template.
-2. Add two photos: Add one photo for ROSÉ's part and one for Bruno Mars' part. Use clear, front-facing, well-lit photos with one face each.
-3. Keep 480p: 480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video.
-4. Click Generate: You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back.
-5. Download and post: Download the MP4 and post it with "APT." as the sound.
-
-Questions:
-- Q: How do I make the APT. AI video?
-  A: Open this page. The ROSÉ & Bruno Mars clip is already loaded. Add one photo for ROSÉ's part and one for Bruno Mars' part, then click Generate.
-- Q: How much does the APT. AI video cost?
-  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 20-second clip for 1,054 credits (about $10.54). 720p and 1080p are sharper and cost more. No subscription.
-- Q: Who goes where?
-  A: The first photo replaces ROSÉ (blonde, at the mic) and the second replaces Bruno Mars (cap and sunglasses, on drums).
-- Q: What photos work best?
-  A: Clear, front-facing, well-lit photos of one person each. Avoid group photos and heavy shadows. Only use photos of people who agreed to be in the video.
 - Q: Can I use a different clip?
   A: Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt.
 - Q: Do I need to download an app?
