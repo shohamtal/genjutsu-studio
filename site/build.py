@@ -317,6 +317,7 @@ def photo_tips(t):
                         else f"The first {m} photos are required; add up to {n - m} more, in the order shown")
         if t.get("photo_tip"):
             tips.append(t["photo_tip"])
+        tips.append("Your own photos only: photos of celebrities and public figures are blocked by our video provider, so the video won't be made (the credits are refunded)")
         tips.append("Only use photos of people who agreed to be in the video")
     return "      <h2>Photo tips</h2>\n      <ul>\n" + "\n".join(f"        <li>{esc(x)}.</li>" for x in tips) + "\n      </ul>\n"
 
@@ -333,6 +334,7 @@ def extra_faq(t):
     q += [("Which resolution should I pick?", "480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch."),
           ("What if the video doesn't come out well?", "If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result."),
           ("Will the video follow my prompt exactly?", "Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks."),
+          ("Can I use photos of celebrities?", "No. Our video provider blocks photos of celebrities and public figures, so the video won't be made. The credits go back to your account automatically. Use your own photos, or photos of friends who agreed to be in the video."),
           ("Can I download and share it?", "Yes. Download the MP4 from \"My videos\" and post it anywhere, or share a link to it.")]
     return q
 
@@ -420,6 +422,7 @@ def studio_trend_c(t, root):
           <div class="thumbs" id="thumbs" hidden></div>
         </div>
         <p class="c-note">One person per photo, facing the camera, good light, no sunglasses.</p>
+        <p class="c-note celeb-note">⚠️ Use your own photos. Photos of celebrities and public figures are blocked by our video provider and the video won't be made (your credits are refunded).</p>
         <div class="c-head"><h2 class="c-h"><label for="prompt">Prompt</label></h2>
           <button type="button" class="link-btn" id="prompt-reset" hidden>↺ Reset to default</button></div>
         <p class="c-note prompt-review">✍️ <b>Read the prompt carefully and adjust it to your photos before you generate.</b> It tells the AI what to keep and what to change, for example clothes, colors or details.</p>
@@ -520,6 +523,7 @@ STUDIO_CUSTOM = """    <section class="card studio" id="studio">
           </div>
           <div class="thumbs" id="thumbs" hidden></div>
         </div>
+        <p class="c-note celeb-note">⚠️ Use your own photos. Photos of celebrities and public figures are blocked by our video provider and the video won't be made (your credits are refunded).</p>
       </div>
 
       <label class="field">
