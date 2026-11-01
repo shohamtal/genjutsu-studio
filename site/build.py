@@ -333,7 +333,7 @@ def extra_faq(t):
                   "Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer."))
     q += [("Which resolution should I pick?", "480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch."),
           ("What if the video doesn't come out well?", "If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result."),
-          ("Will the video follow my prompt exactly?", "Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks."),
+          ("Will the video follow my prompt exactly?", "Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. " + ("The setting comes from the trend's scene and the outfit from your photo." if t["mode"] == "object-swap" else "The outfit and the setting come from the trend's scene.") + " Some ideas take more than one try, so start at 480p to see how it looks."),
           ("Can I use photos of celebrities?", "No. Our video provider blocks photos of celebrities and public figures, so the video won't be made. The credits go back to your account automatically. Use your own photos, or photos of friends who agreed to be in the video."),
           ("Can I download and share it?", "Yes. Download the MP4 from \"My videos\" and post it anywhere, or share a link to it.")]
     return q
@@ -403,6 +403,20 @@ def short_chip(t):
     return '          <span class="short-chip" id="short-chip" hidden>⏱ Shorter version · 15 s</span>'
 
 
+def prompt_c(t):
+    if not t["prompt"]:  # no-prompt trend (a Light object swap): an optional, empty box
+        return """        <div class="c-head"><h2 class="c-h"><label for="prompt">Prompt (optional)</label></h2>
+          <button type="button" class="link-btn" id="prompt-reset" hidden>↺ Clear</button></div>
+        <p class="c-note prompt-review">No prompt needed: your photo replaces the person in the scene. You can add a short note if you like.</p>
+        <textarea id="prompt" rows="2" maxlength="2000" placeholder="Optional"></textarea>
+"""
+    return f"""        <div class="c-head"><h2 class="c-h"><label for="prompt">Prompt</label></h2>
+          <button type="button" class="link-btn" id="prompt-reset" hidden>↺ Reset to default</button></div>
+        <p class="c-note prompt-review">✍️ <b>Read the prompt carefully and adjust it to your photos before you generate.</b> It tells the AI what to keep and what to change, for example clothes, colors or details.</p>
+        <textarea id="prompt" rows="4" maxlength="2000">{esc(t['prompt'])}</textarea>
+"""
+
+
 def studio_trend_c(t, root):
     """Design C: video on the left, one control panel on the right (stacks on phones)."""
     return f"""    <section class="studio studio-c" id="studio">
@@ -423,11 +437,7 @@ def studio_trend_c(t, root):
         </div>
         <p class="c-note">One person per photo, facing the camera, good light, no sunglasses.</p>
         <p class="c-note celeb-note">⚠️ Use your own photos. Photos of celebrities and public figures are blocked by our video provider and the video won't be made (your credits are refunded).</p>
-        <div class="c-head"><h2 class="c-h"><label for="prompt">Prompt</label></h2>
-          <button type="button" class="link-btn" id="prompt-reset" hidden>↺ Reset to default</button></div>
-        <p class="c-note prompt-review">✍️ <b>Read the prompt carefully and adjust it to your photos before you generate.</b> It tells the AI what to keep and what to change, for example clothes, colors or details.</p>
-        <textarea id="prompt" rows="4" maxlength="2000">{esc(t['prompt'])}</textarea>
-        <h2 class="c-h">Resolution</h2>
+{prompt_c(t)}        <h2 class="c-h">Resolution</h2>
 {RES_ROW}{STARTED_NOTE}      </aside>
     </section>
 """

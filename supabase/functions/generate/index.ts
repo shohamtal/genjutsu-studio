@@ -48,8 +48,9 @@ serve(async (req) => {
   // Light = a light-* trend preset (picked by file name), or an own upload with model "light".
   const lightUpload = b.model === "light" && !isPreset;
   const light = isLight(video_url) || lightUpload;
-  if (light && workflow !== "motion-transfer") {
-    return json({ error: lightUpload ? "Light mode only does motion transfer. Choose Stronger for object swap." : "This trend only supports motion transfer." }, 400);
+  // Light object swap only for trend presets (each one tested); Custom uploads stay motion transfer in Light.
+  if (lightUpload && workflow !== "motion-transfer") {
+    return json({ error: "Light mode only does motion transfer. Choose Stronger for object swap." }, 400);
   }
   if (lightUpload && secs > LIGHT_MAX_SECS + 0.001) {
     return json({ error: "Light mode works with videos up to 15 seconds. Trim your video or choose Stronger." }, 400);

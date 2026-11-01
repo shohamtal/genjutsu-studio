@@ -516,6 +516,186 @@
       ]
     },
     {
+      "slug": "pitch-invader",
+      "name": "Pitch Invader: Dribble Past the Pros in a Stadium",
+      "short": "Pitch invader",
+      "card_blurb": "Run onto a packed stadium pitch, skip past the goalkeeper and dribble through the players. Just one photo of you.",
+      "video_url": "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/presets/light-pitch-invader.mp4",
+      "poster": "trends/pitch-invader/poster.jpg",
+      "preview_url": "trends/pitch-invader/preview.mp4",
+      "duration": 15.0,
+      "mode": "object-swap",
+      "resolution": "480p",
+      "prompt": "",
+      "slots": [
+        {
+          "label": "You",
+          "hint": "Full body, facing the camera",
+          "example": "assets/examples/white-chicks-a.jpg"
+        },
+        {
+          "label": "You again",
+          "hint": "Optional · another photo of the same person",
+          "example": "assets/examples/white-chicks-a.jpg"
+        }
+      ],
+      "min_photos": 1,
+      "published": "2026-11-01",
+      "light_video_url": "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/presets/light-pitch-invader.mp4",
+      "light_duration": 15.0,
+      "light_only": true,
+      "photo_tip": "Use a full-body photo: the clothes in your photo are the clothes you wear on the pitch",
+      "aliases": [
+        "pitch invader AI trend",
+        "football pitch invader video",
+        "stadium dribble AI trend",
+        "soccer pitch invader trend"
+      ],
+      "seo": {
+        "title": "Pitch Invader AI Trend: Dribble Past the Pros in a Stadium",
+        "description": "Put yourself in the viral pitch invader clip: run onto a packed stadium pitch and dribble past the goalkeeper and the players. One photo, no subscription.",
+        "h1": "Pitch Invader AI Video Generator",
+        "lead": "Be the <b>pitch invader</b>: run onto the pitch in front of a full stadium, skip past the goalkeeper and dribble through the players. The clip is locked in: add one photo of yourself and click Generate. No prompt needed.",
+        "og_title": "Pitch Invader AI Trend: Dribble Past the Pros",
+        "og_tagline": "Pitch invader AI video · Genjutsu · Pay per video",
+        "about_html": "<p>The pitch invader trend is the clip of a fan who runs onto the pitch during a big night game, dances past the diving goalkeeper and dribbles through the players while the stadium watches. This Genjutsu take puts you in place of the invader, with the clothes from your photo.</p><p><a href=\"../../genjutsu/\">Genjutsu</a> keeps the stadium, the players, the ball and the camera moves as filmed, and swaps only the invader for you.</p>",
+        "steps": [
+          [
+            "Open this page",
+            "The pitch invader clip is already loaded. You don't need to find the video or a CapCut template."
+          ],
+          [
+            "Add your photo",
+            "One clear, full-body photo of you, facing the camera. Add a second photo of the same person if you have one."
+          ],
+          [
+            "Keep 480p",
+            "480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video."
+          ],
+          [
+            "Click Generate",
+            "You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back."
+          ],
+          [
+            "Download and post",
+            "Download the MP4 and post it with the trend's sound."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I make the pitch invader AI video?",
+            "Open this page. The clip is already loaded. Add one photo of yourself, then click Generate. No prompt needed."
+          ],
+          [
+            "How much does it cost?",
+            "In Budget mode (Genjutsu Light), the 15-second clip at 480p costs 325 credits (about $3.25). 720p and 1080p are sharper and cost more. No subscription."
+          ],
+          [
+            "Who do I replace?",
+            "You replace the pitch invader, the man in the light blazer who runs with the ball. The goalkeeper, the players and the crowd stay as filmed."
+          ],
+          [
+            "What will I wear in the video?",
+            "The clothes from your photo. Use a full-body photo in the outfit you want to run onto the pitch in."
+          ],
+          [
+            "Can I use a different clip?",
+            "Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt."
+          ]
+        ]
+      }
+    },
+    {
+      "slug": "suit-slam-dunk",
+      "name": "Slam Dunk in a Suit: Dunk in a Packed Arena",
+      "short": "Slam dunk in a suit",
+      "card_blurb": "Dribble down the court of a packed arena and throw down a huge slam dunk. Just one photo of you.",
+      "video_url": "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/presets/light-suit-slam-dunk.mp4",
+      "poster": "trends/suit-slam-dunk/poster.jpg",
+      "preview_url": "trends/suit-slam-dunk/preview.mp4",
+      "duration": 15.0,
+      "mode": "object-swap",
+      "resolution": "480p",
+      "prompt": "",
+      "slots": [
+        {
+          "label": "You",
+          "hint": "Full body, facing the camera",
+          "example": "assets/examples/white-chicks-a.jpg"
+        },
+        {
+          "label": "You again",
+          "hint": "Optional · another photo of the same person",
+          "example": "assets/examples/white-chicks-a.jpg"
+        }
+      ],
+      "min_photos": 1,
+      "published": "2026-11-01",
+      "light_video_url": "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/presets/light-suit-slam-dunk.mp4",
+      "light_duration": 15.0,
+      "light_only": true,
+      "photo_tip": "Use a full-body photo: the clothes in your photo are the clothes you dunk in",
+      "aliases": [
+        "slam dunk AI trend",
+        "basketball dunk AI video",
+        "suit dunk trend",
+        "dunk in a suit AI"
+      ],
+      "seo": {
+        "title": "Slam Dunk AI Trend: Dunk in a Packed Arena",
+        "description": "Put yourself in the viral slam dunk clip: dribble down the court in front of a packed arena and throw down a huge dunk. One photo, no subscription.",
+        "h1": "Slam Dunk AI Video Generator",
+        "lead": "Take over the court: dribble past the referee in front of a <b>packed arena</b> and throw down a huge <b>slam dunk</b>. The clip is locked in: add one photo of yourself and click Generate. No prompt needed.",
+        "og_title": "Slam Dunk AI Trend: Dunk in a Packed Arena",
+        "og_tagline": "Slam dunk AI video · Genjutsu · Pay per video",
+        "about_html": "<p>The slam dunk trend shows a man in a suit who dribbles down the court of a packed arena, takes off and slams the ball through the hoop while the crowd goes wild. This Genjutsu take puts you in place of the dunker, with the clothes from your photo.</p><p><a href=\"../../genjutsu/\">Genjutsu</a> keeps the arena, the crowd, the ball and the camera moves as filmed, and swaps only the dunker for you.</p>",
+        "steps": [
+          [
+            "Open this page",
+            "The slam dunk clip is already loaded. You don't need to find the video or a CapCut template."
+          ],
+          [
+            "Add your photo",
+            "One clear, full-body photo of you, facing the camera. Add a second photo of the same person if you have one."
+          ],
+          [
+            "Keep 480p",
+            "480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video."
+          ],
+          [
+            "Click Generate",
+            "You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back."
+          ],
+          [
+            "Download and post",
+            "Download the MP4 and post it with the trend's sound."
+          ]
+        ],
+        "faq": [
+          [
+            "How do I make the slam dunk AI video?",
+            "Open this page. The clip is already loaded. Add one photo of yourself, then click Generate. No prompt needed."
+          ],
+          [
+            "How much does it cost?",
+            "In Budget mode (Genjutsu Light), the 15-second clip at 480p costs 325 credits (about $3.25). 720p and 1080p are sharper and cost more. No subscription."
+          ],
+          [
+            "Who do I replace?",
+            "You replace the man in the suit who dribbles and dunks. The arena, the crowd and the referee stay as filmed."
+          ],
+          [
+            "What will I wear in the video?",
+            "The clothes from your photo. Use a full-body photo in the outfit you want to dunk in."
+          ],
+          [
+            "Can I use a different clip?",
+            "Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt."
+          ]
+        ]
+      }
+    },
+    {
       "slug": "dance-your-style",
       "name": "Dance Battle Solo",
       "short": "Dance battle solo",
