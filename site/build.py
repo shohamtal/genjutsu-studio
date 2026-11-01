@@ -22,12 +22,17 @@ BASE = DATA["base_url"]
 ALL_TRENDS = DATA["trends"]
 # hidden trends (e.g. the 4s QA clip) get a page but stay out of the gallery, links and sitemap
 # Retired slugs keep a name, so old videos made on them don't show up as "Custom".
-TREND_ALIASES = {"hotel-lobby-v2": "hotel-lobby", "desert-truck-jump": "car-jump"}
+TREND_ALIASES = {"hotel-lobby-v2": "hotel-lobby", "desert-truck-jump": "car-jump", "pitch-invader": "ozil-ai-goal"}
+# Removed trends (copyright risk, 2026-11-01): no page any more, but their old videos keep a name.
+REMOVED_NAMES = {"thriller": "Thriller zombie dance", "thriller-red-jacket": "Thriller red jacket dance",
+                 "smooth-criminal": "Smooth Criminal dance", "shrek-raindance": "Shrek Raindance scene",
+                 "the-boys-baseball": "The Boys baseball"}
 
 
 def trend_names():
     names = {t["slug"]: t["short"] for t in ALL_TRENDS}
     names.update({old: names[new] for old, new in TREND_ALIASES.items() if new in names})
+    names.update(REMOVED_NAMES)
     return names
 
 
@@ -650,7 +655,7 @@ _GENERIC = {"the", "dance", "baby", "man", "car", "i", "feel", "like", "lights",
 
 
 def related(t, n=4):
-    """In-page links to similar trends: same family first (bad-times-*, thriller-*), then the trends ranked just
+    """In-page links to similar trends: same family first (bad-times-*, jawn-*), then the trends ranked just
     after this one in the gallery, so every trend page gets a few links from other trend pages."""
     words = set(t["slug"].split("-")) - _GENERIC
     i = next((k for k, x in enumerate(TRENDS) if x["slug"] == t["slug"]), -1)
@@ -1041,7 +1046,8 @@ write("unsubscribe/index.html", unsub)
 
 # ---------------- old URLs → new pages ----------------
 REDIRECTS = {"white-chicks-ai-trend/": "trends/white-chicks/", "trends/mafia-daughter/": "trends/storm/",
-             "trends/hotel-lobby-v2/": "trends/hotel-lobby/", "trends/desert-truck-jump/": "trends/car-jump/"}
+             "trends/hotel-lobby-v2/": "trends/hotel-lobby/", "trends/desert-truck-jump/": "trends/car-jump/",
+             "trends/pitch-invader/": "trends/ozil-ai-goal/", **{f"trends/{s}/": "" for s in REMOVED_NAMES}}
 for old, new in REDIRECTS.items():
     write(f"{old}index.html", f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8" /><title>Moved</title>

@@ -95,28 +95,28 @@ Questions:
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
-### Pitch Invader: Dribble Past the Pros in a Stadium
-URL: https://genjutsu-trends.com/trends/pitch-invader/
-Facts: 1–2 photos (You, You again); vertical MP4; Budget mode (Genjutsu Light) only: 15 s from $3.25. Also called: pitch invader AI trend, football pitch invader video, stadium dribble AI trend, soccer pitch invader trend.
+### Ozil AI Goal: Dodge the Keeper and Score
+URL: https://genjutsu-trends.com/trends/ozil-ai-goal/
+Facts: 1–2 photos (You, You again); vertical MP4; Budget mode (Genjutsu Light) only: 15 s from $3.25. Also called: Ozil goal AI trend, Ozil AI video, football goal AI trend, soccer goal AI trend.
 
-The pitch invader trend is the clip of a fan who runs onto the pitch during a big night game, dances past the diving goalkeeper and dribbles through the players while the stadium watches. This Genjutsu take puts you in place of the invader, with the clothes from your photo. Genjutsu keeps the stadium, the players, the ball and the camera moves as filmed, and swaps only the invader for you.
+The Ozil AI goal trend replays a famous solo goal on a big night game: a man in a light blazer takes the ball round the diving goalkeeper, waits for the defenders to slide past and taps it in while the stadium watches. This Genjutsu take puts you in place of the scorer, with the clothes from your photo. Genjutsu keeps the stadium, the players, the ball and the camera moves as filmed, and swaps only the scorer for you.
 
 How to make it:
-1. Open this page: The pitch invader clip is already loaded. You don't need to find the video or a CapCut template.
+1. Open this page: The Ozil AI goal clip is already loaded. You don't need to find the video or a CapCut template.
 2. Add your photo: One clear, full-body photo of you, facing the camera. Add a second photo of the same person if you have one.
 3. Keep 480p: 480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video.
 4. Click Generate: You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back.
 5. Download and post: Download the MP4 and post it with the trend's sound.
 
 Questions:
-- Q: How do I make the pitch invader AI video?
+- Q: How do I make the Ozil AI goal video?
   A: Open this page. The clip is already loaded. Add one photo of yourself, then click Generate. No prompt needed.
 - Q: How much does it cost?
   A: In Budget mode (Genjutsu Light), the 15-second clip at 480p costs 325 credits (about $3.25). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who do I replace?
-  A: You replace the pitch invader, the man in the light blazer who runs with the ball. The goalkeeper, the players and the crowd stay as filmed.
+  A: You replace the scorer, the man in the light blazer who takes the ball round the keeper. The goalkeeper, the defenders and the crowd stay as filmed.
 - Q: What will I wear in the video?
-  A: The clothes from your photo. Use a full-body photo in the outfit you want to run onto the pitch in.
+  A: The clothes from your photo. Use a full-body photo in the outfit you want to score in.
 - Q: Can I use a different clip?
   A: Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt.
 - Q: Do I need to download an app?
@@ -248,47 +248,6 @@ Questions:
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
 - Q: Why is there only Budget mode for this trend?
   A: Budget mode uses the Genjutsu Light model, and for this scene it gave clearly better results than Premium in our tests. It's also the cheaper one.
-- Q: Which resolution should I pick?
-  A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
-- Q: What if the video doesn't come out well?
-  A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
-- Q: Will the video follow my prompt exactly?
-  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
-- Q: Can I use photos of celebrities?
-  A: No. Our video provider blocks photos of celebrities and public figures, so the video won't be made. The credits go back to your account automatically. Use your own photos, or photos of friends who agreed to be in the video.
-- Q: Can I download and share it?
-  A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
-
-### The Boys Baseball: Pitch as Homelander
-URL: https://genjutsu-trends.com/trends/the-boys-baseball/
-Facts: 1–3 photos (Homelander, The batter, Butcher); horizontal MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 27 s scene from $13.88. Also called: The Boys AI trend, Homelander AI video, The Boys baseball scene, Homelander pitch trend, The Boys Genjutsu trend.
-
-The Boys baseball trend drops you into a tense game on an empty field: Homelander winds up and pitches, the batter in the maroon jacket swings, and Butcher charges in before it all ends in a tackle. This Genjutsu take on The Boys trend puts your face on Homelander, and up to two friends on the batter and Butcher. Genjutsu keeps the original motion, camera moves and timing and rebuilds each person from your photos.
-
-How to make it:
-1. Open this page: The Boys baseball clip and the prompt are already loaded. You don't need to find the video or a CapCut template.
-2. Add your photo: A clear, front-facing, well-lit photo for Homelander. Add a second and third photo for the batter and Butcher if you want friends in it.
-3. Keep 480p: 480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video.
-4. Click Generate: You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back.
-5. Download and post: Download the MP4 and post it with the trend's sound.
-
-Questions:
-- Q: How do I make The Boys AI video?
-  A: Open this page. The baseball clip is already loaded. Add your photo for Homelander, then click Generate.
-- Q: How much does The Boys AI video cost?
-  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 27-second clip for 1,388 credits (about $13.88). 720p and 1080p are sharper and cost more. No subscription.
-- Q: Who goes where?
-  A: The first photo becomes Homelander, the pitcher in the cape. The second (optional) becomes the batter in the maroon jacket, and the third (optional) becomes Butcher. Anyone without a photo stays as in the original.
-- Q: What photos work best?
-  A: Clear, front-facing, well-lit photos of one person each. Use your own photos, not pictures of the actors or other famous people: those get blocked. Only use photos of people who agreed to be in the video.
-- Q: Can I use a different clip?
-  A: Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt.
-- Q: Do I need to download an app?
-  A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
-- Q: How long does it take?
-  A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
-  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -628,88 +587,6 @@ Questions:
 - Q: Can I download and share it?
   A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
 
-### Smooth Criminal: Michael Jackson's Lean
-URL: https://genjutsu-trends.com/trends/smooth-criminal/
-Facts: 1 photo (The dancer); vertical MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: same 15 s clip from $8.16. Also called: Smooth Criminal dance AI, Michael Jackson lean, Annie are you OK.
-
-"Annie, are you OK?" The "Smooth Criminal" dance, with its white suit, fedora and gravity-defying lean, is one of the most copied dance scenes ever. This AI version keeps the moves, the shadows and the suit, and puts your face on the dancer. Genjutsu keeps the original motion, camera moves and timing and rebuilds the dancer from your selfie.
-
-How to make it:
-1. Open this page: The Smooth Criminal clip and the prompt are already loaded. You don't need to find the video or a CapCut template.
-2. Add one selfie: A clear, front-facing, well-lit photo of the person who'll take the part.
-3. Keep 480p: 480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video.
-4. Click Generate: You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back.
-5. Download and post: Download the MP4 and post it with "Smooth Criminal" as the sound.
-
-Questions:
-- Q: How do I make the Smooth Criminal AI video?
-  A: Open this page. The Smooth Criminal clip is already loaded. Add one selfie, then click Generate.
-- Q: How much does the Smooth Criminal AI video cost?
-  A: In Budget mode (Genjutsu Light), the 15-second clip at 480p costs 325 credits (about $3.25). Premium mode renders the same 15-second clip for 816 credits (about $8.16). 720p and 1080p are sharper and cost more. No subscription.
-- Q: Who goes where?
-  A: Your face goes on the main dancer in the white suit and hat. His suit, blue shirt, moves and the shadows stay as they are.
-- Q: What photos work best?
-  A: A clear, front-facing, well-lit selfie of one person. Avoid sunglasses and heavy shadows. Only use photos of people who agreed to be in the video.
-- Q: Can I use a different clip?
-  A: Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt.
-- Q: Do I need to download an app?
-  A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
-- Q: How long does it take?
-  A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
-  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
-- Q: Which resolution should I pick?
-  A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
-- Q: What if the video doesn't come out well?
-  A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
-- Q: Will the video follow my prompt exactly?
-  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
-- Q: Can I use photos of celebrities?
-  A: No. Our video provider blocks photos of celebrities and public figures, so the video won't be made. The credits go back to your account automatically. Use your own photos, or photos of friends who agreed to be in the video.
-- Q: Can I download and share it?
-  A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
-
-### Thriller Red Jacket: Alternate Take
-URL: https://genjutsu-trends.com/trends/thriller-red-jacket/
-Facts: 1 photo (The dancer); vertical MP4; Budget mode (Genjutsu Light) only: 15 s from $3.25. Also called: Michael Jackson red jacket AI.
-
-The "Thriller" zombie dance is one of the most famous dance scenes ever filmed: the red leather jacket, the claw hands, the head tilts and a street full of zombies moving in sync. This version puts your face on the lead dancer and keeps everything else. Genjutsu keeps the original motion, camera moves and timing and rebuilds the dancer from your selfie.
-
-How to make it:
-1. Open this page: The Thriller clip and the prompt are already loaded. You don't need to find the video or a CapCut template.
-2. Add one selfie: A clear, front-facing, well-lit photo of the person who'll take the part.
-3. Keep 480p: 480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video.
-4. Click Generate: You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back.
-5. Download and post: Download the MP4 and post it with "Thriller" as the sound.
-
-Questions:
-- Q: How do I make the Thriller Red Jacket AI video?
-  A: Open this page. The Thriller clip is already loaded. Add one selfie, then click Generate.
-- Q: How much does the Thriller red jacket AI video cost?
-  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). 720p and 1080p are sharper and cost more. No subscription.
-- Q: Who goes where?
-  A: Your face goes on the lead dancer in the red leather jacket. The zombies, the street and the moves stay as they are.
-- Q: What photos work best?
-  A: A clear, front-facing, well-lit selfie of one person. Avoid sunglasses and heavy shadows. Only use photos of people who agreed to be in the video.
-- Q: Can I use a different clip?
-  A: Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt.
-- Q: Do I need to download an app?
-  A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
-- Q: How long does it take?
-  A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: Why is there only Budget mode for this trend?
-  A: Budget mode uses the Genjutsu Light model, and for this scene it gave clearly better results than Premium in our tests. It's also the cheaper one and renders 15 seconds of the scene.
-- Q: Which resolution should I pick?
-  A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
-- Q: What if the video doesn't come out well?
-  A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
-- Q: Will the video follow my prompt exactly?
-  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
-- Q: Can I use photos of celebrities?
-  A: No. Our video provider blocks photos of celebrities and public figures, so the video won't be made. The credits go back to your account automatically. Use your own photos, or photos of friends who agreed to be in the video.
-- Q: Can I download and share it?
-  A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
-
 ### Gas Station Dance: 3 Friends at Sunset
 URL: https://genjutsu-trends.com/trends/gas-station-dance/
 Facts: 3 photos (The dancer, The selfie, The car entrance); vertical MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: same 15 s clip from $8.16. Also called: gas station dance trend, 3 friends road trip dance.
@@ -837,7 +714,7 @@ Questions:
 URL: https://genjutsu-trends.com/trends/raindance/
 Facts: 2 photos (Dave's part, Tems' part); horizontal MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 21 s scene from $11.02. Also called: Dave and Tems Raindance AI, Raindance pier.
 
-"Raindance" by Dave featuring Tems became one of the year's biggest songs, and its music video's golden-hour pier moment became a duet trend of its own: one person waits on the pier, the other walks in singing by the water, and they end up side by side. This is the original music-video version; for the meme mashup, see the Shrek Raindance trend. Most face swap apps paste a flat face over the clip. Genjutsu keeps the original motion, camera cuts and timing and rebuilds both people from your photos.
+"Raindance" by Dave featuring Tems became one of the year's biggest songs, and its music video's golden-hour pier moment became a duet trend of its own: one person waits on the pier, the other walks in singing by the water, and they end up side by side. This is the original music-video version. Most face swap apps paste a flat face over the clip. Genjutsu keeps the original motion, camera cuts and timing and rebuilds both people from your photos.
 
 How to make it:
 1. Open this page: The Raindance pier clip and the prompt are already loaded. You don't need to find the video or a CapCut template.
@@ -853,8 +730,6 @@ Questions:
   A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 21-second clip for 1,102 credits (about $11.02). 720p and 1080p are sharper and cost more. No subscription.
 - Q: Who goes where?
   A: The first photo replaces Dave (the man waiting on the pier) and the second replaces Tems (the woman in the mint green dress singing by the water).
-- Q: Is this the Shrek version?
-  A: No. This is the original music-video scene. The Shrek and Lord Farquaad version is a separate trend.
 - Q: What photos work best?
   A: Clear, front-facing, well-lit photos of one person each. Avoid group photos and heavy shadows. Only use photos of people who agreed to be in the video.
 - Q: Can I use a different clip?
@@ -865,47 +740,6 @@ Questions:
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
 - Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
   A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
-- Q: Which resolution should I pick?
-  A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
-- Q: What if the video doesn't come out well?
-  A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
-- Q: Will the video follow my prompt exactly?
-  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
-- Q: Can I use photos of celebrities?
-  A: No. Our video provider blocks photos of celebrities and public figures, so the video won't be made. The credits go back to your account automatically. Use your own photos, or photos of friends who agreed to be in the video.
-- Q: Can I download and share it?
-  A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
-
-### Thriller: Michael Jackson Zombie Street Dance
-URL: https://genjutsu-trends.com/trends/thriller/
-Facts: 1 photo (The lead dancer); horizontal MP4; Budget mode (Genjutsu Light) only: 15 s from $3.25. Also called: Michael Jackson Thriller AI, zombie dance AI.
-
-The "Thriller" zombie dance is one of the most copied routines ever: a zombie stare in close-up, then a whole street of ghouls behind the lead doing the shuffle, shoulder rolls and claw arms. The AI trend puts you in the red jacket at the front. Genjutsu keeps the original motion, camera cuts and timing and rebuilds the lead dancer from your photo, so every move lands on the beat.
-
-How to make it:
-1. Open this page: The Thriller clip and the prompt are already loaded. You don't need to find the video or a CapCut template.
-2. Add one photo: Add a clear, front-facing, well-lit photo of the person who'll lead the dance.
-3. Keep 480p: 480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video.
-4. Click Generate: You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back.
-5. Download and post: Download the MP4 and post it with "Thriller" as the sound.
-
-Questions:
-- Q: How do I make the Thriller AI video?
-  A: Open this page. The Thriller dance clip is already loaded. Add one photo for the lead dancer, then click Generate.
-- Q: How much does the Thriller AI video cost?
-  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). 720p and 1080p are sharper and cost more. No subscription.
-- Q: Who goes where?
-  A: Your photo replaces the lead dancer in the red jacket. The zombie dancers behind stay as they are.
-- Q: What photos work best?
-  A: A clear, front-facing, well-lit photo of one person. Avoid group photos and heavy shadows. Only use photos of people who agreed to be in the video.
-- Q: Can I use a different clip?
-  A: Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt.
-- Q: Do I need to download an app?
-  A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
-- Q: How long does it take?
-  A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: Why is there only Budget mode for this trend?
-  A: Budget mode uses the Genjutsu Light model, and for this scene it gave clearly better results than Premium in our tests. It's also the cheaper one and renders 15 seconds of the scene.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?
@@ -1316,46 +1150,6 @@ Questions:
   A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
 - Q: How long does it take?
   A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: Which resolution should I pick?
-  A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
-- Q: What if the video doesn't come out well?
-  A: If the render fails or is blocked by the automatic content check, your credits are refunded automatically. A finished video can't be refunded, because the render has already been paid for, so use a clear, well-lit photo for the best result.
-- Q: Will the video follow my prompt exactly?
-  A: Not always. The video is made by an AI model, and like every AI video model today it can miss or change details of a prompt, or keep details from the original scene, such as clothing or accessories. The outfit and the setting come from the trend's scene. Some ideas take more than one try, so start at 480p to see how it looks.
-- Q: Can I use photos of celebrities?
-  A: No. Our video provider blocks photos of celebrities and public figures, so the video won't be made. The credits go back to your account automatically. Use your own photos, or photos of friends who agreed to be in the video.
-- Q: Can I download and share it?
-  A: Yes. Download the MP4 from "My videos" and post it anywhere, or share a link to it.
-
-### Shrek Raindance: Shrek & Lord Farquaad
-URL: https://genjutsu-trends.com/trends/shrek-raindance/
-Facts: 2 photos (Shrek, Lord Farquaad); horizontal MP4; Budget mode (Genjutsu Light): 15 s from $3.25; Premium: full 29 s scene from $14.84. Also called: Shrek and Lord Farquaad AI, Shrek dock Raindance meme.
-
-A realistic AI take on Shrek and Lord Farquaad, staring out at the sea on a dock and a beach to Dave and Tems' "Raindance", went viral on TikTok and Instagram. The trend: you and a friend become the two of them. Genjutsu keeps the original poses, close-ups and timing and rebuilds both characters from your photos, outfits included.
-
-How to make it:
-1. Open this page: The Shrek clip and the prompt are already loaded.
-2. Add two photos: The first photo becomes Shrek and the second becomes Lord Farquaad. Use clear, front-facing photos.
-3. Click Generate: 480p is the default. You'll see the exact price first, and the video renders in a few minutes.
-4. Download and post: Download the MP4 and post it with "Raindance" as the sound.
-
-Questions:
-- Q: How do I make the Shrek Raindance AI video?
-  A: Open this page, add one photo for Shrek and one for Lord Farquaad, then click Generate.
-- Q: How much does it cost?
-  A: In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 29-second clip for 1,484 credits (about $14.84). 720p and 1080p are sharper and cost more. No subscription.
-- Q: Who goes where?
-  A: Photo 1 is Shrek (green ogre) and photo 2 is Lord Farquaad (red hat).
-- Q: What photos work best?
-  A: Clear, front-facing, well-lit photos of one person each. Avoid group photos and heavy shadows. Only use photos of people who agreed to be in the video.
-- Q: Can I use a different clip?
-  A: Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt.
-- Q: Do I need to download an app?
-  A: No. Everything runs in your browser, on a phone or a computer. Sign in with your email (we send a 6-digit code) and you're ready.
-- Q: How long does it take?
-  A: Usually a few minutes. You can close the tab: the video keeps rendering, it appears under "My videos" and we email you when it's ready.
-- Q: What's the difference between Budget mode (Genjutsu Light) and Premium mode?
-  A: Budget uses the Genjutsu Light model: fast, much cheaper, and it renders up to 15 seconds of the scene. Premium uses the full Genjutsu model: it renders the full scene with more detail, and takes a bit longer.
 - Q: Which resolution should I pick?
   A: 480p is the default and looks fine on TikTok, Reels and Shorts. 720p and 1080p are sharper and cost more; the price updates as you switch.
 - Q: What if the video doesn't come out well?

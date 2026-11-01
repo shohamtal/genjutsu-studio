@@ -421,108 +421,13 @@
       "light_only": true
     },
     {
-      "slug": "the-boys-baseball",
-      "name": "The Boys Baseball: Pitch as Homelander",
-      "short": "The Boys baseball",
-      "card_blurb": "Homelander pitches, Mother's Milk swings and Butcher charges in. Play Homelander, add up to two friends.",
-      "video_url": "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/presets/the-boys-baseball.mp4",
-      "poster": "trends/the-boys-baseball/poster.jpg",
-      "preview_url": "trends/the-boys-baseball/preview.mp4",
-      "duration": 27.0,
-      "mode": "motion-transfer",
-      "resolution": "480p",
-      "prompt": "Replace Homelander (the blond man in the blue suit with the red and white cape who pitches the baseball) with the first uploaded picture, as a realistic person. If a second picture is uploaded, replace the batter in the maroon leather jacket with that person. If a third picture is uploaded, replace the bearded man in the dark coat (Butcher) with that person. Anyone without a picture stays as they are. Keep the costumes, the baseball field, the pitch, the swing, the flying and the tackle, the camera cuts and timing.",
-      "slots": [
-        {
-          "label": "Homelander",
-          "hint": "The pitcher in the cape",
-          "example": "assets/examples/white-chicks-a.jpg"
-        },
-        {
-          "label": "The batter",
-          "hint": "Optional · maroon jacket",
-          "example": "assets/examples/white-chicks-b.jpg"
-        },
-        {
-          "label": "Butcher",
-          "hint": "Optional · bearded, dark coat",
-          "example": "assets/examples/white-chicks-a.jpg"
-        }
-      ],
-      "min_photos": 1,
-      "published": "2026-10-28",
-      "seo": {
-        "title": "The Boys AI Trend: Pitch as Homelander in the Baseball Scene",
-        "description": "Put your face on Homelander as he pitches in The Boys baseball scene. Add up to 2 friends as the batter and Butcher. No subscription.",
-        "h1": "The Boys AI Video Generator (Homelander Baseball Scene)",
-        "lead": "Become <b>Homelander</b> on the mound: the cape, the stare, the pitch. Add a friend as the batter in the maroon jacket and one as Butcher if you like. The clip is locked in: add your photo and click Generate.",
-        "og_title": "The Boys AI Trend: Pitch as Homelander",
-        "og_tagline": "The Boys baseball AI face swap · Genjutsu · Pay per video",
-        "about_html": "<p>The Boys baseball trend drops you into a tense game on an empty field: Homelander winds up and pitches, the batter in the maroon jacket swings, and Butcher charges in before it all ends in a tackle. This Genjutsu take on The Boys trend puts your face on Homelander, and up to two friends on the batter and Butcher.</p><p><a href=\"../../genjutsu/\">Genjutsu</a> keeps the original motion, camera moves and timing and rebuilds each person from your photos.</p>",
-        "steps": [
-          [
-            "Open this page",
-            "The Boys baseball clip and the prompt are already loaded. You don't need to find the video or a CapCut template."
-          ],
-          [
-            "Add your photo",
-            "A clear, front-facing, well-lit photo for Homelander. Add a second and third photo for the batter and Butcher if you want friends in it."
-          ],
-          [
-            "Keep 480p",
-            "480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video."
-          ],
-          [
-            "Click Generate",
-            "You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back."
-          ],
-          [
-            "Download and post",
-            "Download the MP4 and post it with the trend's sound."
-          ]
-        ],
-        "faq": [
-          [
-            "How do I make The Boys AI video?",
-            "Open this page. The baseball clip is already loaded. Add your photo for Homelander, then click Generate."
-          ],
-          [
-            "How much does The Boys AI video cost?",
-            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 27-second clip for 1,388 credits (about $13.88). 720p and 1080p are sharper and cost more. No subscription."
-          ],
-          [
-            "Who goes where?",
-            "The first photo becomes Homelander, the pitcher in the cape. The second (optional) becomes the batter in the maroon jacket, and the third (optional) becomes Butcher. Anyone without a photo stays as in the original."
-          ],
-          [
-            "What photos work best?",
-            "Clear, front-facing, well-lit photos of one person each. Use your own photos, not pictures of the actors or other famous people: those get blocked. Only use photos of people who agreed to be in the video."
-          ],
-          [
-            "Can I use a different clip?",
-            "Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt."
-          ]
-        ]
-      },
-      "light_video_url": "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/presets/light-the-boys-baseball.mp4",
-      "light_duration": 15.0,
-      "light_preview_url": "trends/the-boys-baseball/preview-light.mp4",
-      "aliases": [
-        "The Boys AI trend",
-        "Homelander AI video",
-        "The Boys baseball scene",
-        "Homelander pitch trend",
-        "The Boys Genjutsu trend"
-      ]
-    },
-    {
-      "slug": "pitch-invader",
-      "name": "Pitch Invader: Dribble Past the Pros in a Stadium",
-      "short": "Pitch invader",
-      "card_blurb": "Run onto a packed stadium pitch, skip past the goalkeeper and dribble through the players. Just one photo of you.",
+      "slug": "ozil-ai-goal",
+      "name": "Ozil AI Goal: Dodge the Keeper and Score",
+      "short": "Ozil AI goal",
+      "card_blurb": "The famous solo goal: dodge the diving keeper, beat the defenders on the line and score in a packed stadium. Just one photo of you.",
       "video_url": "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/presets/light-pitch-invader.mp4",
-      "poster": "trends/pitch-invader/poster.jpg",
-      "preview_url": "trends/pitch-invader/preview.mp4",
+      "poster": "trends/ozil-ai-goal/poster.jpg",
+      "preview_url": "trends/ozil-ai-goal/preview.mp4",
       "duration": 15.0,
       "mode": "object-swap",
       "resolution": "480p",
@@ -544,25 +449,25 @@
       "light_video_url": "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/presets/light-pitch-invader.mp4",
       "light_duration": 15.0,
       "light_only": true,
-      "photo_tip": "Use a full-body photo: the clothes in your photo are the clothes you wear on the pitch",
+      "photo_tip": "Use a full-body photo: the clothes in your photo are the clothes you score in",
       "aliases": [
-        "pitch invader AI trend",
-        "football pitch invader video",
-        "stadium dribble AI trend",
-        "soccer pitch invader trend"
+        "Ozil goal AI trend",
+        "Ozil AI video",
+        "football goal AI trend",
+        "soccer goal AI trend"
       ],
       "seo": {
-        "title": "Pitch Invader AI Trend: Dribble Past the Pros in a Stadium",
-        "description": "Put yourself in the viral pitch invader clip: run onto a packed stadium pitch and dribble past the goalkeeper and the players. One photo, no subscription.",
-        "h1": "Pitch Invader AI Video Generator",
-        "lead": "Be the <b>pitch invader</b>: run onto the pitch in front of a full stadium, skip past the goalkeeper and dribble through the players. The clip is locked in: add one photo of yourself and click Generate. No prompt needed.",
-        "og_title": "Pitch Invader AI Trend: Dribble Past the Pros",
-        "og_tagline": "Pitch invader AI video · Genjutsu · Pay per video",
-        "about_html": "<p>The pitch invader trend is the clip of a fan who runs onto the pitch during a big night game, dances past the diving goalkeeper and dribbles through the players while the stadium watches. This Genjutsu take puts you in place of the invader, with the clothes from your photo.</p><p><a href=\"../../genjutsu/\">Genjutsu</a> keeps the stadium, the players, the ball and the camera moves as filmed, and swaps only the invader for you.</p>",
+        "title": "Ozil AI Goal Trend: Dodge the Keeper and Score",
+        "description": "Put yourself in the viral Ozil AI goal clip: dodge the diving keeper, beat the defenders on the line and score in a packed stadium. One photo, no subscription.",
+        "h1": "Ozil AI Goal Video Generator",
+        "lead": "Score <b>the famous solo goal</b>: dodge the diving keeper, beat the defenders on the line and finish it in front of a packed stadium. The clip is locked in: add one photo of yourself and click Generate. No prompt needed.",
+        "og_title": "Ozil AI Goal Trend: Dodge the Keeper and Score",
+        "og_tagline": "Ozil AI goal video · Genjutsu · Pay per video",
+        "about_html": "<p>The Ozil AI goal trend replays a famous solo goal on a big night game: a man in a light blazer takes the ball round the diving goalkeeper, waits for the defenders to slide past and taps it in while the stadium watches. This Genjutsu take puts you in place of the scorer, with the clothes from your photo.</p><p><a href=\"../../genjutsu/\">Genjutsu</a> keeps the stadium, the players, the ball and the camera moves as filmed, and swaps only the scorer for you.</p>",
         "steps": [
           [
             "Open this page",
-            "The pitch invader clip is already loaded. You don't need to find the video or a CapCut template."
+            "The Ozil AI goal clip is already loaded. You don't need to find the video or a CapCut template."
           ],
           [
             "Add your photo",
@@ -583,7 +488,7 @@
         ],
         "faq": [
           [
-            "How do I make the pitch invader AI video?",
+            "How do I make the Ozil AI goal video?",
             "Open this page. The clip is already loaded. Add one photo of yourself, then click Generate. No prompt needed."
           ],
           [
@@ -592,11 +497,11 @@
           ],
           [
             "Who do I replace?",
-            "You replace the pitch invader, the man in the light blazer who runs with the ball. The goalkeeper, the players and the crowd stay as filmed."
+            "You replace the scorer, the man in the light blazer who takes the ball round the keeper. The goalkeeper, the defenders and the crowd stay as filmed."
           ],
           [
             "What will I wear in the video?",
-            "The clothes from your photo. Use a full-body photo in the outfit you want to run onto the pitch in."
+            "The clothes from your photo. Use a full-body photo in the outfit you want to score in."
           ],
           [
             "Can I use a different clip?",
@@ -861,168 +766,6 @@
         "karate dojo fight AI",
         "dojo fight meme"
       ]
-    },
-    {
-      "slug": "smooth-criminal",
-      "name": "Smooth Criminal: Michael Jackson's Lean",
-      "short": "Smooth Criminal dance",
-      "card_blurb": "Michael Jackson's \"Smooth Criminal\": the white suit, the hat and the famous lean. One face in.",
-      "video_url": "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/presets/smooth-criminal.mp4",
-      "poster": "trends/smooth-criminal/poster.jpg",
-      "preview_url": "trends/smooth-criminal/preview.mp4",
-      "duration": 15.0,
-      "mode": "motion-transfer",
-      "resolution": "480p",
-      "prompt": "Replace the face and hair of the main dancer in the white suit with the person in the uploaded photo. Take ONLY the face and hair from the photo and ignore the clothes in the photo. He must keep the original outfit: white suit jacket and trousers, white fedora with a black band, blue shirt, white tie, white socks and shoes. Keep his movements, the lean, the shadows and facial expressions, the background dancers and the club.",
-      "slots": [
-        {
-          "label": "The dancer",
-          "hint": "White suit and hat · a face close-up works best",
-          "example": "assets/examples/white-chicks-a.jpg"
-        }
-      ],
-      "published": "2026-10-23",
-      "seo": {
-        "title": "Smooth Criminal AI Trend: Michael Jackson Lean Dance",
-        "description": "White suit, hat, and Michael Jackson's famous Smooth Criminal lean—swap in your face and generate. 1 photo. No subscription.",
-        "h1": "Smooth Criminal AI Video Generator: MJ's Famous Lean",
-        "lead": "Be the man in the white suit in Michael Jackson's <b>\"Smooth Criminal\"</b>: from the close-up under the hat to the moves and the famous lean. The 15-second clip is locked in: add one selfie and click Generate.",
-        "og_title": "Smooth Criminal AI Trend: Michael Jackson Lean Dance",
-        "og_tagline": "Smooth Criminal AI face swap · Genjutsu · Pay per video",
-        "about_html": "<p>\"Annie, are you OK?\" The \"Smooth Criminal\" dance, with its white suit, fedora and gravity-defying lean, is one of the most copied dance scenes ever. This AI version keeps the moves, the shadows and the suit, and puts your face on the dancer.</p><p><a href=\"../../genjutsu/\">Genjutsu</a> keeps the original motion, camera moves and timing and rebuilds the dancer from your selfie.</p>",
-        "steps": [
-          [
-            "Open this page",
-            "The Smooth Criminal clip and the prompt are already loaded. You don't need to find the video or a CapCut template."
-          ],
-          [
-            "Add one selfie",
-            "A clear, front-facing, well-lit photo of the person who'll take the part."
-          ],
-          [
-            "Keep 480p",
-            "480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video."
-          ],
-          [
-            "Click Generate",
-            "You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back."
-          ],
-          [
-            "Download and post",
-            "Download the MP4 and post it with \"Smooth Criminal\" as the sound."
-          ]
-        ],
-        "faq": [
-          [
-            "How do I make the Smooth Criminal AI video?",
-            "Open this page. The Smooth Criminal clip is already loaded. Add one selfie, then click Generate."
-          ],
-          [
-            "How much does the Smooth Criminal AI video cost?",
-            "In Budget mode (Genjutsu Light), the 15-second clip at 480p costs 325 credits (about $3.25). Premium mode renders the same 15-second clip for 816 credits (about $8.16). 720p and 1080p are sharper and cost more. No subscription."
-          ],
-          [
-            "Who goes where?",
-            "Your face goes on the main dancer in the white suit and hat. His suit, blue shirt, moves and the shadows stay as they are."
-          ],
-          [
-            "What photos work best?",
-            "A clear, front-facing, well-lit selfie of one person. Avoid sunglasses and heavy shadows. Only use photos of people who agreed to be in the video."
-          ],
-          [
-            "Can I use a different clip?",
-            "Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt."
-          ]
-        ]
-      },
-      "light_video_url": "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/presets/light-smooth-criminal.mp4",
-      "light_duration": 15.0,
-      "aliases": [
-        "Smooth Criminal dance AI",
-        "Michael Jackson lean",
-        "Annie are you OK"
-      ]
-    },
-    {
-      "slug": "thriller-red-jacket",
-      "name": "Thriller Red Jacket: Alternate Take",
-      "short": "Thriller red jacket dance",
-      "card_blurb": "Michael Jackson's \"Thriller\" in the red leather jacket, leading the zombies. One face in.",
-      "video_url": "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/presets/thriller-red-jacket.mp4",
-      "poster": "trends/thriller-red-jacket/poster.jpg",
-      "preview_url": "trends/thriller-red-jacket/preview.mp4",
-      "duration": 19.0,
-      "mode": "motion-transfer",
-      "resolution": "480p",
-      "prompt": "Replace the face of the man in the red leather jacket with the selfie attached, keep the movements, the shadows and the facial expressions of the man in the video, and keep his red jacket and red trousers and the zombies dancing behind him",
-      "slots": [
-        {
-          "label": "The dancer",
-          "hint": "Red leather jacket",
-          "example": "assets/examples/white-chicks-a.jpg"
-        }
-      ],
-      "published": "2026-10-23",
-      "seo": {
-        "title": "Thriller Red Jacket AI: Lead MJ's Zombie Line, 1 Selfie",
-        "description": "Lead the zombies in the red-leather Thriller take—an alternate page to the street-dance Thriller. 1 selfie. No subscription.",
-        "h1": "Thriller Red Jacket AI Video Generator (Alternate Take)",
-        "lead": "Wear the red leather jacket and lead the zombies in Michael Jackson's <b>\"Thriller\"</b> dance. The clip is locked in (a 15-second version): add one selfie and click Generate.",
-        "og_title": "Thriller Red Jacket AI: Lead MJ's Zombie Line, 1 Selfie",
-        "og_tagline": "Thriller AI face swap · Genjutsu · Pay per video",
-        "about_html": "<p>The \"Thriller\" zombie dance is one of the most famous dance scenes ever filmed: the red leather jacket, the claw hands, the head tilts and a street full of zombies moving in sync. This version puts your face on the lead dancer and keeps everything else.</p><p><a href=\"../../genjutsu/\">Genjutsu</a> keeps the original motion, camera moves and timing and rebuilds the dancer from your selfie.</p>",
-        "steps": [
-          [
-            "Open this page",
-            "The Thriller clip and the prompt are already loaded. You don't need to find the video or a CapCut template."
-          ],
-          [
-            "Add one selfie",
-            "A clear, front-facing, well-lit photo of the person who'll take the part."
-          ],
-          [
-            "Keep 480p",
-            "480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video."
-          ],
-          [
-            "Click Generate",
-            "You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back."
-          ],
-          [
-            "Download and post",
-            "Download the MP4 and post it with \"Thriller\" as the sound."
-          ]
-        ],
-        "faq": [
-          [
-            "How do I make the Thriller Red Jacket AI video?",
-            "Open this page. The Thriller clip is already loaded. Add one selfie, then click Generate."
-          ],
-          [
-            "How much does the Thriller red jacket AI video cost?",
-            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). 720p and 1080p are sharper and cost more. No subscription."
-          ],
-          [
-            "Who goes where?",
-            "Your face goes on the lead dancer in the red leather jacket. The zombies, the street and the moves stay as they are."
-          ],
-          [
-            "What photos work best?",
-            "A clear, front-facing, well-lit selfie of one person. Avoid sunglasses and heavy shadows. Only use photos of people who agreed to be in the video."
-          ],
-          [
-            "Can I use a different clip?",
-            "Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt."
-          ]
-        ]
-      },
-      "light_video_url": "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/presets/light-thriller-red-jacket.mp4",
-      "light_duration": 15.0,
-      "light_preview_url": "trends/thriller-red-jacket/preview-light.mp4",
-      "aliases": [
-        "Michael Jackson red jacket AI"
-      ],
-      "light_only": true
     },
     {
       "slug": "gas-station-dance",
@@ -1673,89 +1416,6 @@
       ]
     },
     {
-      "slug": "shrek-raindance",
-      "name": "Shrek Raindance: Shrek & Lord Farquaad",
-      "short": "Shrek Raindance scene",
-      "card_blurb": "Shrek and Lord Farquaad's beach and dock moment to \"Raindance\". Become the two of them.",
-      "video_url": "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/presets/shrek-raindance.mp4",
-      "poster": "trends/shrek-raindance/poster.jpg",
-      "preview_url": "trends/shrek-raindance/preview.mp4",
-      "duration": 28.97,
-      "mode": "motion-transfer",
-      "resolution": "480p",
-      "prompt": "Replace Shrek (the green ogre) with the first uploaded picture and Lord Farquaad (the man in the red hat and red outfit) with the second uploaded picture, as realistic people. Keep their outfits, the dock, the beach and the sea, the poses, expressions, camera cuts and timing.",
-      "slots": [
-        {
-          "label": "Shrek",
-          "hint": "The green ogre",
-          "example": "assets/examples/white-chicks-a.jpg"
-        },
-        {
-          "label": "Lord Farquaad",
-          "hint": "Red hat and outfit",
-          "example": "assets/examples/white-chicks-b.jpg"
-        }
-      ],
-      "published": "2026-10-12",
-      "seo": {
-        "title": "Shrek Raindance AI Trend: Shrek & Lord Farquaad",
-        "description": "Become Shrek and Lord Farquaad on the dock for the viral Raindance beach-and-pier meme. 2 photos. Works in the browser. No subscription.",
-        "h1": "Shrek Raindance AI Video Generator (Shrek & Lord Farquaad)",
-        "lead": "The viral <b>Shrek and Lord Farquaad</b> beach moment set to \"Raindance\". The clip is locked in: add a photo for each and click Generate.",
-        "og_title": "Shrek Raindance AI Trend: Shrek & Lord Farquaad",
-        "og_tagline": "Shrek AI face swap · Genjutsu · No subscription",
-        "about_html": "<p>A realistic AI take on Shrek and Lord Farquaad, staring out at the sea on a dock and a beach to Dave and Tems' \"Raindance\", went viral on TikTok and Instagram. The trend: you and a friend become the two of them.</p><p><a href=\"../../genjutsu/\">Genjutsu</a> keeps the original poses, close-ups and timing and rebuilds both characters from your photos, outfits included.</p>",
-        "steps": [
-          [
-            "Open this page",
-            "The Shrek clip and the prompt are already loaded."
-          ],
-          [
-            "Add two photos",
-            "The first photo becomes Shrek and the second becomes Lord Farquaad. Use clear, front-facing photos."
-          ],
-          [
-            "Click Generate",
-            "480p is the default. You'll see the exact price first, and the video renders in a few minutes."
-          ],
-          [
-            "Download and post",
-            "Download the MP4 and post it with \"Raindance\" as the sound."
-          ]
-        ],
-        "faq": [
-          [
-            "How do I make the Shrek Raindance AI video?",
-            "Open this page, add one photo for Shrek and one for Lord Farquaad, then click Generate."
-          ],
-          [
-            "How much does it cost?",
-            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). Premium mode renders the full 29-second clip for 1,484 credits (about $14.84). 720p and 1080p are sharper and cost more. No subscription."
-          ],
-          [
-            "Who goes where?",
-            "Photo 1 is Shrek (green ogre) and photo 2 is Lord Farquaad (red hat)."
-          ],
-          [
-            "What photos work best?",
-            "Clear, front-facing, well-lit photos of one person each. Avoid group photos and heavy shadows. Only use photos of people who agreed to be in the video."
-          ],
-          [
-            "Can I use a different clip?",
-            "Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt."
-          ]
-        ]
-      },
-      "light_video_url": "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/presets/light-shrek-raindance-04.mp4",
-      "light_duration": 15.0,
-      "light_start": 4,
-      "light_preview_url": "trends/shrek-raindance/preview-light.mp4",
-      "aliases": [
-        "Shrek and Lord Farquaad AI",
-        "Shrek dock Raindance meme"
-      ]
-    },
-    {
       "slug": "raindance",
       "name": "Raindance: Dave & Tems Pier Scene (Original)",
       "short": "Raindance pier scene",
@@ -1787,7 +1447,7 @@
         "lead": "Put two faces in the golden-hour pier scene from Dave & Tems' <b>\"Raindance\"</b> music video. The 21-second clip is locked in: add a photo for each part and click Generate.",
         "og_title": "Raindance AI Trend: Dave & Tems Pier Scene (Original)",
         "og_tagline": "Raindance AI face swap · Genjutsu · Pay per video",
-        "about_html": "<p>\"Raindance\" by Dave featuring Tems became one of the year's biggest songs, and its music video's golden-hour pier moment became a duet trend of its own: one person waits on the pier, the other walks in singing by the water, and they end up side by side. This is the original music-video version; for the meme mashup, see the <a href=\"../shrek-raindance/\">Shrek Raindance</a> trend.</p><p>Most face swap apps paste a flat face over the clip. <a href=\"../../genjutsu/\">Genjutsu</a> keeps the original motion, camera cuts and timing and rebuilds both people from your photos.</p>",
+        "about_html": "<p>\"Raindance\" by Dave featuring Tems became one of the year's biggest songs, and its music video's golden-hour pier moment became a duet trend of its own: one person waits on the pier, the other walks in singing by the water, and they end up side by side. This is the original music-video version.</p><p>Most face swap apps paste a flat face over the clip. <a href=\"../../genjutsu/\">Genjutsu</a> keeps the original motion, camera cuts and timing and rebuilds both people from your photos.</p>",
         "steps": [
           [
             "Open this page",
@@ -1824,10 +1484,6 @@
             "The first photo replaces Dave (the man waiting on the pier) and the second replaces Tems (the woman in the mint green dress singing by the water)."
           ],
           [
-            "Is this the Shrek version?",
-            "No. This is the original music-video scene. The Shrek and Lord Farquaad version is a separate trend."
-          ],
-          [
             "What photos work best?",
             "Clear, front-facing, well-lit photos of one person each. Avoid group photos and heavy shadows. Only use photos of people who agreed to be in the video."
           ],
@@ -1845,88 +1501,6 @@
         "Dave and Tems Raindance AI",
         "Raindance pier"
       ]
-    },
-    {
-      "slug": "thriller",
-      "name": "Thriller: Michael Jackson Zombie Street Dance",
-      "short": "Thriller zombie dance",
-      "card_blurb": "Lead the zombies through Michael Jackson's \"Thriller\" street dance. One face in.",
-      "video_url": "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/presets/thriller-21.mp4",
-      "poster": "trends/thriller/poster.jpg",
-      "preview_url": "trends/thriller/preview.mp4",
-      "duration": 20.988,
-      "mode": "motion-transfer",
-      "resolution": "480p",
-      "prompt": "Replace the lead dancer in the red leather jacket and red trousers (Michael Jackson) with the uploaded picture, keeping the zombie makeup look in the first close-up shots. Keep the zombie dancers, the night street, the blue light, the choreography, camera cuts and timing.",
-      "slots": [
-        {
-          "label": "The lead dancer",
-          "hint": "Red jacket, leads the zombies",
-          "example": "assets/examples/white-chicks-a.jpg"
-        }
-      ],
-      "published": "2026-10-21",
-      "seo": {
-        "title": "Thriller AI Trend: Michael Jackson Zombie Street Dance",
-        "description": "Lead the zombies through Michael Jackson's Thriller street dance with your face in. 1 photo. No subscription, no app. Works in the browser.",
-        "h1": "Thriller AI Video Generator: Michael Jackson Zombie Dance",
-        "lead": "Lead the zombies in Michael Jackson's <b>\"Thriller\"</b> street dance. The clip is locked in (a 15-second version): add one photo and click Generate.",
-        "og_title": "Thriller AI Trend: Michael Jackson Zombie Street Dance",
-        "og_tagline": "Thriller AI face swap · Genjutsu · Pay per video",
-        "about_html": "<p>The \"Thriller\" zombie dance is one of the most copied routines ever: a zombie stare in close-up, then a whole street of ghouls behind the lead doing the shuffle, shoulder rolls and claw arms. The AI trend puts you in the red jacket at the front.</p><p><a href=\"../../genjutsu/\">Genjutsu</a> keeps the original motion, camera cuts and timing and rebuilds the lead dancer from your photo, so every move lands on the beat.</p>",
-        "steps": [
-          [
-            "Open this page",
-            "The Thriller clip and the prompt are already loaded. You don't need to find the video or a CapCut template."
-          ],
-          [
-            "Add one photo",
-            "Add a clear, front-facing, well-lit photo of the person who'll lead the dance."
-          ],
-          [
-            "Keep 480p",
-            "480p is the default: it's the cheapest and looks fine on TikTok, Reels and Shorts. Pick 720p or 1080p for a sharper video."
-          ],
-          [
-            "Click Generate",
-            "You'll see the exact price first. The video renders in a few minutes, and you can close the tab and come back."
-          ],
-          [
-            "Download and post",
-            "Download the MP4 and post it with \"Thriller\" as the sound."
-          ]
-        ],
-        "faq": [
-          [
-            "How do I make the Thriller AI video?",
-            "Open this page. The Thriller dance clip is already loaded. Add one photo for the lead dancer, then click Generate."
-          ],
-          [
-            "How much does the Thriller AI video cost?",
-            "In Budget mode (Genjutsu Light), the 15-second version at 480p costs 325 credits (about $3.25). 720p and 1080p are sharper and cost more. No subscription."
-          ],
-          [
-            "Who goes where?",
-            "Your photo replaces the lead dancer in the red jacket. The zombie dancers behind stay as they are."
-          ],
-          [
-            "What photos work best?",
-            "A clear, front-facing, well-lit photo of one person. Avoid group photos and heavy shadows. Only use photos of people who agreed to be in the video."
-          ],
-          [
-            "Can I use a different clip?",
-            "Yes. Use the Custom trend page to upload any MP4 between 4 and 30 seconds with your own photos and prompt."
-          ]
-        ]
-      },
-      "light_video_url": "https://tbljgxkbocunzoqvkoeu.supabase.co/storage/v1/object/public/presets/light-thriller-15.mp4",
-      "light_duration": 14.982,
-      "light_preview_url": "trends/thriller/preview-light.mp4",
-      "aliases": [
-        "Michael Jackson Thriller AI",
-        "zombie dance AI"
-      ],
-      "light_only": true
     },
     {
       "slug": "turn-the-lights-off",
