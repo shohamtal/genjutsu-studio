@@ -26,7 +26,7 @@ TREND_ALIASES = {"hotel-lobby-v2": "hotel-lobby", "desert-truck-jump": "car-jump
 # Removed trends (copyright risk, 2026-11-01): no page any more, but their old videos keep a name.
 REMOVED_NAMES = {"thriller": "Thriller zombie dance", "thriller-red-jacket": "Thriller red jacket dance",
                  "smooth-criminal": "Smooth Criminal dance", "shrek-raindance": "Shrek Raindance scene",
-                 "the-boys-baseball": "The Boys baseball"}
+                 "the-boys-baseball": "The Boys baseball", "apt": "APT. music video"}
 
 
 def trend_names():
