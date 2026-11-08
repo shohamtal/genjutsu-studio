@@ -89,6 +89,30 @@ const demoStore = {
   set(v) { try { localStorage.setItem("gj-demo", JSON.stringify(v)); } catch {} },
 };
 
+// A file of a published feed post (public bucket). Recreate loads these into the Custom page.
+const FEED_BASE = `${C.SUPABASE_URL}/storage/v1/object/public/feed/`;
+const feedUrl = (u) => typeof u === "string" && u.startsWith(FEED_BASE) && !u.slice(FEED_BASE.length).includes("..");
+// Custom page, /custom/?from=<post id>: load that post's source video, photos (each with an ×) and prompt.
+async function prefillFromFeed() {
+  const id = new URLSearchParams(location.search).get("from") || "";
+  if (T || DEMO || !/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/.test(id)) return false;
+  try {
+    const r = await fetch(`${C.SUPABASE_URL}/functions/v1/feed?id=${id}`, { headers: { apikey: C.SUPABASE_ANON_KEY } });
+    if (!r.ok) { toast("This video isn't in the feed any more. Upload your own video to start.", 5000); return false; }
+    const { post } = await r.json();
+    if (!feedUrl(post.source) || !post.images.every(feedUrl)) return false;
+    selectMode(post.workflow === "object-swap" ? "object-swap" : "motion-transfer");
+    selectModel(post.model === "light" ? "light" : "full");
+    if (["480p", "720p", "1080p"].includes(post.resolution)) selectRes(post.resolution);
+    state.images = post.images.slice(0, 8).map((url) => ({ url }));
+    if ($("prompt")) $("prompt").value = post.prompt || "";
+    showVideo(post.source, () => { state.video = { url: post.source }; });
+    const n = $("recreate-note"); if (n) n.hidden = false;
+    renderThumbs(); refresh();
+    return true;
+  } catch { return false; }
+}
+
 // ---------------- draft (survives the sign-in link opening a fresh page) ----------------
 // Photos (and a custom video) are saved in IndexedDB before sign-in and restored on return.
 const draftDB = () => new Promise((res, rej) => {
@@ -107,7 +131,7 @@ async function draftOp(mode, fn) {
 }
 const saveDraft = () => draftOp("readwrite", (st) => st.put({
   at: Date.now(), res: state.res, mode: state.mode, images: state.images,
-  video: state.video instanceof File ? state.video : null, prompt: $("prompt")?.value || "",
+  video: state.video instanceof File ? state.video : (feedUrl(state.video?.url) ? { url: state.video.url } : null), prompt: $("prompt")?.value || "",
 }, location.pathname));
 // Trend prompt: read-only by default; "Edit prompt" (after a warning) unlocks it, "Reset" restores it.
 function setPromptEditable(on, value) {
@@ -128,7 +152,12 @@ async function restoreDraft() {
   if (Date.now() - d.at > 2 * 3600 * 1000) return;
   if (T && d.images?.length === state.images.length) state.images = d.images;
   if (T && d.prompt && d.prompt !== T.prompt) setPromptEditable(true, d.prompt);
-  if (!T) { state.images = d.images || []; if (d.video) setVideo(d.video); if ($("prompt")) $("prompt").value = d.prompt; }
+  if (!T) {
+    state.images = (d.images || []).filter((f) => f instanceof File || feedUrl(f?.url));
+    if (d.video instanceof File) setVideo(d.video);
+    else if (feedUrl(d.video?.url)) showVideo(d.video.url, () => { state.video = { url: d.video.url }; });
+    if ($("prompt")) $("prompt").value = d.prompt;
+  }
   selectMode(d.mode || state.mode); selectRes(d.res || state.res);
   renderThumbs(); refresh();
   if (photos().length) toast("Your photos are back. Hit Generate when you're ready.", 5000);
@@ -326,7 +355,7 @@ function renderThumbs() {
     } else {
       d.className = "thumb";
       d.innerHTML = `<img alt="" /><button class="x" aria-label="Remove photo">×</button>`;
-      d.querySelector("img").src = URL.createObjectURL(f);
+      d.querySelector("img").src = f instanceof File ? URL.createObjectURL(f) : f.url; // a Recreate's photo: {url}
       if (T) { const l = document.createElement("span"); l.className = "slot-tag"; l.textContent = T.slots[i].label; d.appendChild(l); }
       d.querySelector("button").onclick = (e) => {
         e.stopPropagation();
@@ -414,6 +443,7 @@ on("generate-btn", "click", () => generate());
 const consentOk = () => !$("consent") || $("consent").checked;
 on("consent", "change", () => refresh());
 async function upload(file) {
+  if (!(file instanceof File)) { if (feedUrl(file?.url)) return file.url; throw new Error("Please add the photo again."); }
   const EXT = { "video/mp4": "mp4", "video/quicktime": "mov", "image/jpeg": "jpg", "image/png": "png", "image/webp": "webp" };
   const ext = EXT[file.type] || (file.name.split(".").pop() || "bin").toLowerCase();
   const path = `${state.user.id}/${crypto.randomUUID()}.${ext}`;
@@ -535,7 +565,7 @@ function jobCard(j) {
     const a = el.querySelector("a"); a.href = j.output_url;
     a.onclick = (e) => { e.preventDefault(); download(j.output_url, `genjutsu-${j.trend || "video"}-${j.id.slice(0, 8)}.mp4`, a); };
     el.querySelector(".share-btn").onclick = (e) => shareJob(j, e.currentTarget);
-    if (!DEMO) { const g = galleryBox(j); el.appendChild(ratingBox(j, g)); el.appendChild(g); }
+    if (!DEMO) { const g = publishBox(j); el.appendChild(ratingBox(j, g)); if (g) el.appendChild(g); }
   } else if (!TERMINAL.has(j.status)) {
     const late = age(j) >= GIVE_UP_MS;
     el.insertAdjacentHTML("beforeend", late
@@ -559,7 +589,7 @@ function ratingBox(j, gallery) {
   box.innerHTML = `<span class="rate-q">How did it come out?</span><span class="stars" role="radiogroup" aria-label="Rate this video"></span>
     <div class="rate-more" hidden><textarea maxlength="500" rows="2" placeholder="Anything we should know? (optional)"></textarea><button type="button" class="btn">Send</button></div>
     <span class="rate-thanks muted" hidden>Thanks for the feedback!</span>
-    <div class="rate-share" hidden><span>Love it? Share it in the public gallery so others can make their own.</span> <button type="button" class="btn">Yes, share it. I have permission from everyone in it.</button></div>`;
+    <div class="rate-share" hidden><span>Love it? Publish it to the main feed so others can recreate it.</span> <button type="button" class="btn">Publish it</button></div>`;
   const starsEl = box.querySelector(".stars"), more = box.querySelector(".rate-more"), thanks = box.querySelector(".rate-thanks");
   let current = state.ratings?.get(j.id) || 0;
   const paint = (n) => starsEl.querySelectorAll("button").forEach((b, i) => { b.textContent = i < n ? "★" : "☆"; b.setAttribute("aria-checked", String(i + 1 === n)); });
@@ -593,15 +623,23 @@ function ratingBox(j, gallery) {
   };
   return box;
 }
-// Opt-in (unchecked by default) to let us feature this video and its prompt in the public gallery.
-function galleryBox(j) {
+// "Publish to the main feed" (unchecked by default). Publishing shows the video, its prompt, the source video and the
+// photos to everyone, and lets anyone Recreate it with them. Only videos made from an own upload can be published.
+function publishBox(j) {
   const l = document.createElement("label"); l.className = "gallery-opt";
-  l.innerHTML = `<input type="checkbox"> <span>Show this video and its prompt in the public gallery, so others can make their own. I have permission from everyone in it.</span>`;
-  const cb = l.querySelector("input"); cb.checked = !!j.gallery_opt_in_at;
+  if (j.removed_at) { l.innerHTML = `<span>Removed from the feed after a report.</span>`; return l; }
+  if (!j.video_url || /\/object\/public\/presets\//.test(j.video_url)) return null; // trend scenes aren't the user's to publish
+  // A Recreate that still uses the original post's photos can't be published (the photos belong to that post).
+  if ((j.image_urls || []).some((u) => feedUrl(u))) { l.innerHTML = `<span>To publish a recreated video to the feed, make it with your own photos.</span>`; return l; }
+  l.innerHTML = `<input type="checkbox"> <span><b>Publish to the main feed.</b> Anyone can see this video, its prompt, my source video and my photos, and recreate it with them. I own them or have permission from everyone in them.</span>`;
+  const cb = l.querySelector("input"); cb.checked = !!j.published_at;
   cb.onchange = async () => {
     cb.disabled = true;
-    try { const r = await callFn("jobs", { job_id: j.id, action: "gallery", opt_in: cb.checked }); j.gallery_opt_in_at = r.at || null; toast(cb.checked ? "Thanks! We may feature it in the gallery." : "OK, it won't be shown in the gallery."); }
-    catch (e) { cb.checked = !cb.checked; toast(e.message || "Couldn't save that.", 4000); }
+    try {
+      const r = await callFn("jobs", { job_id: j.id, action: "publish", publish: cb.checked });
+      j.published_at = r.published_at || null; cb.checked = !!j.published_at;
+      toast(cb.checked ? "Published! It's on the home page now." : "Removed from the feed.");
+    } catch (e) { cb.checked = !!j.published_at; toast(e.message || "Couldn't save that.", 5000); }
     finally { cb.disabled = false; }
   };
   return l;
@@ -770,7 +808,7 @@ if (T) {
   showVideo(T.light_preview_url && state.model === "light" ? T.light_preview_url : (T.preview_url || T.video_url), () => { state.video = { url: T.video_url }; });
   if (T.light_preview_url) shortChip();
 }
-if (HAS_STUDIO) { selectMode(state.mode); selectRes(state.res); renderThumbs(); restoreDraft(); }
+if (HAS_STUDIO) { selectMode(state.mode); selectRes(state.res); renderThumbs(); prefillFromFeed().then((ok) => { if (!ok) restoreDraft(); }); }
 refresh();
 initAuth();
 

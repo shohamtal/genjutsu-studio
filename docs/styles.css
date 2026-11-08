@@ -334,3 +334,30 @@ textarea[readonly] { color: var(--muted); cursor: default; }
 .trend-grid.js-masonry .tg-col { flex: 1; min-width: 0; display: flex; flex-direction: column; }
 @media (max-width: 520px) { .trend-grid.js-masonry { gap: 10px; } }
 .rate-share { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 14px; background: var(--card2); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; }
+
+/* Feed (home): videos users published */
+.feed { margin: 8px 0 28px; }
+.feed h2 { margin: 0 0 4px; }
+.feed > .muted { margin: 0 0 14px; }
+.feed-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 14px; }
+@media (max-width: 520px) { .feed-grid { grid-template-columns: 1fr 1fr; gap: 10px; } }
+.feed-card { display: grid; background: var(--card); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; color: var(--text); text-decoration: none; }
+.feed-card:hover { border-color: var(--accent); }
+.fc-media { aspect-ratio: 9 / 14; background: var(--card2); }
+.fc-media video { width: 100%; height: 100%; object-fit: cover; display: block; }
+.fc-body { display: flex; gap: 8px; align-items: center; justify-content: space-between; padding: 8px 10px; min-width: 0; }
+.fc-prompt { font-size: 13px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.fc-go { flex: none; font-size: 12px; font-weight: 700; color: var(--accent); }
+.feed-more { display: block; margin: 16px auto 0; }
+.feed-modal { width: min(480px, calc(100vw - 32px)); max-height: calc(100vh - 32px); overflow: auto; }
+.feed-modal video { display: block; width: 100%; max-height: 60vh; border-radius: 12px; background: #000; margin-top: 18px; }
+.fm-label { margin: 14px 0 2px; font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); }
+.fm-prompt { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; }
+.fm-meta { margin: 6px 0 0; font-size: 13px; }
+.fm-actions { display: flex; gap: 10px; justify-content: flex-end; margin-top: 16px; }
+.fm-actions a { text-decoration: none; }
+#report-form { display: grid; gap: 8px; }
+#report-form input[type=email], #report-form textarea { width: 100%; box-sizing: border-box; background: var(--card2); color: var(--text); border: 1px solid var(--line); border-radius: 10px; padding: 10px; font: inherit; }
+.report-kinds { border: 0; padding: 0; margin: 0 0 4px; display: grid; gap: 6px; }
+.report-kinds label { display: flex; gap: 8px; align-items: center; }
+.recreate-note { background: var(--card); border: 1px solid var(--accent); border-radius: 12px; padding: 10px 14px; margin: 0 0 14px; }

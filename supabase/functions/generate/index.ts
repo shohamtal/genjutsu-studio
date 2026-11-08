@@ -4,6 +4,7 @@ import {
   admin, FALLBACK_USD_PER_SEC, getUser, INPUTS_PUBLIC, isLight, json, LIGHT_MAX_SECS, LIGHT_USD_PER_SEC,
   intEnv, isTester, mp4Duration, PAYMENTS_LIVE, PRESETS_PUBLIC, RESOLUTIONS, serve, submitToHiggsfield, usdToCredits, WORKFLOWS,
 } from "../_shared/common.ts";
+import { liveFeedPost } from "../_shared/feed.ts";
 
 serve(async (req) => {
   const user = await getUser(req);
@@ -23,10 +24,14 @@ serve(async (req) => {
   if (!WORKFLOWS.includes(workflow as never)) return json({ error: "Pick a mode." }, 400);
   if (!RESOLUTIONS.includes(resolution as never)) return json({ error: "Pick a resolution." }, 400);
   const isPreset = video_url.startsWith(PRESETS_PUBLIC) && /^[a-z0-9-]+\.mp4$/.test(video_url.slice(PRESETS_PUBLIC.length));
-  if (!own(video_url, "mp4|mov") && !isPreset) {
-    return json({ error: "Upload a source video." }, 400);
+  // Recreate: the source video of a live feed post (checked in the DB, so a removed or unpublished post can't be used).
+  const post = !isPreset && !own(video_url, "mp4|mov") ? await liveFeedPost(video_url) : null;
+  if (!own(video_url, "mp4|mov") && !isPreset && !post) {
+    return json({ error: video_url.includes("/object/public/feed/") ? "This video was removed from the feed." : "Upload a source video." }, 400);
   }
-  if (image_urls.length < 1 || image_urls.length > 8 || !image_urls.every((u) => own(u, "jpe?g|png|webp"))) {
+  // Photos: own uploads, or (in a Recreate) the photos of that same post.
+  const postImage = (u: string) => !!post && post.feed_images.includes(u);
+  if (image_urls.length < 1 || image_urls.length > 8 || !image_urls.every((u) => own(u, "jpe?g|png|webp") || postImage(u))) {
     return json({ error: "Add 1–8 reference images." }, 400);
   }
 
@@ -102,6 +107,10 @@ serve(async (req) => {
 
   // The visitor ticked "I understand… / I agree to the Terms" before Generate (sent by app.js since 2026-10-29;
   // older pages don't send it, so it's recorded, never required). Evidence for payment disputes.
+  if (post) { // the feed counts Recreates of a post
+    const { error: rErr } = await admin.from("jobs").update({ remix_of: post.id }).eq("id", job.id);
+    if (rErr) console.error("remix_of not saved", job.id, rErr.message);
+  }
   if (b.terms_ok === true) {
     const { error: tErr } = await admin.from("jobs").update({ terms_accepted_at: new Date().toISOString() }).eq("id", job.id);
     if (tErr) console.error("terms_accepted_at not saved", job.id, tErr.message);

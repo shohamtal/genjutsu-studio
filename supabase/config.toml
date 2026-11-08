@@ -28,3 +28,12 @@ verify_jwt = false
 
 [functions.unsubscribe]
 verify_jwt = false
+
+[functions.feed]
+verify_jwt = false
+
+[functions.report]
+verify_jwt = false
+
+[functions.moderate]
+verify_jwt = false

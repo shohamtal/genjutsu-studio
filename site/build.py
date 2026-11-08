@@ -64,7 +64,7 @@ RATES = {"480p": 47.7, "720p": 102.15, "1080p": 244.8}  # credits/sec, keep in s
 LIGHT_RATES = {"480p": 15, "720p": 30, "1080p": 60}  # Budget mode (Genjutsu Light), output + source billed; keep in sync
 # Changes whenever app.js / styles.css / config.js change, so browsers never run a stale copy.
 # Every file loaded with ?v=ASSET_VER must be in this list: Cloudflare tells browsers to keep ?v= files for a year.
-ASSET_VER = __import__("hashlib").sha1(b"".join((DOCS / f).read_bytes() for f in ("app.js", "styles.css", "config.js", "watch.js", "goatcounter.js", "vendor-supabase.js"))).hexdigest()[:10]
+ASSET_VER = __import__("hashlib").sha1(b"".join((DOCS / f).read_bytes() for f in ("app.js", "styles.css", "config.js", "watch.js", "feed.js", "goatcounter.js", "vendor-supabase.js"))).hexdigest()[:10]
 
 esc = html.escape
 
@@ -762,6 +762,43 @@ for t in ALL_TRENDS:
     write(f"{path}index.html", body)
 
 # ---------------- home ----------------
+# The feed: videos users published (docs/feed.js fills it from the feed edge function). Not indexed: no per-video
+# pages, nothing in the sitemap or JSON-LD. Hidden until it has at least one post.
+FEED = """    <section class="feed" id="feed" aria-labelledby="feed-h" hidden>
+      <h2 id="feed-h">Made by the community</h2>
+      <p class="muted">Videos people made and published. Tap one to watch it, then Recreate it with your own photos.</p>
+      <div class="feed-grid" id="feed-grid"></div>
+      <button type="button" class="btn feed-more" id="feed-more" hidden>Show more</button>
+    </section>
+"""
+FEED_DIALOGS = """  <dialog id="feed-modal" class="modal feed-modal">
+    <form method="dialog" class="modal-x"><button aria-label="Close">×</button></form>
+    <video id="fm-video" controls playsinline loop></video>
+    <p class="fm-label">Prompt</p>
+    <p id="fm-prompt" class="fm-prompt"></p>
+    <p id="fm-meta" class="muted fm-meta"></p>
+    <div class="fm-actions"><button type="button" class="btn ghost" id="fm-report">⚑ Report</button><a class="btn primary" id="fm-recreate" href="custom/">Recreate</a></div>
+  </dialog>
+
+  <dialog id="report-modal" class="modal">
+    <form method="dialog" class="modal-x"><button aria-label="Close">×</button></form>
+    <h3>Report this video</h3>
+    <form id="report-form">
+      <fieldset class="report-kinds"><legend class="field-label">Why?</legend>
+        <label><input type="radio" name="kind" value="copyright"> It uses my copyrighted work</label>
+        <label><input type="radio" name="kind" value="consent"> It shows me without my consent</label>
+        <label><input type="radio" name="kind" value="other"> Something else</label>
+      </fieldset>
+      <label class="field-label" for="report-email">Your email, so we can reply</label>
+      <input id="report-email" type="email" required maxlength="254" autocomplete="email" placeholder="you@example.com" />
+      <label class="field-label" for="report-details">Details</label>
+      <textarea id="report-details" required minlength="10" maxlength="2000" rows="4" placeholder="What's the problem? For copyright, add a link to your original work."></textarea>
+      <button type="submit" class="btn primary wide">Send report</button>
+      <p class="err" id="report-err"></p>
+    </form>
+    <p id="report-done" hidden>Thanks. We got your report and will review it. We'll email you if we need more details.</p>
+  </dialog>
+"""
 # The first row of posters is the home page's LCP: load it right away, lazy-load the rest.
 FIRST_ROW = 4
 cards = "\n".join(f"""        <a class="trend-card" href="trends/{t['slug']}/">
@@ -796,6 +833,7 @@ home += f"""
         Made with <a href="genjutsu/">Higgsfield Genjutsu</a>. No subscription, pay per video.</p>
     </section>
 
+{FEED}
     <section class="trend-grid">
 {cards}
         <a class="trend-card custom" href="custom/">
@@ -818,7 +856,9 @@ home += f"""
   </main>
 
 """
+home += FEED_DIALOGS
 home += footer("", page={"kind": "home"})
+home = home.replace("</body>", f'  <script src="feed.js?v={ASSET_VER}" defer></script>\n</body>', 1)
 write("index.html", home)
 
 # ---------------- custom ----------------
@@ -840,6 +880,7 @@ custom += f"""
       <p class="lead">Start your own trend: upload any video, add up to 8 photos and tell Genjutsu what to change.</p>
     </section>
 
+    <p class="recreate-note" id="recreate-note" hidden>🔁 You're recreating a video from the feed. Tap × on the photos to remove them and add your own.</p>
 {STUDIO_CUSTOM}
     <section class="faq">
       <h2>Questions</h2>

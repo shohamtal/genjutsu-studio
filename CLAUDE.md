@@ -33,14 +33,18 @@ committed+pushed, deployed (`supabase functions deploy`, GitHub Pages) or applie
 Background: on 2026-10-15..19 the public site ran on sandbox PayPal; strangers paid with fake sandbox cards and
 started real (paid) Higgsfield renders.
 
-### User videos in the gallery
-- A user's video may be featured in the gallery only if its owner ticked "Show this video and its prompt in the
-  public gallery" on My videos (`jobs.gallery_opt_in_at` is set), the job is NOT deleted (`hidden_at` is null) AND
-  it is at least 4 days old. Never sooner, even with consent. Re-check right before each gallery build: an opt-out
-  or a delete removes it. The checkbox also confirms permission from everyone in the video.
-- It's added as a new gallery item with the prompt the user used, so new users can recreate it.
-- Gallery order: `site/popularity.py` (paid videos per trend, last 30 days) then `site/build.py`
-  (score = 60% popularity, 40% newness halving every 10 days).
+### User videos: the public feed (since 2026-11-08)
+- A video is on the home-page feed only while its owner ticked "Publish to the main feed" on My videos
+  (`jobs.published_at` set), it isn't deleted (`hidden_at` null) and not removed after a report (`removed_at` null).
+  It shows at once (Shoham's decision). The consent covers the video, its prompt, the source video and the photos,
+  and anyone can Recreate it with them (`/custom/?from=<id>`).
+- Publishing copies the output, the source and the photos to the public `feed` bucket (`feed/<job id>/`), so they
+  outlive the 7-day upload cleanup. Unpublish/delete/removal delete that folder. Only own uploads can be published:
+  never a trend scene (`presets/`). The old `gallery_opt_in_at` consent (narrower) never publishes anything.
+- Reports (`report` function, public) wait for review: the post stays up until Shoham presses Remove or Dismiss in
+  the admin dashboard (`moderate` function, `MODERATION_SECRET`). 3 removals = the account can't publish.
+- The feed is not indexed: no per-post pages, nothing in the sitemap or JSON-LD.
+- No DMCA page or agent for now (Shoham's call); don't add DMCA wording without asking.
 
 ## Commands
 - Build the site: `python3 site/build.py` (regenerates every page in `docs/`, the sitemap and robots.txt).
@@ -84,7 +88,8 @@ started real (paid) Higgsfield renders.
   range-checked), `mp4Duration` (prices from the uploaded file's own boxes incl. per-track sample tables; rejects
   fragmented/forged files), `submitToHiggsfield` (exactly one POST per job, no retries), `syncJob` (status, refunds,
   surcharge if the output ran longer than billed).
-- `generate`: validates inputs (own `inputs/<uid>/` uploads or a `presets/<slug>.mp4`), live-payments gate,
+- `generate`: validates inputs (own `inputs/<uid>/` uploads, a `presets/<slug>.mp4`, or a live feed post's source and
+  photos for a Recreate), live-payments gate,
   kill switch `RENDERS_PAUSED`, prices, rejects if the client's `expected_cost` is lower (409), then `create_job`
   (atomic credit hold + per-user and site-wide daily caps). Unclear submit outcomes become `submit_unknown` and are
   reconciled by hand (runbook in README).
@@ -93,7 +98,9 @@ started real (paid) Higgsfield renders.
   `daily-report` and `cleanup-inputs` are called with `REPORT_SECRET` by the private ops repo.
 - DB: `profiles` (credits, may go negative as debt; `frozen`), `payments`, `jobs`, `job_debug` (owner-only raw
   provider replies). Clients only SELECT their own rows; all writes go through edge functions / security-definer RPCs.
-  Storage: `inputs` (private, uploads kept 7 days), `presets` (public trend scenes).
+  Storage: `inputs` (private, uploads kept 7 days), `presets` (public trend scenes), `feed` (public, published posts).
+- Feed: `feed` (public list / one post), `report` (public), `moderate` (secret, admin dashboard only),
+  `_shared/feed.ts` (copy to / delete from the feed bucket). Table `reports`; `profiles.strikes`, `publish_banned_at`.
 
 ### Elsewhere
 - Private repo `~/repos2/genjutsu-ops` (GitHub `shohamtal/genjutsu-ops`): daily report workflow (opens an issue,

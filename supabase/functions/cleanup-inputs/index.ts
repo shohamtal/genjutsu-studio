@@ -19,5 +19,13 @@ serve(async (req) => {
     if (rmErr) { console.error("remove failed", rmErr); return json({ error: "remove failed", deleted }, 500); }
     deleted += paths.length;
   }
-  return json({ deleted, retention_days: days });
+  // Feed files of posts that aren't live any more (normally deleted at once; this catches failed or partial copies).
+  let feedDeleted = 0;
+  const { data: orphans, error: oErr } = await admin.rpc("orphan_feed_files", { p_limit: 1000 });
+  if (oErr) console.error("orphan_feed_files failed", oErr.message); // e.g. before migration 016: skip
+  else if (orphans?.length) {
+    const { error: fErr } = await admin.storage.from("feed").remove(orphans as string[]);
+    if (fErr) console.error("feed orphan remove failed", fErr.message); else feedDeleted = orphans.length;
+  }
+  return json({ deleted, retention_days: days, feed_deleted: feedDeleted });
 });

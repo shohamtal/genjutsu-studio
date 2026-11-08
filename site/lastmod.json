@@ -1,15 +1,15 @@
 {
  "": {
-  "day": "2026-11-03",
-  "hash": "d42bc226c6ae05e7d653999663ffeda774a4603d"
+  "day": "2026-11-08",
+  "hash": "5b3724c9263bac7ffc55472d62b596049114f8d7"
  },
  "accessibility/": {
   "day": "2026-10-29",
   "hash": "30f2768f02ee491031a074bf53c0ff0e12eb35af"
  },
  "custom/": {
-  "day": "2026-11-03",
-  "hash": "ef7cc72cb1724563717bf0d00e3dd2128204973f"
+  "day": "2026-11-08",
+  "hash": "f188aa6977a3ccd6f3bd4cc3467646680c7ed7e1"
  },
  "genjutsu/": {
   "day": "2026-10-29",
@@ -20,12 +20,12 @@
   "hash": "7f1b0703872174ecfdb8b3f2b4cfdd6219a6158b"
  },
  "privacy/": {
-  "day": "2026-10-29",
-  "hash": "aadd17452ea0aa29df23e3f6f7ccd1c2f2858df9"
+  "day": "2026-11-08",
+  "hash": "3e4b467a4481f16a5022a1be834a9dbf85580d7d"
  },
  "terms/": {
-  "day": "2026-10-29",
-  "hash": "9f8f9cdb1618dbcae0fe0aed41160cdd3fb06cca"
+  "day": "2026-11-08",
+  "hash": "12065120a8b2c1507fa89f227a36b8139c391e3e"
  },
  "trends/alors-on-danse/": {
   "day": "2026-11-03",
